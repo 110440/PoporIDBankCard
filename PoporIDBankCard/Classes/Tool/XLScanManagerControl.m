@@ -134,16 +134,15 @@
     unsigned char pResult[1024];
     int ret = 0;
 #if TARGET_IPHONE_SIMULATOR//模拟器
-    
     return;
 #elif TARGET_OS_IPHONE//真机
     ret = EXCARDS_RecoIDCardData(buffer, (int)width, (int)height, (int)rowBytes, (int)8, (char*)pResult, sizeof(pResult));
 #endif
+    
     if (ret <= 0) {
-//        NSLog(@"ret=[%d]", ret);
-    }
-    else {
-        NSLog(@"ret=[%d]", ret);
+        NSLog(@"识别失败 ret=[%d]", ret);
+    } else {
+        NSLog(@"识别成功 ret=[%d]", ret);
         char ctype;
         char content[256];
         int xlen;

@@ -499,6 +499,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6SK6RQ8S8Q;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoporIDBankCard/PoporIDBankCard-Prefix.pch";
 				INFOPLIST_FILE = "PoporIDBankCard/PoporIDBankCard-Info.plist";
@@ -515,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6SK6RQ8S8Q;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoporIDBankCard/PoporIDBankCard-Prefix.pch";
 				INFOPLIST_FILE = "PoporIDBankCard/PoporIDBankCard-Info.plist";

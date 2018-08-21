@@ -16,8 +16,10 @@ static bool initFlag = NO;
 #if TARGET_IPHONE_SIMULATOR//模拟器
         initFlag = NO;
 #elif TARGET_OS_IPHONE//真机
-        // ???: POPOR error, sdk.a文件不支持虚拟机运行,目前没有找到如何设置pod.
+       // [NSBundle bundleWithPath:[[NSBundle bundleForClass:[PoporAVPlayerBundle class]] pathForResource:@"icon" ofType:@"bundle"]];
+        
         const char *thePath = [[[NSBundle mainBundle] resourcePath] UTF8String];
+        thePath = [[[NSBundle bundleForClass:[self class]] resourcePath] UTF8String];
         int ret = EXCARDS_Init(thePath);
         if (ret != 0) {
             NSLog(@"初始化失败：ret=%d", ret);
