@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76AAB0F93D26361970FF32B7 /* Pods-PoporIDBankCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoporIDBankCard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoporIDBankCard_Tests/Pods-PoporIDBankCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		936C5F1B8B1CAFA426E726E8 /* Pods-PoporIDBankCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoporIDBankCard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoporIDBankCard_Example/Pods-PoporIDBankCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB28313BCCA8C2D7D639C4AD /* Pods_PoporIDBankCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoporIDBankCard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C776220B02F6FBA9980EB15B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -95,6 +95,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D47754212BFA15009A4BEA /* other */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* PoporIDBankCardAppDelegate.h */,
+				6003F59D195388D20070C39A /* PoporIDBankCardAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,14 +145,9 @@
 		6003F593195388D20070C39A /* Example for PoporIDBankCard */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* PoporIDBankCardAppDelegate.h */,
-				6003F59D195388D20070C39A /* PoporIDBankCardAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				18D47754212BFA15009A4BEA /* other */,
 				6003F5A5195388D20070C39A /* PoporIDBankCardViewController.h */,
 				6003F5A6195388D20070C39A /* PoporIDBankCardViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for PoporIDBankCard";
 			path = PoporIDBankCard;
@@ -322,10 +330,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PoporIDBankCard_Example/Pods-PoporIDBankCard_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,7 +503,7 @@
 				GCC_PREFIX_HEADER = "PoporIDBankCard/PoporIDBankCard-Prefix.pch";
 				INFOPLIST_FILE = "PoporIDBankCard/PoporIDBankCard-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ifcar99.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifcar99.wkq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -509,7 +519,7 @@
 				GCC_PREFIX_HEADER = "PoporIDBankCard/PoporIDBankCard-Prefix.pch";
 				INFOPLIST_FILE = "PoporIDBankCard/PoporIDBankCard-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ifcar99.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifcar99.wkq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

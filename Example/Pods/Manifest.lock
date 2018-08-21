@@ -1,4 +1,5 @@
 PODS:
+  - Masonry (1.1.0)
   - PoporIDBankCard (0.0.1):
     - PoporIDBankCard/bank_io (= 0.0.1)
     - PoporIDBankCard/libexidcard (= 0.0.1)
@@ -25,10 +26,12 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
+  - Masonry
   - PoporIDBankCard (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Masonry
     - ReactiveCocoa
 
 EXTERNAL SOURCES:
@@ -36,9 +39,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PoporIDBankCard: f5ac0a78087d644fb2d8998ab261d27b23814924
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PoporIDBankCard: fe9cbfdf88a2ecec800e8c6e55510143ca8a6915
   ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
 
-PODFILE CHECKSUM: 4aac058c8da125cb10a732e766247110d31f5535
+PODFILE CHECKSUM: 6cd50bf093b69de5ce5d9edc8eaa832eaf1d4c0e
 
 COCOAPODS: 1.5.3

@@ -5,6 +5,7 @@ target 'PoporIDBankCard_Example' do
     inhibit_all_warnings!
     
     pod 'PoporIDBankCard', :path => '../'
+    pod 'Masonry'
     
     target 'PoporIDBankCard_Tests' do
         inherit! :search_paths
