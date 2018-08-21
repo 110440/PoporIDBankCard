@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     
     s.platform              = :ios
     s.ios.deployment_target = '8.0'
-    #s.requires_app_host     = true
+    s.static_framework      = true # 只有真机可运行,.a库不支持虚拟机.
     
     s.subspec 'ScanVC' do |ss|
         ss.source_files = 'PoporIDBankCard/Classes/ScanVC/*.{h,m}'

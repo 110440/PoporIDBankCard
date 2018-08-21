@@ -17,6 +17,7 @@
   "platforms": {
     "ios": "8.0"
   },
+  "static_framework": true,
   "dependencies": {
     "ReactiveCocoa": [
       "~> 2.3.1"
