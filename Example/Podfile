@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PoporIDBankCard_Example' do
+  pod 'PoporIDBankCard', :path => '../'
+
+  target 'PoporIDBankCard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
