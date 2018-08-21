@@ -1,6 +1,7 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/PoporIDBankCard" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveCocoa"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../PoporIDBankCard/Classes/bank_io" "${PODS_ROOT}/../../PoporIDBankCard/Classes/libexidcard"
 OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/PoporIDBankCard/PoporIDBankCard.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveCocoa/ReactiveCocoa.framework/Headers"
 OTHER_LDFLAGS = $(inherited) -framework "Masonry" -framework "PoporIDBankCard" -framework "ReactiveCocoa"
 PODS_BUILD_DIR = ${BUILD_DIR}

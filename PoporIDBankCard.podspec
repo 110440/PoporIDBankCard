@@ -20,6 +20,9 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.static_framework      = true # 只有真机可运行,.a库不支持虚拟机.
     
+    s.vendored_libraries = 'PoporIDBankCard/Classes/bank_io/*.a','PoporIDBankCard/Classes/libexidcard/*.a'
+    
+    
     s.subspec 'ScanVC' do |ss|
         ss.source_files = 'PoporIDBankCard/Classes/ScanVC/*.{h,m}'
     end

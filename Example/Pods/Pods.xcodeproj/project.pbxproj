@@ -16,7 +16,7 @@
 		069801F8141A9CF4482E5917BFBEE38E /* RACValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0EDF4BC9F12309F48B858F4FA868D3 /* RACValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		06AC7884D3A65A6A4A56AFBFD443D2BF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EC6E5EA552F6CD201A08313E1AAD6B /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0754EF4CE38AF40436C1064085A622EC /* NSObject+RACDeallocating.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3D2A8B861CAF198A3E5ACD8F9B0532 /* NSObject+RACDeallocating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07FC6BCD6998355A69B62576F893434D /* commondef.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CCB7119E965882D204A6AAD967A18E8 /* commondef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07FC6BCD6998355A69B62576F893434D /* commondef.h in Headers */ = {isa = PBXBuildFile; fileRef = 976BB6B2513360EDA2E826843359B263 /* commondef.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79027B1C76E124C6ADFF87648F0AF584 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0991C43C6C21EAA9F06B9913170CE774 /* UIActionSheet+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 122C3230B913A67BD875B1A72AE186CA /* UIActionSheet+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		09E0F0AC63DC7B48C8EBC3FB15BDD438 /* NSString+RACKeyPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD4546FC34B6B53E9E063DC0E2573E5 /* NSString+RACKeyPathUtilities.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -25,29 +25,29 @@
 		0C30A8B4E20E1FDD32828DE6F0894938 /* RACSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 48386310AADBD117007593BF1C215B78 /* RACSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03B54A43FAEBB6084149FB86421FCA /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11191AF67C95F6E9B710210F2B73A1AE /* RACDynamicSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EA6E40E93588083FB35654DA7CF5 /* RACDynamicSequence.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1373717B267908037777A9E06B43CAA4 /* PoporIDBankCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9557FC738512287BBEE18881B0B20C /* PoporIDBankCard-dummy.m */; };
+		1373717B267908037777A9E06B43CAA4 /* PoporIDBankCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB84963821AC520F9B3EB780E70D83C6 /* PoporIDBankCard-dummy.m */; };
 		149C68E7A7EEB0C9AD160104CCEAA7AB /* UIGestureRecognizer+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4058176B09BC7C27F74CFD849520D74C /* UIGestureRecognizer+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17B403F142E88A863D95974D2F0080F9 /* NSEnumerator+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 426372E5381B46D0FAA2CA3C21E66A01 /* NSEnumerator+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1C2C1759810CA5FD8CF427C9552A9448 /* UISlider+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 58313D68D8FA6B494270B6A5414B5295 /* UISlider+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C51AA52DC459514BD3708D19BC5F4D5 /* RACArraySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 177F2F50A7DAABCEA56F01BB72633E78 /* RACArraySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DF1C9A8858CF618E1FD32F76D2F4503 /* UISlider+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC92C643C624E3FDC260BD8E21ABE6 /* UISlider+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1E1CAAD245CDDCBFCF00174172865B7B /* NSURLConnection+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3C49340EC585C0AA1E82B5B1ACFE3 /* NSURLConnection+RACSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1E270D32B208562EB31FBE33055CAADD /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CCFE8CBF5A38C354079BF74D82B290 /* OverlayView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E270D32B208562EB31FBE33055CAADD /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B03A0C4CB3508A6DF53EBFBCD7F /* OverlayView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		200E5B0D830A22E76027224D570DA394 /* RACSubscriber+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC6026B9C1E1D20B20EB25A7DB07382 /* RACSubscriber+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		20F765FA0A6AE25875A15A575DEF78A2 /* RACSubscriptingAssignmentTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = B405CB72BB80970AFF424D7749C7CE1B /* RACSubscriptingAssignmentTrampoline.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		23645CC4CFD7396BFE53E8FF456E5DD8 /* exbankcard.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DD75A163E2145EF9B66FE660DF2143 /* exbankcard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23645CC4CFD7396BFE53E8FF456E5DD8 /* exbankcard.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1576BB83CCD5198FFCFB53F30D58BC /* exbankcard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23FBA2F6A5BBDA7AEC9CBDAC1265AEA4 /* UIStepper+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED43F09F4F57BA0F5A169254478FC6D /* UIStepper+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2438534191294A4DD34C0E31B3A7A85D /* RACScheduler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF551225BF96DE4DE06155A58037B7E /* RACScheduler+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		24B5ED501689B52B27EA66DEC3B1119D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		24C721C59FB7662ACAF2E0B97070C0C2 /* excards.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A58A3DABF5699B4DAACDBA5BDD6101E /* excards.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C721C59FB7662ACAF2E0B97070C0C2 /* excards.h in Headers */ = {isa = PBXBuildFile; fileRef = 0385BAA13C53B4F04C2CE239BEC3FF55 /* excards.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		255A7A21A6E1A671474B7060529F370B /* NSDictionary+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 10878A9F166D7D152845256ACFC627D7 /* NSDictionary+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2592CAACCBA2C7837DA36D5ACF840237 /* UIButton+RACCommandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE5FAAFB164BC6C7F86C12BAA1E913E /* UIButton+RACCommandSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		25D2C3D9CF4B314E53BD55B49C0D4347 /* RACEagerSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D56EE001A675B07779716D3616BA1EB /* RACEagerSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26EA36038AF14074C2B3B1262625E0E9 /* RACEagerSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = F84277A2888276F6B10F4EB3596A72F0 /* RACEagerSequence.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		26EEACB001C9E54A17090B1C1A16EE5E /* UIBarButtonItem+RACCommandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D61F6A9D0D73FA07C43EE688B99188 /* UIBarButtonItem+RACCommandSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2820E642036E1FE2B3526B8391900F62 /* OverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3407E3E2FC8D82B11D4C72D87BDBC5EB /* OverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2820E642036E1FE2B3526B8391900F62 /* OverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49930AB0D012BA2264D7AB7BE19AB21C /* OverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F28705574AE8A36924F8C7459753CC2 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28D070F3CF5166E7EA0B42B7F564EDA7 /* XLIDScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC39E5FD8EDDA9C2659ABC3AFB2B21E /* XLIDScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28D070F3CF5166E7EA0B42B7F564EDA7 /* XLIDScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC928636632D618610EEB7C9D78D7C6 /* XLIDScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C9AAF9630434E65C6BAE47DCE13E0C3 /* UITableViewCell+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 6518D7E0BF4329F1AEEB953BB640F8B7 /* UITableViewCell+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CF17B67F02337194CFBC813767A3287 /* RACIndexSetSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = D857927F86C0A3225EC9E58C116D2A24 /* RACIndexSetSequence.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2D652AFBB22DC0AF1A635BCBCD82BEF2 /* RACEXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B7FBB8BA53084068C1D50C61B34739 /* RACEXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -59,10 +59,10 @@
 		31D81F3CA4A50BAB11BDA7C01B29BD31 /* RACObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F072245A6E80ABF970BA32AEDCF8EEF5 /* RACObjCRuntime.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3496DD28DBE28D237F49C10D990F1A8C /* UIRefreshControl+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E81BDB914B50693B31C5AA694FEF46E /* UIRefreshControl+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3587FB92B31F4D5DA8F2D28B3D1DF844 /* UITextField+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C67B296757A5627AC6463FB44881BEF5 /* UITextField+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3633138976FD9989A86432FF501B3CDF /* RectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 318E5888FBA9C3B23A2B68063B6FACA0 /* RectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3633138976FD9989A86432FF501B3CDF /* RectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC74987B1F7904485B9BAD2B75723C3B /* RectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36916C6A5983CA8C4D90B29D69EB72F5 /* RACSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B4D19E9ECD3B6C6CBE4920725DDDD /* RACSubscriber.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3761C615EFB55166F478F1FE89F1C3AD /* RACEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC80BD5BF2B0D300BC2A59BA657394 /* RACEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		37F123051FE162AAA87FB770AE5A63D8 /* XLScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 699F04FB3A8858347341392651B2A353 /* XLScanManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		37F123051FE162AAA87FB770AE5A63D8 /* XLScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 115E4C24A2FDD4F151DC538546C6D79A /* XLScanManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		389A2666B43656648AD33AFD7879FB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		395743E92D72A161D2B75B06473A884D /* NSSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CC348A1FF0FFAD0B71B38A0F04B3D0 /* NSSet+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -73,8 +73,8 @@
 		3FC32278C58D5B16ADB312564042BA05 /* NSInvocation+RACTypeParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = D671F3179EFA5F4DA1782944D58F5BEF /* NSInvocation+RACTypeParsing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4032673A0C337F20AA606D0FD33F8F18 /* RACSubscriptionScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 328F0FF2CCE7FBDC651DB74B8C077F66 /* RACSubscriptionScheduler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		40C2B2DB34DF97480072E63E35E145CE /* RACImmediateScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF255337BBAAB1B76BED5A0AE6ABF28 /* RACImmediateScheduler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		411BBE6968A82039A7EBEB68954B08E8 /* XLScanManagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 13428C097C1D241BEED264159DDA74F2 /* XLScanManagerControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4276A71A075CFFD390B48D5A4220F3D8 /* IDOverLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6002764D721160C12FEACE1E3BF90B1E /* IDOverLayerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		411BBE6968A82039A7EBEB68954B08E8 /* XLScanManagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 657345DB8114AF6E6FD2B7354E4E5A4A /* XLScanManagerControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4276A71A075CFFD390B48D5A4220F3D8 /* IDOverLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 018124D8A44679A4C44D48CFF0C33194 /* IDOverLayerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		4441AE9ECF2C6CC4C2B5593F475A7D56 /* RACQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = AE10134D1A78E12E6124666B53AFBEED /* RACQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 991F14B4CB3C151753ECF1941009A21B /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,17 +87,17 @@
 		4FA256375F8BB5356C0C01879CD9E0FC /* RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 621B90C6DA40C911C2A0F2B4529D4CF9 /* RACSubject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		551017904D5BA187EC3C281230E994CC /* UIActionSheet+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 207D121A2D94727B4A87833730B3B3F3 /* UIActionSheet+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55366269349858ABF29ACAE7ABD0D419 /* RACChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = BACE0968E2DFE6BFEC3892B18654A51F /* RACChannel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		56DCD1A4182D63F62BF3469153EFB5D3 /* XLBankScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 843C1AA907663F3272943AD4E0905092 /* XLBankScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56DDE88E9293B704AB509212BEF192E0 /* UIImage+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C32B58E1F74ABE88D709A0A90135F3 /* UIImage+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DCD1A4182D63F62BF3469153EFB5D3 /* XLBankScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC5727AF0BF352E258407A71222C136 /* XLBankScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DDE88E9293B704AB509212BEF192E0 /* UIImage+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E95FA722B5B5406AAD49A20FB06DC3 /* UIImage+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5705086B999A5887CD253D680AE40448 /* NSObject+RACDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = A8898E09E7198E22BE44BAE9336E1AC5 /* NSObject+RACDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58246D5C6B134673F3DF86AB0177A271 /* RACEmptySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 322022BE92D03700AF66A834849ED268 /* RACEmptySequence.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5849A63AE5E233A37BA0C0D57FA173CF /* RACSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D364B4A506360B9F23F84E05B6F45C /* RACSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		586B9CCA0D950135A683F2083C34B6D7 /* UITableViewCell+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B888C7400A1F0AF07AA18BCEA770A5 /* UITableViewCell+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		592AAFA25F8706E27FE64B3119F8AB0E /* RACTargetQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2ED84BFDC77E23F32CF86273DE394B /* RACTargetQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5962E4C4C7D8EC918C6731DA89A43C77 /* libexidcardios.a in Sources */ = {isa = PBXBuildFile; fileRef = 5021921D276C277030B3132131C0133F /* libexidcardios.a */; };
+		5962E4C4C7D8EC918C6731DA89A43C77 /* libexidcardios.a in Sources */ = {isa = PBXBuildFile; fileRef = 0057FFF898A8386B5CFEB29E57E01F7F /* libexidcardios.a */; };
 		5994D0A7F41409E8E2755721D8B4FA36 /* NSArray+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A442263E9B5215218C98E72E0A2B0BF6 /* NSArray+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5ACD507214B2178C0761C01C7BC95DCD /* RACErrorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = F21D4D76CAB38EAA21774DCD471A8A45 /* RACErrorSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B903678ADE6C22D9C50C95FF116DFC7 /* exbankcardcore.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C237888433AB1824791247CA431B5B /* exbankcardcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B903678ADE6C22D9C50C95FF116DFC7 /* exbankcardcore.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCEE92AFE1976B78D2FB903664496F3 /* exbankcardcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DAF7FE977B91ABFE82EA5897930B259 /* RACSignalSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2108DD44BC4D963DBF4CD002065719 /* RACSignalSequence.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5DB8A97A76F42058D33D8AAC10CD15AD /* UIControl+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB60E85B2B0A2DAA9B707A1EEDEFF24 /* UIControl+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5E4D33954F3003E73CF58B53DC864D16 /* UIButton+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4263E52E8CC5350952B32D2CC6196B9A /* UIButton+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -106,15 +106,15 @@
 		5FDB1BB555554E54069656DF8B4D09E0 /* RACMulticastConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2F00BEFCAC9B6366125368FB3F3EA /* RACMulticastConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		60635349E1797676CCA1165045198BD1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE2AB466EC71778DB32CAE8FA51352 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		608EE932843E5950611A66118C46D97E /* RACReturnSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A98421585AEF4729B69344AE0921CA2 /* RACReturnSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		635D210EC7C5B6ED6516CDB005F95CCD /* XLScanResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A82AF71288A31B7D1A79BD5B54B22 /* XLScanResultModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		635D210EC7C5B6ED6516CDB005F95CCD /* XLScanResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3F701124EFD6668F5EC27D5D37F5E /* XLScanResultModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C29F8A5CDD1C8647127F7B0FEA1C12 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		639F74CCB890CB3DCF7CDBCC3D6933DD /* RACBacktrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A234551E7D9D8616914B7E0520E3650 /* RACBacktrace.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		65AD4FD25F44BE7AD305F90A2D64921D /* RACEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9FBB82FA43A67CB8DB3FFC4E381000 /* RACEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		668293F40C3BA7391F2805B239EFBDE7 /* XLScanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF61EC7159489F83E024BE20C0DC812C /* XLScanManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668293F40C3BA7391F2805B239EFBDE7 /* XLScanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2AB280628BF8FF41F4DA8B91D67998 /* XLScanManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67FCC88578EC36CFA8D911BBF7D9F726 /* RACCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6689EBC64B1F5FD6F519EA7005AD02A3 /* RACCommand.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		68DBA82BF5A9F4B1442CB2D753F7553A /* Pods-PoporIDBankCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A860E75AE02489BFAEA5BE5F95CC428 /* Pods-PoporIDBankCard_Tests-dummy.m */; };
 		697361D58EDD13F07FDFDCEA31F065AF /* RACSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = 465E04144C3BFD9E4732F049A72741E7 /* RACSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A66BE8734E0075ABE369195A752CF63 /* XLScanManagerControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E998701B0995002B53C9D9DCC579A4C /* XLScanManagerControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A66BE8734E0075ABE369195A752CF63 /* XLScanManagerControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F26C67DA9448D89106CCD35F63689E35 /* XLScanManagerControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A73AA4F305A96E7DAEF96E0EFC6159B /* UIAlertView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9130EEE7D3AC30984773BED49CE154 /* UIAlertView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E6329E8249034E4A1E00E0F1B95E751 /* RACObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2AA5819915EC21971205C2A25C0A51 /* RACObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E6EE6F6FCBB880BAB8F2F92063C8E57 /* Pods-PoporIDBankCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A249454EFB4FEF652A617469C84C20F2 /* Pods-PoporIDBankCard_Example-dummy.m */; };
@@ -124,12 +124,12 @@
 		7278F40E67FE5737D159C2B1F7CB1F8C /* RACSignalSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = F395E64B90A5F7911FCC847D531DC628 /* RACSignalSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73472E6F414CBA0B263C744BC5A5BA77 /* RACScopedDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CC93196760AAD71FC57EAB949BA52 /* RACScopedDisposable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		73B998B4245671E9A332ADED8E63FA5E /* RACKVOChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAD9B2AC58219D7FC00373566A4827C /* RACKVOChannel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		750E68CDD753F8005773395F5F03B14D /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0995301ABB685C6DC3CDF2350D763A64 /* RectManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		750E68CDD753F8005773395F5F03B14D /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ED90DE02790163E157EA47F1A908CD /* RectManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		783A8CF1BB95DC71CDBDD9EB5C331C7D /* RACReturnSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 166334AC87AE49BD7C5985B7F26C84F2 /* RACReturnSignal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		78760302595AC1AC5BC8374A7495D525 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00655217E6F39CCEC2257959C101C1BF /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7B8A0BDEDBEA62B7160A37591FD13F75 /* NSIndexSet+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4BB07C780D6D173F1B3A5FCCC37EB4 /* NSIndexSet+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D2931A005812DAF57B71C24A6A54775B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C7D18013F6FFEABD9E2B22D8E423AC9 /* XLBankScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C6C0F6B723BBA1282114A59A268E55 /* XLBankScanViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7C7D18013F6FFEABD9E2B22D8E423AC9 /* XLBankScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17201CC74BA126C3C52227397DB8AEE2 /* XLBankScanViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7E2CD6B0ED61AEEA5896374718BB5E71 /* NSObject+RACDeallocating.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C0B1024BCE6A36DE55A11FE0CC6B7B /* NSObject+RACDeallocating.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7EEAB83BEBC808E04015BDA07BAC5E7B /* RACDynamicSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D39ADB4418455FA72F7E720EC20456EC /* RACDynamicSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F66831A7BB9A654F1BE59669F6773CE /* UIAlertView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BFD71A02E6E0D04C8FE24C99CDA463 /* UIAlertView+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -142,20 +142,20 @@
 		83318F21FE4A4152CFDF437EBA15BF7F /* RACCompoundDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = C25772956804825C227AA923BCBD26FC /* RACCompoundDisposable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		860B5EF7F3AE0A8EC5A7DC91176959F2 /* UITextView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 31634777AE7DDCFC16DE97A07EB01DC5 /* UITextView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C7720124AA6F32817493AF14B43349 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A360A8F9B7777C0CEAC51B02047927A /* libbankcard.a in Sources */ = {isa = PBXBuildFile; fileRef = 91472225446674EC81AD97C6F57F77A9 /* libbankcard.a */; };
+		8A360A8F9B7777C0CEAC51B02047927A /* libbankcard.a in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE3BC1218D08101C153F0128FD82C8 /* libbankcard.a */; };
 		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D2C7297738589818859A0AC677AF64 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D2F2573760A0318C5BEA6BA198144C0 /* UIDatePicker+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EFF44EE9D4B13A82E85F93E5EAD165 /* UIDatePicker+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8D531F8F362B33274CF7956329A6233A /* RACDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B73EA0D9F64CCAC13CA5AB50957E3D9 /* RACDisposable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8E798BAAD8193CE8AB1B0B959DF87C5B /* UITextView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 500570D3ECBF43784954346C53D06AE3 /* UITextView+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		903D4D3AB2BB74645BCD7FE8FD48EB38 /* RACKVOChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB561AB3178862F83739065B798342BA /* RACKVOChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9211A203080A10CF456EDE5236409D02 /* UICollectionReusableView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 691479FCF37D60794E7F19B8201AC80A /* UICollectionReusableView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9268F5998C09CD6FCFDA5C5C842362D2 /* XLIDScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA3F47F8A4B2BF676A198DD03978AB /* XLIDScanViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9268F5998C09CD6FCFDA5C5C842362D2 /* XLIDScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BBD83713956E78F86C5528974657A8 /* XLIDScanViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		92A3EAE731FE2FF770E35131CA06AAA1 /* NSObject+RACKVOWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D57EF4C2EB7DC0B909C3CA62B0173A46 /* NSObject+RACKVOWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		92F7A20AB0719280AAA6B59E4F903EAE /* Pods-PoporIDBankCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0F0750BF3A176E0A8EF0376A245690 /* Pods-PoporIDBankCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93389506CA949961E9A0597D66710F00 /* RACIndexSetSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3BE2D223F1DF790C485D62BDB1F71F /* RACIndexSetSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94074119F8CEA2A2F2F32066C63A7121 /* RACGroupedSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = E20C36DC3A6851BF47920686B2900A96 /* RACGroupedSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94DCA86F8D276086AC418FD38A12C80A /* RACDynamicSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BC10B1B2E002A90B9630F59F1D174D /* RACDynamicSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E2AA0E720EBDDFD1B5C523EEDB3EC0 /* IDOverLayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C1989C9C635FE9ECCD524E0FD8775D61 /* IDOverLayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E2AA0E720EBDDFD1B5C523EEDB3EC0 /* IDOverLayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D7E1A0FFB432685CF26223685AF04E /* IDOverLayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		967C4A972CCA92E0C335140DCD33DDD0 /* NSString+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D27C6BF18DC647B9AFAB05C9C922027A /* NSString+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		970C93AF13AC3CC2C140EBBDAE3E8B75 /* RACReplaySubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46175BDB4140F34D1C0854D1602D25C9 /* RACReplaySubject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		97ED566C1AA5BEBA7EEF66534B93F42B /* NSObject+RACLifting.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A68B88A779B73BBE5F875F1491929A /* NSObject+RACLifting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -164,20 +164,20 @@
 		9C334259573690B70214C90A8364B21E /* NSFileHandle+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A5B9454CD69E3F8E36F65222377749 /* NSFileHandle+RACSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9C5744445276C2BCCD991DC183C19673 /* RACEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B8CA5D4427A1DDB3CF6E3BDF8982F /* RACEXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9F01104971DA1C6C8D294BA21E756EFD /* NSObject+RACPropertySubscribing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC958E110B689A45690F9A5CC47B489 /* NSObject+RACPropertySubscribing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9F8D440FD0709B8F1C1A9967E2150915 /* XLScanResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 108B7D9B12AE87AA85E91722066F7178 /* XLScanResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8D440FD0709B8F1C1A9967E2150915 /* XLScanResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6C455E861D78E6FA2139A3AAB39DD9 /* XLScanResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0AFAD1254A419EB9DC7EF28F51E48EA /* RACQueueScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DDB25DF4EC9BB9B4F10CF2CEF855B9 /* RACQueueScheduler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A10B060472B8C80E024BD2A7732E4A3F /* RACUnarySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8A7739E5C12D3550E7891F45140E25 /* RACUnarySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A170FBC801FB3FAB6CE2239FE8778B76 /* RACBehaviorSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB98778A4AEB130DB296C3F5CD5EFF7 /* RACBehaviorSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A19677BEBAE584547915A529238C8644 /* UIBarButtonItem+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F2B29086AB1F996770C5FAC8772D13 /* UIBarButtonItem+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B1DF8BC5FC2D3EA26BC9A392C39708 /* BankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF727816B86F8A7175C8AC290E6A8EE /* BankCardSearch.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A1B1DF8BC5FC2D3EA26BC9A392C39708 /* BankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB2C88CAB04F2BABCFB79C981A5C912 /* BankCardSearch.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A1C7ED956219A3535F08147CCA049886 /* NSNotificationCenter+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A21767CE1DEF1E58EE83561762B3B225 /* NSNotificationCenter+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1CD99E9CAE275CF829F958D0F7AAB7B /* NSSet+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF17D4FAC0EDFC07ADC95533BACBD07C /* NSSet+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1FCA2FD2D005BBEE19A52AAD0116042 /* RACDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 717F76834027BC5F66EF92A7134056BB /* RACDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A20FA2AE71FDE5026AAB915B3A1B9B2F /* RACKVOTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = 86315F2B73566EC8DECB58E98274F2A6 /* RACKVOTrampoline.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A57190C190140FFB06C1693A4D190FE8 /* RACQueueScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 247683CB8E530E532A5CE38397372DAA /* RACQueueScheduler+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A66449C98B7AB9437FEA13C91C808D6B /* XLScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07908E1FF172312FC0407F5F9736EC /* XLScanBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A66449C98B7AB9437FEA13C91C808D6B /* XLScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A0CEDA37D0FEFF4E4100122BAFE810 /* XLScanBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A75F1A74DB7D8FC2B7C575302320B727 /* RACErrorSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F5128DAECDF93919B5A132B7BC744F /* RACErrorSignal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A8DE2DAD75A15BD2CE950BA1591FEB24 /* BankCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 4088F74E6E3A54F5896E7A027E1C16BB /* BankCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8DE2DAD75A15BD2CE950BA1591FEB24 /* BankCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C37970034D8AF5B960C3454EB08A75 /* BankCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9F257232CA73668C1ABBAF04BC8A7CF /* NSString+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9F101799562F71D1A1CCD7E08AEF3 /* NSString+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AAD5B418E8957D0E4DC107549F14CA52 /* RACDynamicSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8772420F1152BA86913236B9FFBB3E /* RACDynamicSignal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AAE6563436D4B2FBC8016323B67DF5D3 /* RACEmptySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2ACB5778EC767C9F5092206B6431A8 /* RACEmptySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -186,7 +186,7 @@
 		AC71C2CC2771DD48410BAD4F0D9968B4 /* RACSignal+Operations.h in Headers */ = {isa = PBXBuildFile; fileRef = C13C2153CEA21E9595E0ED1420E825ED /* RACSignal+Operations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE63FD70CC2B719E40DA5484AE55C4E9 /* RACImmediateScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A5FC553CEEB365166AF8D1E45A11E1 /* RACImmediateScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B22B93804D978C875B2CBE01C013C7E8 /* UISegmentedControl+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 778E6467B9A0A85A2800067E0738997D /* UISegmentedControl+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B335884C9DE301E75357525D40FEE126 /* XLScanBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 840944672E13D2A487AFF1BBDDEBD997 /* XLScanBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B335884C9DE301E75357525D40FEE126 /* XLScanBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC22802EC95F0D0D8CC026D79B2531A /* XLScanBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B7BC5E6E9965E625ACA779269B5F84 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B465BFA62F4BE5498F3CFF8A6DF88E4E /* NSNotificationCenter+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E53C67711D9447D2E2145C25DCF99CAC /* NSNotificationCenter+RACSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B873366214547091170BBAC749F10089 /* RACUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CDF881334E6648A2C0F696A850F46 /* RACUnit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -194,13 +194,13 @@
 		BA3F1A7D30CCD526B87058E3F98510D6 /* ReactiveCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9475E928DD2DE0ECD65407B4AAE189 /* ReactiveCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB336AF3C08B8DC2B6C5669960FC1424 /* RACValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB475C282FCBB47E9B412C60208FB64 /* RACValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD91EA4E19852342CA51DB45DB2D30C2 /* RACSerialDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = E07E3EB3CFF19DF19F5B468B4AB33F83 /* RACSerialDisposable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BDDA07441BFAAE0304085CB1E255FCCE /* zocr0.lib in Sources */ = {isa = PBXBuildFile; fileRef = 0130105838053BD44722E59067CA2F99 /* zocr0.lib */; };
+		BDDA07441BFAAE0304085CB1E255FCCE /* zocr0.lib in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF17858911E61AEDDA6A9E6AA4707E /* zocr0.lib */; };
 		BE1C982C650491363559CAF621CC1E9F /* RACDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = E40F10DC9E2B13DFE718B16A89EC14FC /* RACDisposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF5B8C989D570C18F9BBE105FB5DCBC4 /* BankCardSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5515B26B9C8CCC00583AEE0B7AAEF671 /* BankCardSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF5B8C989D570C18F9BBE105FB5DCBC4 /* BankCardSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F310CF5C344F7AA123A297913D2B20 /* BankCardSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C00735F758CD2D75728CB1E1CBE127DF /* RACStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D9EEE11E791981683B810BD3BC0615 /* RACStream.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 304A530AA16276A83E3FF1E0A8053EC0 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C10E68E90D4A44D87DC20F9B61AE0901 /* RACScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725BF0BCA5799827B0B67D7291E5EC6 /* RACScheduler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C2A2E27C52134AD74C5BA0460A8792A9 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 15917E0095B73DD3842BC7970C26AEC6 /* UIImage+Extend.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C2A2E27C52134AD74C5BA0460A8792A9 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40686420411BFD14FC791FF29657B4 /* UIImage+Extend.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C2A2ED046DB24E4F187111F87D0DCAFC /* RACChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9771817354C27D163474A67745538120 /* RACChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2D8FD00F08534F1F6D326284C227519 /* RACGroupedSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B39BC329A451F3AAAFF9B64A1659439 /* RACGroupedSignal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C3003C94B0948CE1169255E112DF7351 /* NSIndexSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F23B21A97FD416E775FD0E4B988832 /* NSIndexSet+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -220,8 +220,8 @@
 		D462C520A37CD2BDD956BDA064F86F17 /* RACSerialDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F7883DD4D032F0EEEE68A80A8BEAA0 /* RACSerialDisposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4DBA8B3C3BF98AF9D6C8D7C8E735A40 /* NSData+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9829106EEB73AE7978EE3F51A8DEA1 /* NSData+RACSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D4F64930959636EB7AF456EBF951059D /* RACBehaviorSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE501E63492C23B182264468A39B48 /* RACBehaviorSubject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D5DCD0345934C945DF0FF8F9E37D2081 /* PoporIDBankCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F6455247356808F203AD9BF63675FC /* PoporIDBankCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6A8A0E31DA93D75D6637F402E8ED0B6 /* XLScanBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2458B5754B003D3183761FB873D6DE /* XLScanBaseManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5DCD0345934C945DF0FF8F9E37D2081 /* PoporIDBankCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9161D46258B03CCA18A8B7C7EE0CFBBD /* PoporIDBankCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A8A0E31DA93D75D6637F402E8ED0B6 /* XLScanBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A563D3564DF9A2BDEB431994F98C7D3 /* XLScanBaseManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D7EB9870DDB31B5DE7854C6DF534C70D /* UISegmentedControl+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 88902EEC625194F7A09C24C568D27054 /* UISegmentedControl+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D8A31487CB2DA6230DFE48E3A74CA57F /* RACArraySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = F434D2F616BCB7495BC5216DAAE5AB95 /* RACArraySequence.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EB7651457376C2ED670FD77362D09C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -230,7 +230,7 @@
 		DC5217606C8089FF92FFB05438D08426 /* RACEmptySignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 974298256D504B59FD47924F2E478FA5 /* RACEmptySignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDAD0D3DE728DEA94F7CED727BFD052D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		DDC5F9C397B1444934DE7232F8978A15 /* RACCompoundDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD0CBA3E2BDCB33256988C2188A9C49 /* RACCompoundDisposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF38883356C6BD27C8CE79B36929F8DE /* XLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D8F3AEA230933E50D10A653E53B7DC /* XLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF38883356C6BD27C8CE79B36929F8DE /* XLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5F6817CFB2A85D5E58CC08083A682E /* XLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFB74D885ECA6D93F574960FF4B04A6B /* RACDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C51415CE4DDA7308242DCAC6FCA8C7 /* RACDelegateProxy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E06AF59F40D9F01A6B1564EDB636F11C /* RACEmptySignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443ED82340108960D472D2DCAF75357 /* RACEmptySignal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E09FDD721D9B12E5F319199017055224 /* NSFileHandle+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = DA31C8546E9B8546E9B27DD5E7513073 /* NSFileHandle+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -238,7 +238,7 @@
 		E16597032B2B80FC0F56CB94224256A2 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E026822461B5B76B3228687C6B729B /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E25068553E171DB6BFFB440069193C36 /* RACMulticastConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF7B1AADFDE92A96DF960652569B6BD /* RACMulticastConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2C91B1E6775F03A0DF7DE1697E476CF /* RACUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E06D06EEBAB7BBA2CCF50DC5BAA374 /* RACUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3E150177606AFABEAFB1E1D26372292 /* XLScanManagerInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2571DAAEFA3DFBF6AA92D34C37A04E /* XLScanManagerInitialize.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E3E150177606AFABEAFB1E1D26372292 /* XLScanManagerInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 35331B8C790E44B8B2FAE9E59926D070 /* XLScanManagerInitialize.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E5354DF6C8184B04A9B1BAD67A1671CA /* RACBlockTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = 398A8ACDC9FCDDA69E018AA5A8E0AEBF /* RACBlockTrampoline.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E53FB4ADF82501EFAA89E0594AF78A81 /* RACTupleSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B2FEFE11BFC7492344E73A01EE676B /* RACTupleSequence.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E57115BDB0ECEF2D1DA83B3DCE7350FB /* RACStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 3193964ABA08E4B246E4C4F581A66272 /* RACStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -265,12 +265,12 @@
 		F5F6681741E8C2E6CD90E03557C08676 /* RACTestScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0120502E53CAC3E914C8E7D0FECAAD48 /* RACTestScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F654A2DB00A715C1F5F5C07D4403E5B1 /* RACSignalProvider.d in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD8DB0F1C77DC7343A68D9D27B496D /* RACSignalProvider.d */; };
 		F7180376FE98FA33E1C93FC7E4FDCD9C /* RACBlockTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAD8B07E8CD7B57C78C19F532D790A0 /* RACBlockTrampoline.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F99E0E9BF8128288D1D5812211A2C6DE /* XLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD01771EA4F06D7A26E040F43FB9D4 /* XLBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FA42FD6F069184B43BE736E718BE6910 /* XLScanManagerInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = 705B3DE20C10CEC5F0A9A96F44950110 /* XLScanManagerInitialize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F99E0E9BF8128288D1D5812211A2C6DE /* XLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215FFC4EF76740B06B073E10002A9E54 /* XLBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FA42FD6F069184B43BE736E718BE6910 /* XLScanManagerInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = F77AC4D36A7D42408BF47209CCFEFC2C /* XLScanManagerInitialize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA46FCF785E2EF8C200333A75B36E5DE /* UITextField+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE229F96C9F78BE2EDC7A24ABA84B6E /* UITextField+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FD677082CDAEE638B125873865EB01F1 /* ReactiveCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D14A984D205E2A5EA628A23D142C0F /* ReactiveCocoa-dummy.m */; };
 		FE123D969291B600B835D540F5B6C2B5 /* NSInvocation+RACTypeParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DAC32E3E55E1C82B67C445A3261B4E /* NSInvocation+RACTypeParsing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE9082F1F49AD8A8F03817ADED97D6E8 /* XLScanBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA7FD0C690F20CE1FA4D41F3D04ED5E /* XLScanBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9082F1F49AD8A8F03817ADED97D6E8 /* XLScanBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE483227D903E0957502DABAC4B62003 /* XLScanBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -312,37 +312,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0057FFF898A8386B5CFEB29E57E01F7F /* libexidcardios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libexidcardios.a; path = PoporIDBankCard/Classes/libexidcard/libexidcardios.a; sourceTree = "<group>"; };
 		00655217E6F39CCEC2257959C101C1BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		0089AFF414CCB8A791740004535DE6C7 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F7883DD4D032F0EEEE68A80A8BEAA0 /* RACSerialDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSerialDisposable.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACSerialDisposable.h; sourceTree = "<group>"; };
 		0120502E53CAC3E914C8E7D0FECAAD48 /* RACTestScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACTestScheduler.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACTestScheduler.h; sourceTree = "<group>"; };
-		0130105838053BD44722E59067CA2F99 /* zocr0.lib */ = {isa = PBXFileReference; includeInIndex = 1; name = zocr0.lib; path = PoporIDBankCard/Classes/libexidcard/zocr0.lib; sourceTree = "<group>"; };
+		018124D8A44679A4C44D48CFF0C33194 /* IDOverLayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDOverLayerView.m; path = PoporIDBankCard/Classes/Views/IDOverLayerView.m; sourceTree = "<group>"; };
 		01CC348A1FF0FFAD0B71B38A0F04B3D0 /* NSSet+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+RACSequenceAdditions.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSSet+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		02AD6291A11B6EA79254F6D53268FCB1 /* RACTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACTuple.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACTuple.h; sourceTree = "<group>"; };
 		0306735DB30A4E3DD7F6042DA0964E24 /* Pods-PoporIDBankCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporIDBankCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0385BAA13C53B4F04C2CE239BEC3FF55 /* excards.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = excards.h; path = PoporIDBankCard/Classes/libexidcard/excards.h; sourceTree = "<group>"; };
 		05085FF93BB3208E7CFB9EA3FF310C8E /* Pods-PoporIDBankCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporIDBankCard_Example.modulemap"; sourceTree = "<group>"; };
 		059827911B9AC790FCDC32D9BD5175BF /* NSObject+RACLifting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACLifting.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACLifting.h"; sourceTree = "<group>"; };
 		06C0B1024BCE6A36DE55A11FE0CC6B7B /* NSObject+RACDeallocating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACDeallocating.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACDeallocating.m"; sourceTree = "<group>"; };
 		06F5128DAECDF93919B5A132B7BC744F /* RACErrorSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACErrorSignal.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACErrorSignal.m; sourceTree = "<group>"; };
 		074DA45BC9CE2224714CA6FCD06AC9A3 /* RACTargetQueueScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACTargetQueueScheduler.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACTargetQueueScheduler.m; sourceTree = "<group>"; };
 		08D2C7297738589818859A0AC677AF64 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		0995301ABB685C6DC3CDF2350D763A64 /* RectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RectManager.m; path = PoporIDBankCard/Classes/Tool/RectManager.m; sourceTree = "<group>"; };
 		09D349138416912D296E6A471944B5B8 /* Pods-PoporIDBankCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporIDBankCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		100618B23B236372207FD2951B96ACB8 /* NSString+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSString+RACSupport.m"; sourceTree = "<group>"; };
 		101CBBDAE0A9C28AFD7C1E28653DC909 /* Pods-PoporIDBankCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporIDBankCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		10878A9F166D7D152845256ACFC627D7 /* NSDictionary+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RACSequenceAdditions.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSDictionary+RACSequenceAdditions.h"; sourceTree = "<group>"; };
-		108B7D9B12AE87AA85E91722066F7178 /* XLScanResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanResultModel.h; path = PoporIDBankCard/Classes/Tool/XLScanResultModel.h; sourceTree = "<group>"; };
+		115E4C24A2FDD4F151DC538546C6D79A /* XLScanManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManager.m; path = PoporIDBankCard/Classes/Tool/XLScanManager.m; sourceTree = "<group>"; };
 		122C3230B913A67BD875B1A72AE186CA /* UIActionSheet+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIActionSheet+RACSignalSupport.m"; sourceTree = "<group>"; };
 		1306A5C8B5AEA5A41ED1180ECC26E56C /* NSData+RACSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+RACSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSData+RACSupport.h"; sourceTree = "<group>"; };
-		13428C097C1D241BEED264159DDA74F2 /* XLScanManagerControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManagerControl.m; path = PoporIDBankCard/Classes/Tool/XLScanManagerControl.m; sourceTree = "<group>"; };
 		1366309F9BE6E86389E5CE113751E577 /* RACBacktrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACBacktrace.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACBacktrace.h; sourceTree = "<group>"; };
 		136BF4D4E65A069AA04B94CD9A483484 /* NSOrderedSet+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+RACSequenceAdditions.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		14802C899103F1C1F8458538E43B81BE /* NSObject+RACKVOWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACKVOWrapper.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACKVOWrapper.h"; sourceTree = "<group>"; };
-		15917E0095B73DD3842BC7970C26AEC6 /* UIImage+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "PoporIDBankCard/Classes/Tool/UIImage+Extend.m"; sourceTree = "<group>"; };
 		166334AC87AE49BD7C5985B7F26C84F2 /* RACReturnSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACReturnSignal.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACReturnSignal.m; sourceTree = "<group>"; };
 		1680D179BD7A02706BB47009451DF15E /* UITableViewHeaderFooterView+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.h"; sourceTree = "<group>"; };
-		16DD75A163E2145EF9B66FE660DF2143 /* exbankcard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exbankcard.h; path = PoporIDBankCard/Classes/bank_io/exbankcard.h; sourceTree = "<group>"; };
+		17201CC74BA126C3C52227397DB8AEE2 /* XLBankScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBankScanViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLBankScanViewController.m; sourceTree = "<group>"; };
 		177F2F50A7DAABCEA56F01BB72633E78 /* RACArraySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACArraySequence.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACArraySequence.h; sourceTree = "<group>"; };
+		194BDA1012BA552A7D11F7AC43FFE8F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1A234551E7D9D8616914B7E0520E3650 /* RACBacktrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACBacktrace.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACBacktrace.m; sourceTree = "<group>"; };
 		1B39BC329A451F3AAAFF9B64A1659439 /* RACGroupedSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACGroupedSignal.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSignal.m; sourceTree = "<group>"; };
 		1BD4546FC34B6B53E9E063DC0E2573E5 /* NSString+RACKeyPathUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACKeyPathUtilities.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSString+RACKeyPathUtilities.m"; sourceTree = "<group>"; };
@@ -352,10 +352,12 @@
 		1CB475C282FCBB47E9B412C60208FB64 /* RACValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACValueTransformer.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.h; sourceTree = "<group>"; };
 		1CBD8DB0F1C77DC7343A68D9D27B496D /* RACSignalProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; name = RACSignalProvider.d; path = ReactiveCocoaFramework/ReactiveCocoa/RACSignalProvider.d; sourceTree = "<group>"; };
 		1D9FBB82FA43A67CB8DB3FFC4E381000 /* RACEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEvent.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACEvent.h; sourceTree = "<group>"; };
-		1EC39E5FD8EDDA9C2659ABC3AFB2B21E /* XLIDScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLIDScanViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLIDScanViewController.h; sourceTree = "<group>"; };
+		1DEF17858911E61AEDDA6A9E6AA4707E /* zocr0.lib */ = {isa = PBXFileReference; includeInIndex = 1; name = zocr0.lib; path = PoporIDBankCard/Classes/libexidcard/zocr0.lib; sourceTree = "<group>"; };
 		1EC958E110B689A45690F9A5CC47B489 /* NSObject+RACPropertySubscribing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACPropertySubscribing.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.m"; sourceTree = "<group>"; };
 		1F9829106EEB73AE7978EE3F51A8DEA1 /* NSData+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+RACSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSData+RACSupport.m"; sourceTree = "<group>"; };
+		1FCF8486EA66581C5A24776BD92FEA7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		207D121A2D94727B4A87833730B3B3F3 /* UIActionSheet+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIActionSheet+RACSignalSupport.h"; sourceTree = "<group>"; };
+		215FFC4EF76740B06B073E10002A9E54 /* XLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBaseViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLBaseViewController.m; sourceTree = "<group>"; };
 		2443ED82340108960D472D2DCAF75357 /* RACEmptySignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEmptySignal.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACEmptySignal.m; sourceTree = "<group>"; };
 		247683CB8E530E532A5CE38397372DAA /* RACQueueScheduler+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACQueueScheduler+Subclass.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/RACQueueScheduler+Subclass.h"; sourceTree = "<group>"; };
 		24DAC32E3E55E1C82B67C445A3261B4E /* NSInvocation+RACTypeParsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+RACTypeParsing.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSInvocation+RACTypeParsing.h"; sourceTree = "<group>"; };
@@ -367,40 +369,40 @@
 		2AA7A510B269913FF81312F253BCD83B /* PoporIDBankCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoporIDBankCard.framework; path = PoporIDBankCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC6026B9C1E1D20B20EB25A7DB07382 /* RACSubscriber+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACSubscriber+Private.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber+Private.h"; sourceTree = "<group>"; };
 		2B73EA0D9F64CCAC13CA5AB50957E3D9 /* RACDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDisposable.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.m; sourceTree = "<group>"; };
+		2CB2C88CAB04F2BABCFB79C981A5C912 /* BankCardSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BankCardSearch.m; path = PoporIDBankCard/Classes/Tool/BankCardSearch.m; sourceTree = "<group>"; };
 		2E031C94A42DFBF635D67C7E2BBF8337 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		2E7B82C1E2D8CBD6AD5554C7E3882260 /* PoporIDBankCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporIDBankCard-prefix.pch"; sourceTree = "<group>"; };
 		2ECA211282B36A48C21EB5A73934655F /* RACUnarySequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACUnarySequence.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACUnarySequence.m; sourceTree = "<group>"; };
 		304A530AA16276A83E3FF1E0A8053EC0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		30AA3A9F0547CAEEB11D0B2699763C9E /* Pods-PoporIDBankCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporIDBankCard_Tests.modulemap"; sourceTree = "<group>"; };
 		30C62090E1C3067B412DEB0C362FA22C /* RACCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACCommand.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACCommand.h; sourceTree = "<group>"; };
 		30DDB25DF4EC9BB9B4F10CF2CEF855B9 /* RACQueueScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACQueueScheduler.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACQueueScheduler.m; sourceTree = "<group>"; };
 		31634777AE7DDCFC16DE97A07EB01DC5 /* UITextView+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UITextView+RACSignalSupport.h"; sourceTree = "<group>"; };
-		318E5888FBA9C3B23A2B68063B6FACA0 /* RectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RectManager.h; path = PoporIDBankCard/Classes/Tool/RectManager.h; sourceTree = "<group>"; };
 		3193964ABA08E4B246E4C4F581A66272 /* RACStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACStream.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACStream.h; sourceTree = "<group>"; };
 		31FAA2904908D4841CA4AD0FD11786C3 /* RACSubscriptionScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubscriptionScheduler.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACSubscriptionScheduler.h; sourceTree = "<group>"; };
 		322022BE92D03700AF66A834849ED268 /* RACEmptySequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEmptySequence.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACEmptySequence.m; sourceTree = "<group>"; };
 		328F0FF2CCE7FBDC651DB74B8C077F66 /* RACSubscriptionScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSubscriptionScheduler.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACSubscriptionScheduler.m; sourceTree = "<group>"; };
 		33E54FEC255F463DA81572358C5F88A4 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		3407E3E2FC8D82B11D4C72D87BDBC5EB /* OverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayView.h; path = PoporIDBankCard/Classes/Views/OverlayView.h; sourceTree = "<group>"; };
 		34A5B9454CD69E3F8E36F65222377749 /* NSFileHandle+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileHandle+RACSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSFileHandle+RACSupport.m"; sourceTree = "<group>"; };
-		35C6C0F6B723BBA1282114A59A268E55 /* XLBankScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBankScanViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLBankScanViewController.m; sourceTree = "<group>"; };
+		34BBD83713956E78F86C5528974657A8 /* XLIDScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLIDScanViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLIDScanViewController.m; sourceTree = "<group>"; };
+		35331B8C790E44B8B2FAE9E59926D070 /* XLScanManagerInitialize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManagerInitialize.m; path = PoporIDBankCard/Classes/Tool/XLScanManagerInitialize.m; sourceTree = "<group>"; };
 		36A92C98CCF00BE571ED884F6E83DC28 /* NSOrderedSet+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+RACSequenceAdditions.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSOrderedSet+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		36EC047827A45D7F7D20E567839637E4 /* NSString+RACKeyPathUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RACKeyPathUtilities.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSString+RACKeyPathUtilities.h"; sourceTree = "<group>"; };
 		398A8ACDC9FCDDA69E018AA5A8E0AEBF /* RACBlockTrampoline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACBlockTrampoline.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACBlockTrampoline.h; sourceTree = "<group>"; };
 		39F997D61F884AC514BB4BE68460A2A4 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		3A58A3DABF5699B4DAACDBA5BDD6101E /* excards.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = excards.h; path = PoporIDBankCard/Classes/libexidcard/excards.h; sourceTree = "<group>"; };
 		3B0CB60D4958D7AC4900E04180E5FBF2 /* UIGestureRecognizer+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.m"; sourceTree = "<group>"; };
 		3CEEF920C2B5DA36E0C191B7DD98FF2A /* NSURLConnection+RACSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+RACSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSURLConnection+RACSupport.h"; sourceTree = "<group>"; };
 		3CF79C882C0781DE195A994A37AE9BEA /* RACSubscriptingAssignmentTrampoline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubscriptingAssignmentTrampoline.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h; sourceTree = "<group>"; };
-		3DBD01771EA4F06D7A26E040F43FB9D4 /* XLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBaseViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLBaseViewController.m; sourceTree = "<group>"; };
 		3E2ED84BFDC77E23F32CF86273DE394B /* RACTargetQueueScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACTargetQueueScheduler.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACTargetQueueScheduler.h; sourceTree = "<group>"; };
+		3FAE3BC1218D08101C153F0128FD82C8 /* libbankcard.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libbankcard.a; path = PoporIDBankCard/Classes/bank_io/libbankcard.a; sourceTree = "<group>"; };
 		3FCE501E63492C23B182264468A39B48 /* RACBehaviorSubject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACBehaviorSubject.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.m; sourceTree = "<group>"; };
 		4058176B09BC7C27F74CFD849520D74C /* UIGestureRecognizer+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.h"; sourceTree = "<group>"; };
-		4088F74E6E3A54F5896E7A027E1C16BB /* BankCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankCard.h; path = PoporIDBankCard/Classes/bank_io/BankCard.h; sourceTree = "<group>"; };
 		4190D6EE9594380998A00B085731D823 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		426372E5381B46D0FAA2CA3C21E66A01 /* NSEnumerator+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEnumerator+RACSequenceAdditions.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSEnumerator+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		4263E52E8CC5350952B32D2CC6196B9A /* UIButton+RACCommandSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+RACCommandSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIButton+RACCommandSupport.h"; sourceTree = "<group>"; };
+		43D7E1A0FFB432685CF26223685AF04E /* IDOverLayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDOverLayerView.h; path = PoporIDBankCard/Classes/Views/IDOverLayerView.h; sourceTree = "<group>"; };
+		43F310CF5C344F7AA123A297913D2B20 /* BankCardSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankCardSearch.h; path = PoporIDBankCard/Classes/Tool/BankCardSearch.h; sourceTree = "<group>"; };
 		45C75BDC244EE7C5689EEF204B19ADFF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		45D8F3AEA230933E50D10A653E53B7DC /* XLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBaseViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLBaseViewController.h; sourceTree = "<group>"; };
 		46175BDB4140F34D1C0854D1602D25C9 /* RACReplaySubject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACReplaySubject.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.m; sourceTree = "<group>"; };
 		4656B86DD900F0E0A8A34BABC5D977A2 /* RACTestScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACTestScheduler.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACTestScheduler.m; sourceTree = "<group>"; };
 		465E04144C3BFD9E4732F049A72741E7 /* RACSubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSubject.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACSubject.h; sourceTree = "<group>"; };
@@ -408,52 +410,47 @@
 		48386310AADBD117007593BF1C215B78 /* RACSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSignal.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACSignal.h; sourceTree = "<group>"; };
 		48A5FC553CEEB365166AF8D1E45A11E1 /* RACImmediateScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACImmediateScheduler.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACImmediateScheduler.h; sourceTree = "<group>"; };
 		48F6E881CF2B197FF9FEF6CD7C8C86C6 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		49930AB0D012BA2264D7AB7BE19AB21C /* OverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayView.h; path = PoporIDBankCard/Classes/Views/OverlayView.h; sourceTree = "<group>"; };
 		4A98421585AEF4729B69344AE0921CA2 /* RACReturnSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACReturnSignal.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACReturnSignal.h; sourceTree = "<group>"; };
-		4B07908E1FF172312FC0407F5F9736EC /* XLScanBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanBaseViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLScanBaseViewController.m; sourceTree = "<group>"; };
 		4C7C3C30B393D86C02DE81FB7A287D6E /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		4CCB7119E965882D204A6AAD967A18E8 /* commondef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commondef.h; path = PoporIDBankCard/Classes/libexidcard/commondef.h; sourceTree = "<group>"; };
 		4D56EE001A675B07779716D3616BA1EB /* RACEagerSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEagerSequence.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACEagerSequence.h; sourceTree = "<group>"; };
+		4E1576BB83CCD5198FFCFB53F30D58BC /* exbankcard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exbankcard.h; path = PoporIDBankCard/Classes/bank_io/exbankcard.h; sourceTree = "<group>"; };
 		4E37FB21E2CF7FA0AD7731A60341229E /* NSString+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RACSequenceAdditions.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSString+RACSequenceAdditions.h"; sourceTree = "<group>"; };
-		4ECA3F47F8A4B2BF676A198DD03978AB /* XLIDScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLIDScanViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLIDScanViewController.m; sourceTree = "<group>"; };
 		4F03B54A43FAEBB6084149FB86421FCA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		500570D3ECBF43784954346C53D06AE3 /* UITextView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UITextView+RACSignalSupport.m"; sourceTree = "<group>"; };
-		5021921D276C277030B3132131C0133F /* libexidcardios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libexidcardios.a; path = PoporIDBankCard/Classes/libexidcard/libexidcardios.a; sourceTree = "<group>"; };
 		50FE4CD656033CD496BEAE20924D89B8 /* ReactiveCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-prefix.pch"; sourceTree = "<group>"; };
 		53C7018BD9397B915B52934F0D805FBC /* RACStream+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACStream+Private.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/RACStream+Private.h"; sourceTree = "<group>"; };
 		53D264789A092C9965AF75070C3D2801 /* RACTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACTuple.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACTuple.m; sourceTree = "<group>"; };
-		5515B26B9C8CCC00583AEE0B7AAEF671 /* BankCardSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankCardSearch.h; path = PoporIDBankCard/Classes/Tool/BankCardSearch.h; sourceTree = "<group>"; };
-		55F6455247356808F203AD9BF63675FC /* PoporIDBankCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporIDBankCard-umbrella.h"; sourceTree = "<group>"; };
 		5671A8BD292D0E0D2172FE83D7BCDBF5 /* RACSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSequence.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACSequence.m; sourceTree = "<group>"; };
 		56C7F0E214C15DC1E9DBFBB8A3013A9A /* RACMulticastConnection+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACMulticastConnection+Private.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/RACMulticastConnection+Private.h"; sourceTree = "<group>"; };
 		58313D68D8FA6B494270B6A5414B5295 /* UISlider+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UISlider+RACSignalSupport.h"; sourceTree = "<group>"; };
+		5918BC5944ECE65D3E922D5150E1C622 /* PoporIDBankCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporIDBankCard.modulemap; sourceTree = "<group>"; };
 		5A994161C15759CD03F697F238B6774D /* NSEnumerator+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEnumerator+RACSequenceAdditions.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSEnumerator+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		5DF7B1AADFDE92A96DF960652569B6BD /* RACMulticastConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACMulticastConnection.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACMulticastConnection.h; sourceTree = "<group>"; };
 		5E084652121D0565D573106FB5349C07 /* Pods-PoporIDBankCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporIDBankCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5ED43F09F4F57BA0F5A169254478FC6D /* UIStepper+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStepper+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIStepper+RACSignalSupport.h"; sourceTree = "<group>"; };
 		5F7E758BB7B32FCA467100A9004DC37A /* UIControl+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSignalSupport.h"; sourceTree = "<group>"; };
-		6002764D721160C12FEACE1E3BF90B1E /* IDOverLayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDOverLayerView.m; path = PoporIDBankCard/Classes/Views/IDOverLayerView.m; sourceTree = "<group>"; };
 		610127C5B38D76EF9333B39C3E25BD1A /* Pods-PoporIDBankCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporIDBankCard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		61F23B21A97FD416E775FD0E4B988832 /* NSIndexSet+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexSet+RACSequenceAdditions.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSIndexSet+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		621B90C6DA40C911C2A0F2B4529D4CF9 /* RACSubject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSubject.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACSubject.m; sourceTree = "<group>"; };
 		6271E143D60E5F8134027E5D7F2F7433 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		63C237888433AB1824791247CA431B5B /* exbankcardcore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exbankcardcore.h; path = PoporIDBankCard/Classes/bank_io/exbankcardcore.h; sourceTree = "<group>"; };
 		6518D7E0BF4329F1AEEB953BB640F8B7 /* UITableViewCell+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UITableViewCell+RACSignalSupport.h"; sourceTree = "<group>"; };
+		657345DB8114AF6E6FD2B7354E4E5A4A /* XLScanManagerControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManagerControl.m; path = PoporIDBankCard/Classes/Tool/XLScanManagerControl.m; sourceTree = "<group>"; };
 		65BFD71A02E6E0D04C8FE24C99CDA463 /* UIAlertView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIAlertView+RACSignalSupport.m"; sourceTree = "<group>"; };
 		65C51415CE4DDA7308242DCAC6FCA8C7 /* RACDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDelegateProxy.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACDelegateProxy.m; sourceTree = "<group>"; };
 		6689EBC64B1F5FD6F519EA7005AD02A3 /* RACCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACCommand.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m; sourceTree = "<group>"; };
-		66C32B58E1F74ABE88D709A0A90135F3 /* UIImage+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extend.h"; path = "PoporIDBankCard/Classes/Tool/UIImage+Extend.h"; sourceTree = "<group>"; };
-		67CCFE8CBF5A38C354079BF74D82B290 /* OverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OverlayView.m; path = PoporIDBankCard/Classes/Views/OverlayView.m; sourceTree = "<group>"; };
 		691479FCF37D60794E7F19B8201AC80A /* UICollectionReusableView+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UICollectionReusableView+RACSignalSupport.h"; sourceTree = "<group>"; };
-		699F04FB3A8858347341392651B2A353 /* XLScanManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManager.m; path = PoporIDBankCard/Classes/Tool/XLScanManager.m; sourceTree = "<group>"; };
 		6AD0CBA3E2BDCB33256988C2188A9C49 /* RACCompoundDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACCompoundDisposable.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACCompoundDisposable.h; sourceTree = "<group>"; };
 		6AFC80BD5BF2B0D300BC2A59BA657394 /* RACEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEvent.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACEvent.m; sourceTree = "<group>"; };
+		6B334A34F87E3767F2A67C72EBE64D78 /* PoporIDBankCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporIDBankCard.xcconfig; sourceTree = "<group>"; };
 		6CAD191868863F068B79985CF7AC9526 /* RACEXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTKeyPathCoding.h; path = ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACEXTKeyPathCoding.h; sourceTree = "<group>"; };
 		6EB98778A4AEB130DB296C3F5CD5EFF7 /* RACBehaviorSubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACBehaviorSubject.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACBehaviorSubject.h; sourceTree = "<group>"; };
 		6F28705574AE8A36924F8C7459753CC2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		6F5F6817CFB2A85D5E58CC08083A682E /* XLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBaseViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLBaseViewController.h; sourceTree = "<group>"; };
 		6FB3C49340EC585C0AA1E82B5B1ACFE3 /* NSURLConnection+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+RACSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSURLConnection+RACSupport.m"; sourceTree = "<group>"; };
-		705B3DE20C10CEC5F0A9A96F44950110 /* XLScanManagerInitialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManagerInitialize.h; path = PoporIDBankCard/Classes/Tool/XLScanManagerInitialize.h; sourceTree = "<group>"; };
 		7077AE73DEA0924635F7C5B3042E2898 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		717F76834027BC5F66EF92A7134056BB /* RACDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDelegateProxy.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACDelegateProxy.h; sourceTree = "<group>"; };
+		72C37970034D8AF5B960C3454EB08A75 /* BankCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankCard.h; path = PoporIDBankCard/Classes/bank_io/BankCard.h; sourceTree = "<group>"; };
 		72E026822461B5B76B3228687C6B729B /* NSArray+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+RACSequenceAdditions.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		7360720FCB913D9AB7737BC397918C88 /* NSDictionary+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RACSequenceAdditions.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSDictionary+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		75E1687B4608E9148655AC99F6E560BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -461,36 +458,34 @@
 		76EB7651457376C2ED670FD77362D09C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		778E6467B9A0A85A2800067E0738997D /* UISegmentedControl+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UISegmentedControl+RACSignalSupport.h"; sourceTree = "<group>"; };
 		79027B1C76E124C6ADFF87648F0AF584 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		799685EEDA323FCCF37120806BEF5C4C /* PoporIDBankCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PoporIDBankCard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A563D3564DF9A2BDEB431994F98C7D3 /* XLScanBaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanBaseManager.m; path = PoporIDBankCard/Classes/Tool/XLScanBaseManager.m; sourceTree = "<group>"; };
 		7AE33864D50739EB46ADB111DCDBA6A0 /* UITableViewHeaderFooterView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.m"; sourceTree = "<group>"; };
 		7B9475E928DD2DE0ECD65407B4AAE189 /* ReactiveCocoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReactiveCocoa.h; path = ReactiveCocoaFramework/ReactiveCocoa/ReactiveCocoa.h; sourceTree = "<group>"; };
-		7CF727816B86F8A7175C8AC290E6A8EE /* BankCardSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BankCardSearch.m; path = PoporIDBankCard/Classes/Tool/BankCardSearch.m; sourceTree = "<group>"; };
+		7BC22802EC95F0D0D8CC026D79B2531A /* XLScanBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanBaseViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLScanBaseViewController.h; sourceTree = "<group>"; };
 		7D2108DD44BC4D963DBF4CD002065719 /* RACSignalSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSignalSequence.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACSignalSequence.m; sourceTree = "<group>"; };
-		7E998701B0995002B53C9D9DCC579A4C /* XLScanManagerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManagerControl.h; path = PoporIDBankCard/Classes/Tool/XLScanManagerControl.h; sourceTree = "<group>"; };
 		8122E5B74941712D9CE3C3C3F4583101 /* NSObject+RACPropertySubscribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACPropertySubscribing.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.h"; sourceTree = "<group>"; };
 		812F68F42B8867A578097A4DED36C24F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		8275AA92467EBE5409E1D480EADE5C25 /* UICollectionReusableView+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionReusableView+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UICollectionReusableView+RACSignalSupport.m"; sourceTree = "<group>"; };
-		840944672E13D2A487AFF1BBDDEBD997 /* XLScanBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanBaseViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLScanBaseViewController.h; sourceTree = "<group>"; };
-		843C1AA907663F3272943AD4E0905092 /* XLBankScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBankScanViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLBankScanViewController.h; sourceTree = "<group>"; };
-		846A82AF71288A31B7D1A79BD5B54B22 /* XLScanResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanResultModel.m; path = PoporIDBankCard/Classes/Tool/XLScanResultModel.m; sourceTree = "<group>"; };
 		85EB92737868C09034D72E3A94448692 /* Pods-PoporIDBankCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporIDBankCard_Example-umbrella.h"; sourceTree = "<group>"; };
 		86315F2B73566EC8DECB58E98274F2A6 /* RACKVOTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOTrampoline.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACKVOTrampoline.m; sourceTree = "<group>"; };
 		867D78E80754C85E4F15A9AEBB463EA3 /* Pods-PoporIDBankCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporIDBankCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		86BC10B1B2E002A90B9630F59F1D174D /* RACDynamicSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDynamicSequence.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACDynamicSequence.h; sourceTree = "<group>"; };
 		86D9EEE11E791981683B810BD3BC0615 /* RACStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACStream.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACStream.m; sourceTree = "<group>"; };
 		88902EEC625194F7A09C24C568D27054 /* UISegmentedControl+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UISegmentedControl+RACSignalSupport.m"; sourceTree = "<group>"; };
-		8BA7FD0C690F20CE1FA4D41F3D04ED5E /* XLScanBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanBaseManager.h; path = PoporIDBankCard/Classes/Tool/XLScanBaseManager.h; sourceTree = "<group>"; };
+		88E95FA722B5B5406AAD49A20FB06DC3 /* UIImage+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extend.h"; path = "PoporIDBankCard/Classes/Tool/UIImage+Extend.h"; sourceTree = "<group>"; };
 		8BAB2FB479A28E65060BBAE96BB816F3 /* RACKVOTrampoline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACKVOTrampoline.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACKVOTrampoline.h; sourceTree = "<group>"; };
 		8BB859E2999CC8B39B4C6E459357F0B1 /* RACPassthroughSubscriber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACPassthroughSubscriber.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACPassthroughSubscriber.m; sourceTree = "<group>"; };
+		8E2AB280628BF8FF41F4DA8B91D67998 /* XLScanManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManager.h; path = PoporIDBankCard/Classes/Tool/XLScanManager.h; sourceTree = "<group>"; };
 		8E81BDB914B50693B31C5AA694FEF46E /* UIRefreshControl+RACCommandSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+RACCommandSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIRefreshControl+RACCommandSupport.h"; sourceTree = "<group>"; };
 		8EB60E85B2B0A2DAA9B707A1EEDEFF24 /* UIControl+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSignalSupport.m"; sourceTree = "<group>"; };
 		90CE2AB466EC71778DB32CAE8FA51352 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		91472225446674EC81AD97C6F57F77A9 /* libbankcard.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libbankcard.a; path = PoporIDBankCard/Classes/bank_io/libbankcard.a; sourceTree = "<group>"; };
+		9161D46258B03CCA18A8B7C7EE0CFBBD /* PoporIDBankCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporIDBankCard-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94BD60165D55C6AE7ACE8C5F3289A631 /* UIRefreshControl+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+RACCommandSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIRefreshControl+RACCommandSupport.m"; sourceTree = "<group>"; };
-		956B6602CBCB36084A5502F0B4BFCFCC /* PoporIDBankCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporIDBankCard.xcconfig; sourceTree = "<group>"; };
 		974298256D504B59FD47924F2E478FA5 /* RACEmptySignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEmptySignal.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACEmptySignal.h; sourceTree = "<group>"; };
+		976BB6B2513360EDA2E826843359B263 /* commondef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commondef.h; path = PoporIDBankCard/Classes/libexidcard/commondef.h; sourceTree = "<group>"; };
 		9771817354C27D163474A67745538120 /* RACChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACChannel.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACChannel.h; sourceTree = "<group>"; };
+		97A0CEDA37D0FEFF4E4100122BAFE810 /* XLScanBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanBaseViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLScanBaseViewController.m; sourceTree = "<group>"; };
 		987728A95647BDEDC7C5C58E2668B067 /* UIStepper+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStepper+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIStepper+RACSignalSupport.m"; sourceTree = "<group>"; };
 		991F14B4CB3C151753ECF1941009A21B /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		99B2FEFE11BFC7492344E73A01EE676B /* RACTupleSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACTupleSequence.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACTupleSequence.m; sourceTree = "<group>"; };
@@ -502,6 +497,7 @@
 		9BE039F65E893FF758029867AAC9E1E5 /* ReactiveCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReactiveCocoa.modulemap; sourceTree = "<group>"; };
 		9C9130EEE7D3AC30984773BED49CE154 /* UIAlertView+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIAlertView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		9DA2F00BEFCAC9B6366125368FB3F3EA /* RACMulticastConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACMulticastConnection.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACMulticastConnection.m; sourceTree = "<group>"; };
+		9DEF0FE568553D359E9787A4A758EA94 /* PoporIDBankCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PoporIDBankCard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2ACB5778EC767C9F5092206B6431A8 /* RACEmptySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEmptySequence.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACEmptySequence.h; sourceTree = "<group>"; };
 		A21767CE1DEF1E58EE83561762B3B225 /* NSNotificationCenter+RACSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+RACSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSNotificationCenter+RACSupport.h"; sourceTree = "<group>"; };
 		A249454EFB4FEF652A617469C84C20F2 /* Pods-PoporIDBankCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporIDBankCard_Example-dummy.m"; sourceTree = "<group>"; };
@@ -513,13 +509,15 @@
 		A8898E09E7198E22BE44BAE9336E1AC5 /* NSObject+RACDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACDescription.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACDescription.h"; sourceTree = "<group>"; };
 		A9CA7D507BC4753EA8D3700211F33E81 /* RACScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACScheduler.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.h; sourceTree = "<group>"; };
 		AB0EDF4BC9F12309F48B858F4FA868D3 /* RACValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACValueTransformer.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACValueTransformer.m; sourceTree = "<group>"; };
-		AB2571DAAEFA3DFBF6AA92D34C37A04E /* XLScanManagerInitialize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManagerInitialize.m; path = PoporIDBankCard/Classes/Tool/XLScanManagerInitialize.m; sourceTree = "<group>"; };
 		AB561AB3178862F83739065B798342BA /* RACKVOChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACKVOChannel.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACKVOChannel.h; sourceTree = "<group>"; };
+		AB84963821AC520F9B3EB780E70D83C6 /* PoporIDBankCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporIDBankCard-dummy.m"; sourceTree = "<group>"; };
 		AC5804E26EAD5FBCC1A303EC4980A715 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		AC74987B1F7904485B9BAD2B75723C3B /* RectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RectManager.h; path = PoporIDBankCard/Classes/Tool/RectManager.h; sourceTree = "<group>"; };
 		AD493C4C7FD1EC2858CFA8E5625196EE /* NSObject+RACSelectorSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RACSelectorSignal.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACSelectorSignal.h"; sourceTree = "<group>"; };
 		ADE5FAAFB164BC6C7F86C12BAA1E913E /* UIButton+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+RACCommandSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIButton+RACCommandSupport.m"; sourceTree = "<group>"; };
 		AE10134D1A78E12E6124666B53AFBEED /* RACQueueScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACQueueScheduler.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACQueueScheduler.h; sourceTree = "<group>"; };
 		AE32040CFBE7E11FE5A662383B05A832 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		AE483227D903E0957502DABAC4B62003 /* XLScanBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanBaseManager.h; path = PoporIDBankCard/Classes/Tool/XLScanBaseManager.h; sourceTree = "<group>"; };
 		AE8772420F1152BA86913236B9FFBB3E /* RACDynamicSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDynamicSignal.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACDynamicSignal.m; sourceTree = "<group>"; };
 		B0EFF44EE9D4B13A82E85F93E5EAD165 /* UIDatePicker+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDatePicker+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIDatePicker+RACSignalSupport.m"; sourceTree = "<group>"; };
 		B2C7720124AA6F32817493AF14B43349 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
@@ -528,14 +526,13 @@
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B7D59DA9D6AD1DE4DF8B548A7F09FAF9 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		B9B888C7400A1F0AF07AA18BCEA770A5 /* UITableViewCell+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UITableViewCell+RACSignalSupport.m"; sourceTree = "<group>"; };
+		B9ED90DE02790163E157EA47F1A908CD /* RectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RectManager.m; path = PoporIDBankCard/Classes/Tool/RectManager.m; sourceTree = "<group>"; };
 		BACE0968E2DFE6BFEC3892B18654A51F /* RACChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACChannel.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACChannel.m; sourceTree = "<group>"; };
 		BB4DBAD0AAB3243BD3B09A9AA3B360EB /* UIControl+RACSignalSupportPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+RACSignalSupportPrivate.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSignalSupportPrivate.m"; sourceTree = "<group>"; };
 		BBF551225BF96DE4DE06155A58037B7E /* RACScheduler+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACScheduler+Private.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/RACScheduler+Private.h"; sourceTree = "<group>"; };
 		BDAD9B2AC58219D7FC00373566A4827C /* RACKVOChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOChannel.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACKVOChannel.m; sourceTree = "<group>"; };
-		BE9557FC738512287BBEE18881B0B20C /* PoporIDBankCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporIDBankCard-dummy.m"; sourceTree = "<group>"; };
 		BF2AA5819915EC21971205C2A25C0A51 /* RACObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACObjCRuntime.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACObjCRuntime.h; sourceTree = "<group>"; };
 		C13C2153CEA21E9595E0ED1420E825ED /* RACSignal+Operations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACSignal+Operations.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/RACSignal+Operations.h"; sourceTree = "<group>"; };
-		C1989C9C635FE9ECCD524E0FD8775D61 /* IDOverLayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDOverLayerView.h; path = PoporIDBankCard/Classes/Views/IDOverLayerView.h; sourceTree = "<group>"; };
 		C1E63CB6042B82AB21FBBB637A65D199 /* RACStringSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACStringSequence.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACStringSequence.h; sourceTree = "<group>"; };
 		C2423BD209827B27AB06AEDA3FB11CDC /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		C25772956804825C227AA923BCBD26FC /* RACCompoundDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACCompoundDisposable.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACCompoundDisposable.m; sourceTree = "<group>"; };
@@ -547,9 +544,10 @@
 		C7C29F8A5CDD1C8647127F7B0FEA1C12 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		C85230C3598DA26B0E44D3EC5F25795B /* RACSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSequence.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACSequence.h; sourceTree = "<group>"; };
 		C8B9A7544E618AD5100AF613D0B95D07 /* RACEXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTScope.h; path = ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACEXTScope.h; sourceTree = "<group>"; };
+		CAC928636632D618610EEB7C9D78D7C6 /* XLIDScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLIDScanViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLIDScanViewController.h; sourceTree = "<group>"; };
 		CBAD8B07E8CD7B57C78C19F532D790A0 /* RACBlockTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACBlockTrampoline.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACBlockTrampoline.m; sourceTree = "<group>"; };
 		CDE229F96C9F78BE2EDC7A24ABA84B6E /* UITextField+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UITextField+RACSignalSupport.m"; sourceTree = "<group>"; };
-		CF61EC7159489F83E024BE20C0DC812C /* XLScanManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManager.h; path = PoporIDBankCard/Classes/Tool/XLScanManager.h; sourceTree = "<group>"; };
+		CF40686420411BFD14FC791FF29657B4 /* UIImage+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "PoporIDBankCard/Classes/Tool/UIImage+Extend.m"; sourceTree = "<group>"; };
 		D1419BA21D7DA20A2694872213DBD8C6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		D27C6BF18DC647B9AFAB05C9C922027A /* NSString+RACSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RACSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSString+RACSupport.h"; sourceTree = "<group>"; };
 		D28296AA106E84F18CC2177432B7E81D /* Pods-PoporIDBankCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporIDBankCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -561,6 +559,7 @@
 		D671F3179EFA5F4DA1782944D58F5BEF /* NSInvocation+RACTypeParsing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+RACTypeParsing.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSInvocation+RACTypeParsing.m"; sourceTree = "<group>"; };
 		D6731493FD9D8B15159FC46D33AC687A /* RACmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACmetamacros.h; path = ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACmetamacros.h; sourceTree = "<group>"; };
 		D6D14A984D205E2A5EA628A23D142C0F /* ReactiveCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactiveCocoa-dummy.m"; sourceTree = "<group>"; };
+		D6E3F701124EFD6668F5EC27D5D37F5E /* XLScanResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanResultModel.m; path = PoporIDBankCard/Classes/Tool/XLScanResultModel.m; sourceTree = "<group>"; };
 		D7C831F629DEF58FC7C555A43AB028B8 /* UIImagePickerController+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIImagePickerController+RACSignalSupport.h"; sourceTree = "<group>"; };
 		D857927F86C0A3225EC9E58C116D2A24 /* RACIndexSetSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACIndexSetSequence.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACIndexSetSequence.m; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -570,15 +569,16 @@
 		DB79A1CFC6915B7AA4A33F8EE9F75242 /* NSObject+RACDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACDescription.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACDescription.m"; sourceTree = "<group>"; };
 		DBC22CFB833EAC9DCBC49155A8B00AF0 /* Pods-PoporIDBankCard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporIDBankCard_Example-resources.sh"; sourceTree = "<group>"; };
 		DCABFEF854A737C4E9E526E1F9F73F3B /* ReactiveCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-umbrella.h"; sourceTree = "<group>"; };
+		DDE89B03A0C4CB3508A6DF53EBFBCD7F /* OverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OverlayView.m; path = PoporIDBankCard/Classes/Views/OverlayView.m; sourceTree = "<group>"; };
+		DF6C455E861D78E6FA2139A3AAB39DD9 /* XLScanResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanResultModel.h; path = PoporIDBankCard/Classes/Tool/XLScanResultModel.h; sourceTree = "<group>"; };
 		DF87E3C32BBB7A707D79E0DC2C7D63B7 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveCocoa.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCEE92AFE1976B78D2FB903664496F3 /* exbankcardcore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exbankcardcore.h; path = PoporIDBankCard/Classes/bank_io/exbankcardcore.h; sourceTree = "<group>"; };
 		E07E3EB3CFF19DF19F5B468B4AB33F83 /* RACSerialDisposable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACSerialDisposable.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACSerialDisposable.m; sourceTree = "<group>"; };
 		E20C36DC3A6851BF47920686B2900A96 /* RACGroupedSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACGroupedSignal.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSignal.h; sourceTree = "<group>"; };
-		E4090A981A2000BAD56E27DCE47CBDB0 /* PoporIDBankCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporIDBankCard-prefix.pch"; sourceTree = "<group>"; };
 		E40F10DC9E2B13DFE718B16A89EC14FC /* RACDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDisposable.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.h; sourceTree = "<group>"; };
 		E453284944068F1B07E186A9EB8F99F8 /* RACScopedDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACScopedDisposable.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACScopedDisposable.h; sourceTree = "<group>"; };
 		E4C6473B1BAB87CF166E2BB8593C51B3 /* ReactiveCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveCocoa.xcconfig; sourceTree = "<group>"; };
 		E53C67711D9447D2E2145C25DCF99CAC /* NSNotificationCenter+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+RACSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSNotificationCenter+RACSupport.m"; sourceTree = "<group>"; };
-		E6395157DAA75CC1A40D17E607284508 /* PoporIDBankCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporIDBankCard.modulemap; sourceTree = "<group>"; };
 		E6B7BC5E6E9965E625ACA779269B5F84 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		E7F7C4CD2CDC18E323A501107BAFA12E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7FB809D40073A11A4C5F57DA25ECF41 /* NSUserDefaults+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+RACSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSUserDefaults+RACSupport.m"; sourceTree = "<group>"; };
@@ -590,6 +590,7 @@
 		EFF255337BBAAB1B76BED5A0AE6ABF28 /* RACImmediateScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACImmediateScheduler.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACImmediateScheduler.m; sourceTree = "<group>"; };
 		F072245A6E80ABF970BA32AEDCF8EEF5 /* RACObjCRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACObjCRuntime.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACObjCRuntime.m; sourceTree = "<group>"; };
 		F21D4D76CAB38EAA21774DCD471A8A45 /* RACErrorSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACErrorSignal.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACErrorSignal.h; sourceTree = "<group>"; };
+		F26C67DA9448D89106CCD35F63689E35 /* XLScanManagerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManagerControl.h; path = PoporIDBankCard/Classes/Tool/XLScanManagerControl.h; sourceTree = "<group>"; };
 		F2B7FBB8BA53084068C1D50C61B34739 /* RACEXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTRuntimeExtensions.h; path = ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACEXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		F395E64B90A5F7911FCC847D531DC628 /* RACSignalSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACSignalSequence.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACSignalSequence.h; sourceTree = "<group>"; };
 		F434D2F616BCB7495BC5216DAAE5AB95 /* RACArraySequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACArraySequence.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACArraySequence.m; sourceTree = "<group>"; };
@@ -598,14 +599,13 @@
 		F6152C975E9E35739F7049EF695EDB20 /* UIDatePicker+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDatePicker+RACSignalSupport.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIDatePicker+RACSignalSupport.h"; sourceTree = "<group>"; };
 		F68CDF881334E6648A2C0F696A850F46 /* RACUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACUnit.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACUnit.m; sourceTree = "<group>"; };
 		F7106ACE2BF3140A7DDFD6DB94F9B9E5 /* RACReplaySubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACReplaySubject.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.h; sourceTree = "<group>"; };
+		F77AC4D36A7D42408BF47209CCFEFC2C /* XLScanManagerInitialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManagerInitialize.h; path = PoporIDBankCard/Classes/Tool/XLScanManagerInitialize.h; sourceTree = "<group>"; };
 		F80039822C5872FF3AE657A097122BD4 /* UIControl+RACSignalSupportPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+RACSignalSupportPrivate.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIControl+RACSignalSupportPrivate.h"; sourceTree = "<group>"; };
 		F84277A2888276F6B10F4EB3596A72F0 /* RACEagerSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEagerSequence.m; path = ReactiveCocoaFramework/ReactiveCocoa/RACEagerSequence.m; sourceTree = "<group>"; };
-		FA902EF5C537A9A2FE5B4B78C091ECF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FB0F0750BF3A176E0A8EF0376A245690 /* Pods-PoporIDBankCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporIDBankCard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FB624F6F012B03C80AFA40BC649245CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FCC5727AF0BF352E258407A71222C136 /* XLBankScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBankScanViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLBankScanViewController.h; sourceTree = "<group>"; };
 		FCDCC88294869F3F763B3B3DA83BF929 /* Pods-PoporIDBankCard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporIDBankCard_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FDE3DF555510519587DFE9FC9C64FD60 /* UIImagePickerController+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+RACSignalSupport.m"; path = "ReactiveCocoaFramework/ReactiveCocoa/UIImagePickerController+RACSignalSupport.m"; sourceTree = "<group>"; };
-		FE2458B5754B003D3183761FB873D6DE /* XLScanBaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanBaseManager.m; path = PoporIDBankCard/Classes/Tool/XLScanBaseManager.m; sourceTree = "<group>"; };
 		FF17D4FAC0EDFC07ADC95533BACBD07C /* NSSet+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+RACSequenceAdditions.h"; path = "ReactiveCocoaFramework/ReactiveCocoa/NSSet+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		FFC5A91ECD10BE0A20FAA8FB74FCC370 /* RACTupleSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACTupleSequence.h; path = ReactiveCocoaFramework/ReactiveCocoa/RACTupleSequence.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -655,6 +655,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA75545B303BF98154BB2CB1CFA02C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0F0BFAA48F3E8E4DF360D09000DB5845 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,6 +669,29 @@
 				16D4E2443BC37DAAA79DA8E7356333FA /* ReactiveCocoa */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		11F618B566F51F99BDC8A93AF4A30F2E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				43F310CF5C344F7AA123A297913D2B20 /* BankCardSearch.h */,
+				2CB2C88CAB04F2BABCFB79C981A5C912 /* BankCardSearch.m */,
+				AC74987B1F7904485B9BAD2B75723C3B /* RectManager.h */,
+				B9ED90DE02790163E157EA47F1A908CD /* RectManager.m */,
+				88E95FA722B5B5406AAD49A20FB06DC3 /* UIImage+Extend.h */,
+				CF40686420411BFD14FC791FF29657B4 /* UIImage+Extend.m */,
+				AE483227D903E0957502DABAC4B62003 /* XLScanBaseManager.h */,
+				7A563D3564DF9A2BDEB431994F98C7D3 /* XLScanBaseManager.m */,
+				8E2AB280628BF8FF41F4DA8B91D67998 /* XLScanManager.h */,
+				115E4C24A2FDD4F151DC538546C6D79A /* XLScanManager.m */,
+				F26C67DA9448D89106CCD35F63689E35 /* XLScanManagerControl.h */,
+				657345DB8114AF6E6FD2B7354E4E5A4A /* XLScanManagerControl.m */,
+				F77AC4D36A7D42408BF47209CCFEFC2C /* XLScanManagerInitialize.h */,
+				35331B8C790E44B8B2FAE9E59926D070 /* XLScanManagerInitialize.m */,
+				DF6C455E861D78E6FA2139A3AAB39DD9 /* XLScanResultModel.h */,
+				D6E3F701124EFD6668F5EC27D5D37F5E /* XLScanResultModel.m */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 		14A05E9F12E595FB2090EB9D9B44927A /* Targets Support Files */ = {
@@ -697,19 +727,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ReactiveCocoa";
-			sourceTree = "<group>";
-		};
-		22F63AFEBA2644D9C7CD77705B115232 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E6395157DAA75CC1A40D17E607284508 /* PoporIDBankCard.modulemap */,
-				956B6602CBCB36084A5502F0B4BFCFCC /* PoporIDBankCard.xcconfig */,
-				BE9557FC738512287BBEE18881B0B20C /* PoporIDBankCard-dummy.m */,
-				E4090A981A2000BAD56E27DCE47CBDB0 /* PoporIDBankCard-prefix.pch */,
-				55F6455247356808F203AD9BF63675FC /* PoporIDBankCard-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PoporIDBankCard";
 			sourceTree = "<group>";
 		};
 		22F67ED28077D535AF949BF9B265D946 /* UI */ = {
@@ -757,21 +774,6 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
-		235017A23D10A6AEC5004B6731827049 /* ScanVC */ = {
-			isa = PBXGroup;
-			children = (
-				843C1AA907663F3272943AD4E0905092 /* XLBankScanViewController.h */,
-				35C6C0F6B723BBA1282114A59A268E55 /* XLBankScanViewController.m */,
-				45D8F3AEA230933E50D10A653E53B7DC /* XLBaseViewController.h */,
-				3DBD01771EA4F06D7A26E040F43FB9D4 /* XLBaseViewController.m */,
-				1EC39E5FD8EDDA9C2659ABC3AFB2B21E /* XLIDScanViewController.h */,
-				4ECA3F47F8A4B2BF676A198DD03978AB /* XLIDScanViewController.m */,
-				840944672E13D2A487AFF1BBDDEBD997 /* XLScanBaseViewController.h */,
-				4B07908E1FF172312FC0407F5F9736EC /* XLScanBaseViewController.m */,
-			);
-			name = ScanVC;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -787,6 +789,48 @@
 				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		445B94B180EC6FD6C4E11AD57DA505DF /* PoporIDBankCard */ = {
+			isa = PBXGroup;
+			children = (
+				C2B99F8821D6B627F97C57CCF9F40D7C /* bank_io */,
+				0AA75545B303BF98154BB2CB1CFA02C1 /* Frameworks */,
+				C5ADDFFECFDC7EE719BB3A551E7D2AE4 /* libexidcard */,
+				DB61546ECBB64110CD180C71C0A5C725 /* Pod */,
+				482A9541CF5E8B847B2C53F90FF93D89 /* ScanVC */,
+				C2967199C14CC575558663B099DF8E3F /* Support Files */,
+				11F618B566F51F99BDC8A93AF4A30F2E /* Tool */,
+				4B161F78B074D8D8DC77FD462A237886 /* Views */,
+			);
+			name = PoporIDBankCard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		482A9541CF5E8B847B2C53F90FF93D89 /* ScanVC */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5727AF0BF352E258407A71222C136 /* XLBankScanViewController.h */,
+				17201CC74BA126C3C52227397DB8AEE2 /* XLBankScanViewController.m */,
+				6F5F6817CFB2A85D5E58CC08083A682E /* XLBaseViewController.h */,
+				215FFC4EF76740B06B073E10002A9E54 /* XLBaseViewController.m */,
+				CAC928636632D618610EEB7C9D78D7C6 /* XLIDScanViewController.h */,
+				34BBD83713956E78F86C5528974657A8 /* XLIDScanViewController.m */,
+				7BC22802EC95F0D0D8CC026D79B2531A /* XLScanBaseViewController.h */,
+				97A0CEDA37D0FEFF4E4100122BAFE810 /* XLScanBaseViewController.m */,
+			);
+			name = ScanVC;
+			sourceTree = "<group>";
+		};
+		4B161F78B074D8D8DC77FD462A237886 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43D7E1A0FFB432685CF26223685AF04E /* IDOverLayerView.h */,
+				018124D8A44679A4C44D48CFF0C33194 /* IDOverLayerView.m */,
+				49930AB0D012BA2264D7AB7BE19AB21C /* OverlayView.h */,
+				DDE89B03A0C4CB3508A6DF53EBFBCD7F /* OverlayView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		54F081A0532127C17D5A5C7706F8EEF8 /* Core */ = {
@@ -943,42 +987,12 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		5A04C51554FE47AD6599CF9CC7A4F2C8 /* Tool */ = {
+		5C36F592320A3B8285FEE8816C28D601 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5515B26B9C8CCC00583AEE0B7AAEF671 /* BankCardSearch.h */,
-				7CF727816B86F8A7175C8AC290E6A8EE /* BankCardSearch.m */,
-				318E5888FBA9C3B23A2B68063B6FACA0 /* RectManager.h */,
-				0995301ABB685C6DC3CDF2350D763A64 /* RectManager.m */,
-				66C32B58E1F74ABE88D709A0A90135F3 /* UIImage+Extend.h */,
-				15917E0095B73DD3842BC7970C26AEC6 /* UIImage+Extend.m */,
-				8BA7FD0C690F20CE1FA4D41F3D04ED5E /* XLScanBaseManager.h */,
-				FE2458B5754B003D3183761FB873D6DE /* XLScanBaseManager.m */,
-				CF61EC7159489F83E024BE20C0DC812C /* XLScanManager.h */,
-				699F04FB3A8858347341392651B2A353 /* XLScanManager.m */,
-				7E998701B0995002B53C9D9DCC579A4C /* XLScanManagerControl.h */,
-				13428C097C1D241BEED264159DDA74F2 /* XLScanManagerControl.m */,
-				705B3DE20C10CEC5F0A9A96F44950110 /* XLScanManagerInitialize.h */,
-				AB2571DAAEFA3DFBF6AA92D34C37A04E /* XLScanManagerInitialize.m */,
-				108B7D9B12AE87AA85E91722066F7178 /* XLScanResultModel.h */,
-				846A82AF71288A31B7D1A79BD5B54B22 /* XLScanResultModel.m */,
+				445B94B180EC6FD6C4E11AD57DA505DF /* PoporIDBankCard */,
 			);
-			name = Tool;
-			sourceTree = "<group>";
-		};
-		609D8B91607A1F302C421AB4EFF191E0 /* PoporIDBankCard */ = {
-			isa = PBXGroup;
-			children = (
-				9F07017E397A268C0B94733E77A5BAB0 /* bank_io */,
-				6E00A8D130D1B537E90E9327420364C5 /* libexidcard */,
-				B3B11D4ED5A77E0ED1683766B8578AAF /* Pod */,
-				235017A23D10A6AEC5004B6731827049 /* ScanVC */,
-				22F63AFEBA2644D9C7CD77705B115232 /* Support Files */,
-				5A04C51554FE47AD6599CF9CC7A4F2C8 /* Tool */,
-				7C1C7C80BECD220286DEE20057C1254A /* Views */,
-			);
-			name = PoporIDBankCard;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		68835F2FE7AF12DA192476F44E3D955C /* Pods-PoporIDBankCard_Example */ = {
@@ -1011,33 +1025,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E00A8D130D1B537E90E9327420364C5 /* libexidcard */ = {
-			isa = PBXGroup;
-			children = (
-				4CCB7119E965882D204A6AAD967A18E8 /* commondef.h */,
-				3A58A3DABF5699B4DAACDBA5BDD6101E /* excards.h */,
-				5021921D276C277030B3132131C0133F /* libexidcardios.a */,
-				0130105838053BD44722E59067CA2F99 /* zocr0.lib */,
-			);
-			name = libexidcard;
-			sourceTree = "<group>";
-		};
-		7C1C7C80BECD220286DEE20057C1254A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				C1989C9C635FE9ECCD524E0FD8775D61 /* IDOverLayerView.h */,
-				6002764D721160C12FEACE1E3BF90B1E /* IDOverLayerView.m */,
-				3407E3E2FC8D82B11D4C72D87BDBC5EB /* OverlayView.h */,
-				67CCFE8CBF5A38C354079BF74D82B290 /* OverlayView.m */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BB780D966508302296D114560E67B29D /* Development Pods */,
+				5C36F592320A3B8285FEE8816C28D601 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				0F0BFAA48F3E8E4DF360D09000DB5845 /* Pods */,
 				689050FD34E7A22DBB0A3908F680C105 /* Products */,
@@ -1068,33 +1060,39 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		9F07017E397A268C0B94733E77A5BAB0 /* bank_io */ = {
+		C2967199C14CC575558663B099DF8E3F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4088F74E6E3A54F5896E7A027E1C16BB /* BankCard.h */,
-				16DD75A163E2145EF9B66FE660DF2143 /* exbankcard.h */,
-				63C237888433AB1824791247CA431B5B /* exbankcardcore.h */,
-				91472225446674EC81AD97C6F57F77A9 /* libbankcard.a */,
+				5918BC5944ECE65D3E922D5150E1C622 /* PoporIDBankCard.modulemap */,
+				6B334A34F87E3767F2A67C72EBE64D78 /* PoporIDBankCard.xcconfig */,
+				AB84963821AC520F9B3EB780E70D83C6 /* PoporIDBankCard-dummy.m */,
+				2E7B82C1E2D8CBD6AD5554C7E3882260 /* PoporIDBankCard-prefix.pch */,
+				9161D46258B03CCA18A8B7C7EE0CFBBD /* PoporIDBankCard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PoporIDBankCard";
+			sourceTree = "<group>";
+		};
+		C2B99F8821D6B627F97C57CCF9F40D7C /* bank_io */ = {
+			isa = PBXGroup;
+			children = (
+				72C37970034D8AF5B960C3454EB08A75 /* BankCard.h */,
+				4E1576BB83CCD5198FFCFB53F30D58BC /* exbankcard.h */,
+				DFCEE92AFE1976B78D2FB903664496F3 /* exbankcardcore.h */,
+				3FAE3BC1218D08101C153F0128FD82C8 /* libbankcard.a */,
 			);
 			name = bank_io;
 			sourceTree = "<group>";
 		};
-		B3B11D4ED5A77E0ED1683766B8578AAF /* Pod */ = {
+		C5ADDFFECFDC7EE719BB3A551E7D2AE4 /* libexidcard */ = {
 			isa = PBXGroup;
 			children = (
-				FB624F6F012B03C80AFA40BC649245CD /* LICENSE */,
-				799685EEDA323FCCF37120806BEF5C4C /* PoporIDBankCard.podspec */,
-				FA902EF5C537A9A2FE5B4B78C091ECF4 /* README.md */,
+				976BB6B2513360EDA2E826843359B263 /* commondef.h */,
+				0385BAA13C53B4F04C2CE239BEC3FF55 /* excards.h */,
+				0057FFF898A8386B5CFEB29E57E01F7F /* libexidcardios.a */,
+				1DEF17858911E61AEDDA6A9E6AA4707E /* zocr0.lib */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BB780D966508302296D114560E67B29D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				609D8B91607A1F302C421AB4EFF191E0 /* PoporIDBankCard */,
-			);
-			name = "Development Pods";
+			name = libexidcard;
 			sourceTree = "<group>";
 		};
 		DB59A8DA66B9433E702B43B9FB6C316C /* Masonry */ = {
@@ -1129,6 +1127,16 @@
 			);
 			name = Masonry;
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DB61546ECBB64110CD180C71C0A5C725 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF8486EA66581C5A24776BD92FEA7F /* LICENSE */,
+				9DEF0FE568553D359E9787A4A758EA94 /* PoporIDBankCard.podspec */,
+				194BDA1012BA552A7D11F7AC43FFE8F1 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		FB859F4D16E748F14CB58B9B9BEDCA31 /* Pods-PoporIDBankCard_Tests */ = {
@@ -1799,7 +1807,7 @@
 		};
 		67E32CB11BCC892AF27D85630EFBD286 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 956B6602CBCB36084A5502F0B4BFCFCC /* PoporIDBankCard.xcconfig */;
+			baseConfigurationReference = 6B334A34F87E3767F2A67C72EBE64D78 /* PoporIDBankCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2019,7 +2027,7 @@
 		};
 		D81A7B471213CFCD79CB219BF530C00F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 956B6602CBCB36084A5502F0B4BFCFCC /* PoporIDBankCard.xcconfig */;
+			baseConfigurationReference = 6B334A34F87E3767F2A67C72EBE64D78 /* PoporIDBankCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
