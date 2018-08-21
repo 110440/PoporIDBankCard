@@ -1,0 +1,44 @@
+PODS:
+  - PoporIDBankCard (0.0.1):
+    - PoporIDBankCard/bank_io (= 0.0.1)
+    - PoporIDBankCard/libexidcard (= 0.0.1)
+    - PoporIDBankCard/ScanVC (= 0.0.1)
+    - PoporIDBankCard/Tool (= 0.0.1)
+    - PoporIDBankCard/Views (= 0.0.1)
+    - ReactiveCocoa (~> 2.3.1)
+  - PoporIDBankCard/bank_io (0.0.1):
+    - ReactiveCocoa (~> 2.3.1)
+  - PoporIDBankCard/libexidcard (0.0.1):
+    - ReactiveCocoa (~> 2.3.1)
+  - PoporIDBankCard/ScanVC (0.0.1):
+    - ReactiveCocoa (~> 2.3.1)
+  - PoporIDBankCard/Tool (0.0.1):
+    - ReactiveCocoa (~> 2.3.1)
+  - PoporIDBankCard/Views (0.0.1):
+    - ReactiveCocoa (~> 2.3.1)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI (= 2.3.1)
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - PoporIDBankCard (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReactiveCocoa
+
+EXTERNAL SOURCES:
+  PoporIDBankCard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PoporIDBankCard: 29989ab4d936fefb548dffe7a08f9538741192c6
+  ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
+
+PODFILE CHECKSUM: 4aac058c8da125cb10a732e766247110d31f5535
+
+COCOAPODS: 1.5.3

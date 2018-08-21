@@ -1,0 +1,6 @@
+framework module PoporIDBankCard {
+  umbrella header "PoporIDBankCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

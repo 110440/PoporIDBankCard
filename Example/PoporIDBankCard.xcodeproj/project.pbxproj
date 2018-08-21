@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13BC3D0A997705721EAA21CB /* PoporIDBankCard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PoporIDBankCard.podspec; path = ../PoporIDBankCard.podspec; sourceTree = "<group>"; };
+		13BC3D0A997705721EAA21CB /* PoporIDBankCard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PoporIDBankCard.podspec; path = ../PoporIDBankCard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3719E400BF75F612CF65A5E3 /* Pods-PoporIDBankCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoporIDBankCard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoporIDBankCard_Tests/Pods-PoporIDBankCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4800FB0FF5C41463BD13138D /* Pods-PoporIDBankCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoporIDBankCard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoporIDBankCard_Example/Pods-PoporIDBankCard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		597B9668E1C96F30B1341450 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		597B9668E1C96F30B1341450 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PoporIDBankCard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoporIDBankCard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		936C5F1B8B1CAFA426E726E8 /* Pods-PoporIDBankCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoporIDBankCard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoporIDBankCard_Example/Pods-PoporIDBankCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB28313BCCA8C2D7D639C4AD /* Pods_PoporIDBankCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoporIDBankCard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C776220B02F6FBA9980EB15B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C776220B02F6FBA9980EB15B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E1B27CD1CF2252AE3C6A3BAE /* Pods_PoporIDBankCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoporIDBankCard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -320,10 +320,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PoporIDBankCard_Example/Pods-PoporIDBankCard_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PoporIDBankCard/PoporIDBankCard.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PoporIDBankCard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
