@@ -138,9 +138,8 @@
 #elif TARGET_OS_IPHONE//真机
     ret = EXCARDS_RecoIDCardData(buffer, (int)width, (int)height, (int)rowBytes, (int)8, (char*)pResult, sizeof(pResult));
 #endif
-    
     if (ret <= 0) {
-        NSLog(@"识别失败 ret=[%d]", ret);
+        // NSLog(@"识别失败 ret=[%d]", ret);
     } else {
         NSLog(@"识别成功 ret=[%d]", ret);
         char ctype;

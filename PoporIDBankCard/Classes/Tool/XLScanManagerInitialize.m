@@ -16,10 +16,9 @@ static bool initFlag = NO;
 #if TARGET_IPHONE_SIMULATOR//模拟器
         initFlag = NO;
 #elif TARGET_OS_IPHONE//真机
-       // [NSBundle bundleWithPath:[[NSBundle bundleForClass:[PoporAVPlayerBundle class]] pathForResource:@"icon" ofType:@"bundle"]];
-        
-        const char *thePath = [[[NSBundle mainBundle] resourcePath] UTF8String];
-        thePath = [[[NSBundle bundleForClass:[self class]] resourcePath] UTF8String];
+        NSString * libBundle = [[NSBundle bundleWithPath:[[NSBundle bundleForClass:[XLScanManagerInitialize class]] pathForResource:@"lib" ofType:@"bundle"]] resourcePath];
+        //const char *thePath = [[[NSBundle mainBundle] resourcePath] UTF8String];
+        const char *thePath = [libBundle UTF8String];
         int ret = EXCARDS_Init(thePath);
         if (ret != 0) {
             NSLog(@"初始化失败：ret=%d", ret);

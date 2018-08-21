@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.static_framework      = true # 只有真机可运行,.a库不支持虚拟机.
     
     s.vendored_libraries = 'PoporIDBankCard/Classes/bank_io/*.a','PoporIDBankCard/Classes/libexidcard/*.a'
-    
+    s.resource           = 'PoporIDBankCard/Classes/lib.bundle'
     
     s.subspec 'ScanVC' do |ss|
         ss.source_files = 'PoporIDBankCard/Classes/ScanVC/*.{h,m}'
@@ -35,7 +35,8 @@ Pod::Spec.new do |s|
     
     # 身份证
     s.subspec 'libexidcard' do |ss|
-        ss.source_files = 'PoporIDBankCard/Classes/libexidcard/*.{h,a,lib}'
+        ss.source_files = 'PoporIDBankCard/Classes/libexidcard/*.{h,a}'
+        #ss.source_files = 'PoporIDBankCard/Classes/libexidcard/*.{h,a,lib}'
     end
     
     # 银行卡
