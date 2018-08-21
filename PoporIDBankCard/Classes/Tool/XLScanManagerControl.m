@@ -74,7 +74,13 @@
     int height = ceilf(height_t);
     
     unsigned char result [512];
-    int resultLen = BankCardNV12(result, 512, pixelAddress, cbCrBuffer, width, height, rect.origin.x, rect.origin.y, rect.origin.x+rect.size.width, rect.origin.y+rect.size.height);
+    
+    int resultLen;
+#if TARGET_IPHONE_SIMULATOR//模拟器
+    return;
+#elif TARGET_OS_IPHONE//真机
+    resultLen = BankCardNV12(result, 512, pixelAddress, cbCrBuffer, width, height, rect.origin.x, rect.origin.y, rect.origin.x+rect.size.width, rect.origin.y+rect.size.height);
+#endif
     
     if(resultLen > 0) {
         
@@ -126,7 +132,13 @@
     memcpy(buffer, pixelAddress, sizeof(unsigned char) * width * height);
     
     unsigned char pResult[1024];
-    int ret = EXCARDS_RecoIDCardData(buffer, (int)width, (int)height, (int)rowBytes, (int)8, (char*)pResult, sizeof(pResult));
+    int ret = 0;
+#if TARGET_IPHONE_SIMULATOR//模拟器
+    
+    return;
+#elif TARGET_OS_IPHONE//真机
+    ret = EXCARDS_RecoIDCardData(buffer, (int)width, (int)height, (int)rowBytes, (int)8, (char*)pResult, sizeof(pResult));
+#endif
     if (ret <= 0) {
 //        NSLog(@"ret=[%d]", ret);
     }

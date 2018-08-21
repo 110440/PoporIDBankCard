@@ -89,6 +89,9 @@
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+#if TARGET_IPHONE_SIMULATOR//模拟器
+    NSLog(@"不支持虚拟机环境");
+#elif TARGET_OS_IPHONE//真机
     switch (indexPath.row) {
         case 0:
             [self pushBankCardOCR];
@@ -100,6 +103,8 @@
         default:
             break;
     }
+#endif
+    
 }
 
 - (void)pushBankCardOCR {
