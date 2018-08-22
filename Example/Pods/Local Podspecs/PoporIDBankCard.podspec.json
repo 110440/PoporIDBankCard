@@ -30,24 +30,40 @@
   },
   "subspecs": [
     {
-      "name": "ScanVC",
-      "source_files": "PoporIDBankCard/Classes/ScanVC/*.{h,m}"
-    },
-    {
-      "name": "Tool",
-      "source_files": "PoporIDBankCard/Classes/Tool/*.{h,m}"
-    },
-    {
-      "name": "Views",
-      "source_files": "PoporIDBankCard/Classes/Views/*.{h,m}"
+      "name": "bank_io",
+      "source_files": "PoporIDBankCard/Classes/bank_io/*.{h,a}"
     },
     {
       "name": "libexidcard",
       "source_files": "PoporIDBankCard/Classes/libexidcard/*.{h,a}"
     },
     {
-      "name": "bank_io",
-      "source_files": "PoporIDBankCard/Classes/bank_io/*.{h,a}"
+      "name": "Views",
+      "source_files": "PoporIDBankCard/Classes/Views/*.{h,m}"
+    },
+    {
+      "name": "Tool",
+      "dependencies": {
+        "PoporIDBankCard/libexidcard": [
+
+        ],
+        "PoporIDBankCard/bank_io": [
+
+        ],
+        "PoporIDBankCard/Views": [
+
+        ]
+      },
+      "source_files": "PoporIDBankCard/Classes/Tool/*.{h,m}"
+    },
+    {
+      "name": "ScanVC",
+      "dependencies": {
+        "PoporIDBankCard/Tool": [
+
+        ]
+      },
+      "source_files": "PoporIDBankCard/Classes/ScanVC/*.{h,m}"
     }
   ]
 }

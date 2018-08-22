@@ -18,30 +18,50 @@ Pod::Spec.new do |s|
     
     s.platform              = :ios
     s.ios.deployment_target = '8.0'
+    
     s.static_framework      = true # 只有真机可运行,.a库不支持虚拟机.
+    s.vendored_libraries    = 'PoporIDBankCard/Classes/bank_io/*.a','PoporIDBankCard/Classes/libexidcard/*.a'
     
-    s.vendored_libraries = 'PoporIDBankCard/Classes/bank_io/*.a','PoporIDBankCard/Classes/libexidcard/*.a'
-    s.resource           = 'PoporIDBankCard/Classes/lib.bundle'
+    # lib放到bundle里面,不然pod找不见.
+    s.resource              = 'PoporIDBankCard/Classes/lib.bundle'
     
-    s.subspec 'ScanVC' do |ss|
-        ss.source_files = 'PoporIDBankCard/Classes/ScanVC/*.{h,m}'
-    end
-    s.subspec 'Tool' do |ss|
-        ss.source_files = 'PoporIDBankCard/Classes/Tool/*.{h,m}'
-    end
-    s.subspec 'Views' do |ss|
-        ss.source_files = 'PoporIDBankCard/Classes/Views/*.{h,m}'
+    # 下面的3个功能目前不清楚.
+    #s.framework = "Foundation", "UIKit"
+    #s.library = 'c++'
+    #ss.compiler_flags = '-DOS_OBJECT_USE_OBJC=0', '-Wno-format'
+    
+    # 银行卡
+    s.subspec 'bank_io' do |ss|
+        
+        ss.source_files = 'PoporIDBankCard/Classes/bank_io/*.{h,a}'
     end
     
     # 身份证
     s.subspec 'libexidcard' do |ss|
+        #ss.compiler_flags = '-DOS_OBJECT_USE_OBJC=0', '-Wno-format'
+
         ss.source_files = 'PoporIDBankCard/Classes/libexidcard/*.{h,a}'
-        #ss.source_files = 'PoporIDBankCard/Classes/libexidcard/*.{h,a,lib}'
     end
     
-    # 银行卡
-    s.subspec 'bank_io' do |ss|
-        ss.source_files = 'PoporIDBankCard/Classes/bank_io/*.{h,a}'
+    # views
+    s.subspec 'Views' do |ss|
+        ss.source_files = 'PoporIDBankCard/Classes/Views/*.{h,m}'
+    end
+    
+    # 扫描工具
+    s.subspec 'Tool' do |ss|
+        #ss.ios.dependency 'PoporFoundation/PrefixCore'
+        ss.dependency 'PoporIDBankCard/libexidcard'
+        ss.dependency 'PoporIDBankCard/bank_io'
+        ss.dependency 'PoporIDBankCard/Views'
+        
+        ss.source_files = 'PoporIDBankCard/Classes/Tool/*.{h,m}'
+    end
+    
+    s.subspec 'ScanVC' do |ss|
+        ss.dependency 'PoporIDBankCard/Tool'
+        
+        ss.source_files = 'PoporIDBankCard/Classes/ScanVC/*.{h,m}'
     end
     
     # 依赖
