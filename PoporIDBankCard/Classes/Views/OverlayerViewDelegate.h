@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "OverlayerViewTool.h"
 
 @protocol OverlayerViewDelegate <NSObject>
 

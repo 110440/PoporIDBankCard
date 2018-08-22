@@ -11,6 +11,7 @@
 #import <Masonry/Masonry.h>
 #import "XLBankScanViewController.h"
 #import "XLIDScanViewController.h"
+#import "OverlayerIDJchView.h"
 
 @interface PoporIDBankCardViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -112,7 +113,16 @@
 }
 
 - (void)pushIDCardOCR {
-    [self.navigationController pushViewController:[XLIDScanViewController new] animated:YES];
+    CGRect rect = [OverlayerViewTool getOverlayFrame:[UIScreen mainScreen].bounds];
+    OverlayerIDJchView * layerView = [[OverlayerIDJchView alloc] initWithFrame:rect];
+    
+    XLIDScanViewController * vc = [XLIDScanViewController new];
+    vc.layerView = layerView;
+    vc.customeViewDidLoad = ^(XLIDScanViewController *vc) {
+        vc.title = @"自定义title";
+    };
+    
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

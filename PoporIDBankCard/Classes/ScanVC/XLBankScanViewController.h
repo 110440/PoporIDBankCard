@@ -11,7 +11,7 @@
 
 @interface XLBankScanViewController : XLScanBaseViewController
 
-@property (nonatomic, copy  ) void(^customeOverLayer)(UIView<OverlayerViewDelegate> * layerView);
+@property (nonatomic, strong) UIView<OverlayerViewDelegate> *layerView;
 @property (nonatomic, copy  ) void(^customeViewDidLoad)(XLBankScanViewController * vc);
 
 @end

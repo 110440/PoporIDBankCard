@@ -9,79 +9,81 @@
 /* Begin PBXBuildFile section */
 		0192F6C257532571397302894FD4992A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0413208A707F6770F23A42B3001E9B5E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		04198F1537ED6AC45DE8D8C2362D139E /* BankCardSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = F5622F66BADF4FC2875E614B2974F4D9 /* BankCardSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		047BD48DE66931394A7C768E56F4228F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		059F8300E6F0AA30E06D6FAFF1F78E78 /* UIImage+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D21B32979198E9A5EEE19674DA5B7A /* UIImage+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AD4683BECAE920A409024D21C43E67 /* XLScanResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF06288A2C85BF6688627490479574D /* XLScanResultModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06AC7884D3A65A6A4A56AFBFD443D2BF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		079BBE62EF3AC1282571CDAC1FA7145C /* XLScanManagerControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5F13BCB47638B8EDBA6CB6E648DAC7 /* XLScanManagerControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0819E555BDC1E962F569732AFBF4EBEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FB22DF1798062A4BD44768FA94FE133 /* XLScanBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A504955DB62AEC2FB9684911D00E3 /* XLScanBaseManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		09387654E8FA86669FF08E925940904C /* XLScanManagerInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9DB3BD1959C7E946171955D4F029E /* XLScanManagerInitialize.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F0604C38933E1B40A463C8ED62CA2A5 /* XLScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E77A57DD0D02D7464E38A3A535473 /* XLScanManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		167EA77D587A11D8CB9FEB250ED842CC /* XLScanManagerInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F202BA5FEF3811E1D3D7B1BF5A6B56D /* XLScanManagerInitialize.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		109468467638CEF70F9A7146823C21D8 /* OverlayerIDView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0122D21C8FABD639583C7DCF61B0DF /* OverlayerIDView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1729AD173486DDE88D75DAC9C01EE5F7 /* XLScanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C53507D5C8AA609B41BE6740E51C3F /* XLScanManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1751636E4BE7A5E1FCEE08698BD60CE2 /* exbankcard.h in Headers */ = {isa = PBXBuildFile; fileRef = C04A3DD8C5EAF93DED4713D3A06EFA46 /* exbankcard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A298F89B7D51E7ACD5EEB32FFC2C18 /* OverlayerViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 714164F0CEAE2124B0D1CE44280CB243 /* OverlayerViewTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		197FEFFD9BF6022B2C9732EC360AD7A7 /* Pods-PoporIDBankCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A249454EFB4FEF652A617469C84C20F2 /* Pods-PoporIDBankCard_Example-dummy.m */; };
-		209DAAD96985FE92D068482B75A9571E /* libbankcard.a in Sources */ = {isa = PBXBuildFile; fileRef = 5026F1905738D04319969743E0A08E04 /* libbankcard.a */; };
-		24F46FEDD497AC8C85A4304C07870C3D /* XLScanManagerInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C05E33CEE22E9DE71696578321BCEA8 /* XLScanManagerInitialize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2346E033F76E107D76C945A0FC74E44A /* XLScanManagerControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C01012305710744F8358CD14195380F /* XLScanManagerControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2347802850351893E84053A7BBBB98ED /* XLIDScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 287E4B0A2A5D4F74DF3F78BB1A6FDCAD /* XLIDScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		286DF5EBE1C48D3DCBDB7381E7AD9290 /* commondef.h in Headers */ = {isa = PBXBuildFile; fileRef = A156408D4557C3025F159F515E7005B2 /* commondef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29030EA034F1C78D846F87972EC468AD /* commondef.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E959ACE0E07C1E6A52F915A14FD9648 /* commondef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BEBD5567ECBC581A0501928AC1A4775 /* XLScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AB417815AF4E48E93DB35EE3CA79C7 /* XLScanBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2E06CE583CF00D3050D8A1961E269CE2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		306FF68404563D85BCEC4999B35650E0 /* OverlayerBankView.h in Headers */ = {isa = PBXBuildFile; fileRef = E012419E309CE1512F3474BC4121C60A /* OverlayerBankView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3689BD5339FA7724AFE434352C8B7811 /* lib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07E4AFC6EE55186FA259720FAA2FD046 /* lib.bundle */; };
+		31609BAF4CA79D36A7F8D40E088F96BA /* XLBankScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B4237B7435963482E104F69E7CD5353D /* XLBankScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3689BD5339FA7724AFE434352C8B7811 /* lib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E2C37670F5B8B306B212382E633A917 /* lib.bundle */; };
 		389A2666B43656648AD33AFD7879FB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		3A5BEAC80A23A650221C2C8D6734A012 /* XLScanResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 206731DCAADB5F5CB264DAA159B4BDA8 /* XLScanResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BB821588E95FFEA0CACED3895029AB9 /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1521EB72CD6E38E4E6784ABBF0455A1A /* RectManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F64B785AF7353287DD1C14016ACE959 /* XLBankScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC02E47775C5D765C5EDBD88B525B90B /* XLBankScanViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4659B2125519FE5977DEDA6076CEBCC9 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59AD842356717EEA8CF59F1327ADE428 /* OverlayerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CDD5B609F50CEDA57EDAE1749D632D7 /* OverlayerViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C4A82A100FC3613F27C52C28D798B7A /* XLScanManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DD4D67041772F23A00C252437AA9D0 /* XLScanManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55E1DAD1A77E4A888C90A6E7758ACD79 /* exbankcardcore.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3472049FF4D14220C9A4FD9E4E76B /* exbankcardcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60635349E1797676CCA1165045198BD1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		61CB74FC5ACCA254972A0A3F4EEC9921 /* OverlayerBankView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE7CE9EFA7F62EED5239D9CEC1C7CB1 /* OverlayerBankView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6506CF075B4BDFA90E215508988FE878 /* exbankcardcore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1D6C29BA70A64F07CBED61D14F5359 /* exbankcardcore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67C8C181DDC5622E2B45949FD1D9B8D6 /* BankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A986759213E248CF1D71C24FD741F06 /* BankCardSearch.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		68DBA82BF5A9F4B1442CB2D753F7553A /* Pods-PoporIDBankCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A860E75AE02489BFAEA5BE5F95CC428 /* Pods-PoporIDBankCard_Tests-dummy.m */; };
-		6D6A160654F2536506D2BA563BE7DF75 /* XLScanManagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F648FFC129E3431C70BA1A3AACD1A694 /* XLScanManagerControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6FB12B67F6A8FE2A53C22E8F61A25F0A /* XLScanResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 500F15BA17641C4B3D72B0196FD1932B /* XLScanResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70344C1183D2B9EE1A617AC72BB2C708 /* XLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF9E93A3227C666D24B18C571E5257 /* XLBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6A0AD3D11725298E4DCF368DE60B82E9 /* PoporIDBankCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB06A1C233059406B6670C235F631B6 /* PoporIDBankCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6D593F72B761697F5447F17F5373E4 /* OverlayerIDView.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAF0082DDFD584A254F6346575FD8E0 /* OverlayerIDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B64410D4CD901E368B03BB1B574127B /* XLIDScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD078AA38B70F1C871B508358BAEF91A /* XLIDScanViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6CFD72326FCE8D6D6899DDD5733CF5D3 /* excards.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B69C418869CD6CD543B0561CA4C614 /* excards.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		716475937A9612FB91D9E82059FFD6E6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		71864E25A4E0C99E740474AD596F9B24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		723C65E411A5C05E16DB4B6B1C693B19 /* XLBankScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52253B08512DCAE809ED7A1715C8D88 /* XLBankScanViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72E87B8496381E6E40DDB1A3078781CB /* BankCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E73137DB12337329B3D5A902DC6A001 /* BankCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77B01CD441252B1E23DA46FB28486CCB /* OverlayerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB8BC4D335EEB7EB9CFC8751D075652 /* OverlayerViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78760302595AC1AC5BC8374A7495D525 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		787D1D98E3DD358105B22E48A862504F /* PoporIDBankCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2986989C202B3237210B70A24B91CFD2 /* PoporIDBankCard-dummy.m */; };
+		7A76D9CDF592DED45CC4EF1454F1DBA7 /* XLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF11F5ADDEF852099C0C225208B12F24 /* XLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DC623B3C968A7BBA7A1735678B9463D /* exbankcard.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA0ADF3CCF02AEDB10D5C5F59C2985D /* exbankcard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FDC803A226DCB62DB1DD81FFD6DA611 /* XLIDScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A318E0B07E7858C81228FE0752617A4F /* XLIDScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E92DC5ECA9DB664B99EE006473EFEFF /* RectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 36020866E74F30D43BB5807915297933 /* RectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		816AA6C651AE9E9E3CEF5B3ED45C9C11 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
-		8181B9E57DC9E09F048FE9D36CBEE47B /* PoporIDBankCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BF76FB4DDA8388B8F10EA13581930F /* PoporIDBankCard-dummy.m */; };
-		81B35E7049EE90DB12801FC845F1EEA8 /* BankCardSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 263AA97559B0ADC47A37EB9AEEF35F45 /* BankCardSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		853B51A6B285CB9F3D7D975162D5FEBE /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF69F54E9A61ECD545C63D47B3A7D5 /* UIImage+Extend.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		856C2DE29CAF9945E78DCE65A6A01B69 /* OverlayerBankView.m in Sources */ = {isa = PBXBuildFile; fileRef = F538F472BEBDDAFA9E5238C6A2FCD7A6 /* OverlayerBankView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A7503F1DE2ABAF03FA8716D711604D8 /* excards.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4828EE02212B9DAED059FFB3D37393 /* excards.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A34317A4A594DD15BD2312702D6F238 /* OverlayerViewTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A46B5A4DE10992CD3D333D29CCFADF79 /* OverlayerViewTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E2395E1658343775116934C9E9486A4 /* OverlayerIDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 489304C44F651F9F522B3FC2E45DFA7A /* OverlayerIDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92F7A20AB0719280AAA6B59E4F903EAE /* Pods-PoporIDBankCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0F0750BF3A176E0A8EF0376A245690 /* Pods-PoporIDBankCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A27F5C5F4AA9885429FE617C58E1ACB9 /* XLScanBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C46809B9380016DC7750362E99001794 /* XLScanBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD866C7F19AD46815D9DFEF3543EA9B4 /* libexidcardios.a in Sources */ = {isa = PBXBuildFile; fileRef = CAD7B17623853FDB7BF397323E124818 /* libexidcardios.a */; };
-		B281FF4C4155FFB788D88465BB5F2662 /* XLBankScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5E9715AC78C8F5BFFEA2D928AE85A8 /* XLBankScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B32C245C9454CED17CC1FEF7A3EA7780 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B7CDD27F4C34E9A6674164BF286F4 /* UIImage+Extend.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9BC1BABA91CB3FEC1524E3F6A510AC1E /* BankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 15590349BED824C64872EC911706C036 /* BankCardSearch.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B33AA04021587DE8322DB771DB192BC6 /* XLScanBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC61729AEC6A4697207869F503839EF /* XLScanBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7824DCE1BE3EA7B842EA2C29E1A9428 /* PoporIDBankCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 975140194A479BACC71CEA13451F973C /* PoporIDBankCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE6EEDD60806B015D065AC5D07575865 /* BankCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2B541ACA800D9C00753483A02498FB /* BankCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEE396C5E9C9661D8DE63EAB420FA348 /* RectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF315D58B21FED557DF0FECDE00D68E /* RectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B3AA1785FD70F532D5954B6BFA26F3 /* XLScanBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E054AE91D4288E9313D0B846DF4BB7 /* XLScanBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEC7DAA156078C2F9FCFFABC5FC45C7 /* XLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9AF3C8801673C2A77F6D4403C5990 /* XLBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BC8C6DBF632B0199D831535FCA448033 /* libbankcard.a in Sources */ = {isa = PBXBuildFile; fileRef = 87984F2A796E2720078D53324A0F1675 /* libbankcard.a */; };
+		BE9D4176DFD7E40B432917DBB4D4D26A /* libexidcardios.a in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D00193816D9D0EC15F06F081D01D2 /* libexidcardios.a */; };
+		BF0BA9A5CACA641B3ADBEFE759093287 /* XLScanBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38C916609BE0795FD8C611E31FE81 /* XLScanBaseManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C35A8D3D13248738209FA171BF05BFB7 /* XLScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0612B8B78573FCFE4004AEBC63629BB /* XLScanBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C431DCDCCF9EE5A580794C726F925900 /* XLScanManagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4583EE5637804D7DCA0B56787C296262 /* XLScanManagerControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7BF1FA7C1C2DC9B9007D827D8667F83 /* XLScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A9E75364D24C69219C81581A833B2C /* XLScanManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D8651E07A623EA769291E9DEC9325752 /* OverlayerIDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A355A2CD9BB7D5B2D1A4FE194166EF7 /* OverlayerIDView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D069FA1880DDF9FB384106ED29CD1B35 /* XLScanManagerInitialize.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1BB2289479628A7F881C9AFA4CC0B /* XLScanManagerInitialize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8E80981069F085BCA012835256F8092 /* XLScanResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F35688130653D7A3727EC1B7E895D4 /* XLScanResultModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EA888CABD6B2305C25A210B94AC52B45 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EC878D3D2422BF1423CEE679E52B4690 /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D09A35BB39FC8D2DFBFB433FE2A89 /* RectManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F28761D09F60DDFFEFB610D747078FA5 /* Pods-PoporIDBankCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EB92737868C09034D72E3A94448692 /* Pods-PoporIDBankCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F332FF13EFC3C43560897F86EF69B987 /* XLScanBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA59B6356B2CDA2A9C579325684E0D2C /* XLScanBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F492E35E5010ADD6CA2028103CB2D1A7 /* OverlayerBankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E5F3DC0370882E48C86860F9696496 /* OverlayerBankView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F7E8BE5BA4719C03D4EF181E492AD806 /* XLIDScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1686940BC4EFD8C98966006A98E2A /* XLIDScanViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F8467644910E4030F8212F7BD08F2575 /* UIImage+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = E598AEC56A665BC1DCEF141893BF474F /* UIImage+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC5776BF7A027285C697F221E07DE0AA /* XLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4C118DE30FC23FA08D9A1165E4ED90 /* XLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,107 +111,109 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B69C418869CD6CD543B0561CA4C614 /* excards.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = excards.h; path = PoporIDBankCard/Classes/libexidcard/excards.h; sourceTree = "<group>"; };
+		02D21B32979198E9A5EEE19674DA5B7A /* UIImage+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extend.h"; path = "PoporIDBankCard/Classes/Tool/UIImage+Extend.h"; sourceTree = "<group>"; };
 		0306735DB30A4E3DD7F6042DA0964E24 /* Pods-PoporIDBankCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporIDBankCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04FFEC316E6C88DCB51322BA41C7A65D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		05085FF93BB3208E7CFB9EA3FF310C8E /* Pods-PoporIDBankCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporIDBankCard_Example.modulemap"; sourceTree = "<group>"; };
-		07E4AFC6EE55186FA259720FAA2FD046 /* lib.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = lib.bundle; path = PoporIDBankCard/Classes/lib.bundle; sourceTree = "<group>"; };
+		07B46A44404B92490782CDDD16BF39FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		09D349138416912D296E6A471944B5B8 /* Pods-PoporIDBankCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporIDBankCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0A355A2CD9BB7D5B2D1A4FE194166EF7 /* OverlayerIDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OverlayerIDView.m; path = PoporIDBankCard/Classes/Views/OverlayerIDView.m; sourceTree = "<group>"; };
-		0A3B7CDD27F4C34E9A6674164BF286F4 /* UIImage+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "PoporIDBankCard/Classes/Tool/UIImage+Extend.m"; sourceTree = "<group>"; };
-		0D5F13BCB47638B8EDBA6CB6E648DAC7 /* XLScanManagerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManagerControl.h; path = PoporIDBankCard/Classes/Tool/XLScanManagerControl.h; sourceTree = "<group>"; };
+		0BF06288A2C85BF6688627490479574D /* XLScanResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanResultModel.m; path = PoporIDBankCard/Classes/Tool/XLScanResultModel.m; sourceTree = "<group>"; };
+		0C01012305710744F8358CD14195380F /* XLScanManagerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManagerControl.h; path = PoporIDBankCard/Classes/Tool/XLScanManagerControl.h; sourceTree = "<group>"; };
+		0DE7CE9EFA7F62EED5239D9CEC1C7CB1 /* OverlayerBankView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayerBankView.h; path = PoporIDBankCard/Classes/Views/OverlayerBankView.h; sourceTree = "<group>"; };
 		101CBBDAE0A9C28AFD7C1E28653DC909 /* Pods-PoporIDBankCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporIDBankCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		13FAA11E62C33941B0337BE5830F9280 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1C1D6C29BA70A64F07CBED61D14F5359 /* exbankcardcore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exbankcardcore.h; path = PoporIDBankCard/Classes/bank_io/exbankcardcore.h; sourceTree = "<group>"; };
-		1CDD5B609F50CEDA57EDAE1749D632D7 /* OverlayerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayerViewDelegate.h; path = PoporIDBankCard/Classes/Views/OverlayerViewDelegate.h; sourceTree = "<group>"; };
+		1521EB72CD6E38E4E6784ABBF0455A1A /* RectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RectManager.m; path = PoporIDBankCard/Classes/Tool/RectManager.m; sourceTree = "<group>"; };
+		15590349BED824C64872EC911706C036 /* BankCardSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BankCardSearch.m; path = PoporIDBankCard/Classes/Tool/BankCardSearch.m; sourceTree = "<group>"; };
+		18E054AE91D4288E9313D0B846DF4BB7 /* XLScanBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanBaseViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLScanBaseViewController.h; sourceTree = "<group>"; };
+		1E73137DB12337329B3D5A902DC6A001 /* BankCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankCard.h; path = PoporIDBankCard/Classes/bank_io/BankCard.h; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		263AA97559B0ADC47A37EB9AEEF35F45 /* BankCardSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankCardSearch.h; path = PoporIDBankCard/Classes/Tool/BankCardSearch.h; sourceTree = "<group>"; };
+		1FC61729AEC6A4697207869F503839EF /* XLScanBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanBaseManager.h; path = PoporIDBankCard/Classes/Tool/XLScanBaseManager.h; sourceTree = "<group>"; };
+		206731DCAADB5F5CB264DAA159B4BDA8 /* XLScanResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanResultModel.h; path = PoporIDBankCard/Classes/Tool/XLScanResultModel.h; sourceTree = "<group>"; };
+		287E4B0A2A5D4F74DF3F78BB1A6FDCAD /* XLIDScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLIDScanViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLIDScanViewController.h; sourceTree = "<group>"; };
+		2986989C202B3237210B70A24B91CFD2 /* PoporIDBankCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporIDBankCard-dummy.m"; sourceTree = "<group>"; };
 		2A860E75AE02489BFAEA5BE5F95CC428 /* Pods-PoporIDBankCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporIDBankCard_Tests-dummy.m"; sourceTree = "<group>"; };
-		2A986759213E248CF1D71C24FD741F06 /* BankCardSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BankCardSearch.m; path = PoporIDBankCard/Classes/Tool/BankCardSearch.m; sourceTree = "<group>"; };
+		2E2C37670F5B8B306B212382E633A917 /* lib.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = lib.bundle; path = PoporIDBankCard/Classes/lib.bundle; sourceTree = "<group>"; };
 		2E9D24793426EDE1A5CDE5898609C9FE /* Pods_PoporIDBankCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PoporIDBankCard_Tests.framework; path = "Pods-PoporIDBankCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		30AA3A9F0547CAEEB11D0B2699763C9E /* Pods-PoporIDBankCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporIDBankCard_Tests.modulemap"; sourceTree = "<group>"; };
 		34BF4BBF07F5F611C8EA959E4E36A589 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36020866E74F30D43BB5807915297933 /* RectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RectManager.h; path = PoporIDBankCard/Classes/Tool/RectManager.h; sourceTree = "<group>"; };
 		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3B2D09A35BB39FC8D2DFBFB433FE2A89 /* RectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RectManager.m; path = PoporIDBankCard/Classes/Tool/RectManager.m; sourceTree = "<group>"; };
-		3C05E33CEE22E9DE71696578321BCEA8 /* XLScanManagerInitialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManagerInitialize.h; path = PoporIDBankCard/Classes/Tool/XLScanManagerInitialize.h; sourceTree = "<group>"; };
+		3D8D00193816D9D0EC15F06F081D01D2 /* libexidcardios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libexidcardios.a; path = PoporIDBankCard/Classes/libexidcard/libexidcardios.a; sourceTree = "<group>"; };
+		42C1BB2289479628A7F881C9AFA4CC0B /* XLScanManagerInitialize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManagerInitialize.h; path = PoporIDBankCard/Classes/Tool/XLScanManagerInitialize.h; sourceTree = "<group>"; };
 		444551B96FA055F5F8E6E6C159AD26DE /* Pods_PoporIDBankCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PoporIDBankCard_Example.framework; path = "Pods-PoporIDBankCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		489304C44F651F9F522B3FC2E45DFA7A /* OverlayerIDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayerIDView.h; path = PoporIDBankCard/Classes/Views/OverlayerIDView.h; sourceTree = "<group>"; };
-		4D464CB6946AACCC3AEFDDE88AE513E0 /* PoporIDBankCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PoporIDBankCard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		500F15BA17641C4B3D72B0196FD1932B /* XLScanResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanResultModel.h; path = PoporIDBankCard/Classes/Tool/XLScanResultModel.h; sourceTree = "<group>"; };
-		5026F1905738D04319969743E0A08E04 /* libbankcard.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libbankcard.a; path = PoporIDBankCard/Classes/bank_io/libbankcard.a; sourceTree = "<group>"; };
+		4583EE5637804D7DCA0B56787C296262 /* XLScanManagerControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManagerControl.m; path = PoporIDBankCard/Classes/Tool/XLScanManagerControl.m; sourceTree = "<group>"; };
+		4CB8BC4D335EEB7EB9CFC8751D075652 /* OverlayerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayerViewDelegate.h; path = PoporIDBankCard/Classes/Views/OverlayerViewDelegate.h; sourceTree = "<group>"; };
+		4FEC3C501C55F10A6CBAFDE8A8D78041 /* PoporIDBankCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PoporIDBankCard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		5A2B541ACA800D9C00753483A02498FB /* BankCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankCard.h; path = PoporIDBankCard/Classes/bank_io/BankCard.h; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		5E084652121D0565D573106FB5349C07 /* Pods-PoporIDBankCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporIDBankCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F202BA5FEF3811E1D3D7B1BF5A6B56D /* XLScanManagerInitialize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManagerInitialize.m; path = PoporIDBankCard/Classes/Tool/XLScanManagerInitialize.m; sourceTree = "<group>"; };
-		60DD4D67041772F23A00C252437AA9D0 /* XLScanManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManager.h; path = PoporIDBankCard/Classes/Tool/XLScanManager.h; sourceTree = "<group>"; };
+		60C778E048866F172AE95160F48215A3 /* PoporIDBankCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporIDBankCard.xcconfig; sourceTree = "<group>"; };
 		610127C5B38D76EF9333B39C3E25BD1A /* Pods-PoporIDBankCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporIDBankCard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		64A9E75364D24C69219C81581A833B2C /* XLScanManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManager.m; path = PoporIDBankCard/Classes/Tool/XLScanManager.m; sourceTree = "<group>"; };
-		64BF76FB4DDA8388B8F10EA13581930F /* PoporIDBankCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporIDBankCard-dummy.m"; sourceTree = "<group>"; };
+		68A9AF3C8801673C2A77F6D4403C5990 /* XLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBaseViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLBaseViewController.m; sourceTree = "<group>"; };
+		6DF9DB3BD1959C7E946171955D4F029E /* XLScanManagerInitialize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManagerInitialize.m; path = PoporIDBankCard/Classes/Tool/XLScanManagerInitialize.m; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		714164F0CEAE2124B0D1CE44280CB243 /* OverlayerViewTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OverlayerViewTool.m; path = PoporIDBankCard/Classes/Views/OverlayerViewTool.m; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		7DCBD2B590835FFD7B35545147B32B97 /* PoporIDBankCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporIDBankCard.modulemap; sourceTree = "<group>"; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83E5F3DC0370882E48C86860F9696496 /* OverlayerBankView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OverlayerBankView.m; path = PoporIDBankCard/Classes/Views/OverlayerBankView.m; sourceTree = "<group>"; };
-		8452D9144CFD13A8FFD7A37CA6F91BEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		83C3472049FF4D14220C9A4FD9E4E76B /* exbankcardcore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exbankcardcore.h; path = PoporIDBankCard/Classes/bank_io/exbankcardcore.h; sourceTree = "<group>"; };
 		85EB92737868C09034D72E3A94448692 /* Pods-PoporIDBankCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporIDBankCard_Example-umbrella.h"; sourceTree = "<group>"; };
 		867D78E80754C85E4F15A9AEBB463EA3 /* Pods-PoporIDBankCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporIDBankCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C3F4A4C64606EA5A069FC40D48289DA /* PoporIDBankCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporIDBankCard-prefix.pch"; sourceTree = "<group>"; };
-		8EF1686940BC4EFD8C98966006A98E2A /* XLIDScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLIDScanViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLIDScanViewController.m; sourceTree = "<group>"; };
+		87984F2A796E2720078D53324A0F1675 /* libbankcard.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libbankcard.a; path = PoporIDBankCard/Classes/bank_io/libbankcard.a; sourceTree = "<group>"; };
+		8AF38C916609BE0795FD8C611E31FE81 /* XLScanBaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanBaseManager.m; path = PoporIDBankCard/Classes/Tool/XLScanBaseManager.m; sourceTree = "<group>"; };
+		8E959ACE0E07C1E6A52F915A14FD9648 /* commondef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commondef.h; path = PoporIDBankCard/Classes/libexidcard/commondef.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		972D86EDBAC275F8775E80B1078AB7C0 /* PoporIDBankCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoporIDBankCard.framework; path = PoporIDBankCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		975140194A479BACC71CEA13451F973C /* PoporIDBankCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporIDBankCard-umbrella.h"; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		A156408D4557C3025F159F515E7005B2 /* commondef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commondef.h; path = PoporIDBankCard/Classes/libexidcard/commondef.h; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		A249454EFB4FEF652A617469C84C20F2 /* Pods-PoporIDBankCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporIDBankCard_Example-dummy.m"; sourceTree = "<group>"; };
-		A318E0B07E7858C81228FE0752617A4F /* XLIDScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLIDScanViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLIDScanViewController.h; sourceTree = "<group>"; };
+		A2AB417815AF4E48E93DB35EE3CA79C7 /* XLScanBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanBaseViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLScanBaseViewController.m; sourceTree = "<group>"; };
+		A46B5A4DE10992CD3D333D29CCFADF79 /* OverlayerViewTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayerViewTool.h; path = PoporIDBankCard/Classes/Views/OverlayerViewTool.h; sourceTree = "<group>"; };
 		A81DA4BE44E6325A9D64500702A1C61F /* Pods-PoporIDBankCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporIDBankCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ACF315D58B21FED557DF0FECDE00D68E /* RectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RectManager.h; path = PoporIDBankCard/Classes/Tool/RectManager.h; sourceTree = "<group>"; };
+		A848BA76C91BC511850FC2F8F21EE9B6 /* PoporIDBankCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporIDBankCard-prefix.pch"; sourceTree = "<group>"; };
+		AC02E47775C5D765C5EDBD88B525B90B /* XLBankScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBankScanViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLBankScanViewController.m; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		AE4C118DE30FC23FA08D9A1165E4ED90 /* XLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBaseViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLBaseViewController.h; sourceTree = "<group>"; };
-		B0612B8B78573FCFE4004AEBC63629BB /* XLScanBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanBaseViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLScanBaseViewController.m; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		B20DE0E8EEC028B5A81C08A96D3D1E8A /* PoporIDBankCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporIDBankCard.modulemap; sourceTree = "<group>"; };
+		B4237B7435963482E104F69E7CD5353D /* XLBankScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBankScanViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLBankScanViewController.h; sourceTree = "<group>"; };
 		B5759E2352BF88861D8BD821A230EEE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BDA0ADF3CCF02AEDB10D5C5F59C2985D /* exbankcard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exbankcard.h; path = PoporIDBankCard/Classes/bank_io/exbankcard.h; sourceTree = "<group>"; };
-		C14A504955DB62AEC2FB9684911D00E3 /* XLScanBaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanBaseManager.m; path = PoporIDBankCard/Classes/Tool/XLScanBaseManager.m; sourceTree = "<group>"; };
-		C46809B9380016DC7750362E99001794 /* XLScanBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanBaseViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLScanBaseViewController.h; sourceTree = "<group>"; };
+		BC0E77A57DD0D02D7464E38A3A535473 /* XLScanManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManager.m; path = PoporIDBankCard/Classes/Tool/XLScanManager.m; sourceTree = "<group>"; };
+		BFB06A1C233059406B6670C235F631B6 /* PoporIDBankCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporIDBankCard-umbrella.h"; sourceTree = "<group>"; };
+		C04A3DD8C5EAF93DED4713D3A06EFA46 /* exbankcard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = exbankcard.h; path = PoporIDBankCard/Classes/bank_io/exbankcard.h; sourceTree = "<group>"; };
+		C2BF69F54E9A61ECD545C63D47B3A7D5 /* UIImage+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "PoporIDBankCard/Classes/Tool/UIImage+Extend.m"; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		C52253B08512DCAE809ED7A1715C8D88 /* XLBankScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBankScanViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLBankScanViewController.m; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		CAD7B17623853FDB7BF397323E124818 /* libexidcardios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libexidcardios.a; path = PoporIDBankCard/Classes/libexidcard/libexidcardios.a; sourceTree = "<group>"; };
-		CB4828EE02212B9DAED059FFB3D37393 /* excards.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = excards.h; path = PoporIDBankCard/Classes/libexidcard/excards.h; sourceTree = "<group>"; };
-		CEBF9E93A3227C666D24B18C571E5257 /* XLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBaseViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLBaseViewController.m; sourceTree = "<group>"; };
+		CD078AA38B70F1C871B508358BAEF91A /* XLIDScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLIDScanViewController.m; path = PoporIDBankCard/Classes/ScanVC/XLIDScanViewController.m; sourceTree = "<group>"; };
 		D28296AA106E84F18CC2177432B7E81D /* Pods-PoporIDBankCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporIDBankCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2F35688130653D7A3727EC1B7E895D4 /* XLScanResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanResultModel.m; path = PoporIDBankCard/Classes/Tool/XLScanResultModel.m; sourceTree = "<group>"; };
 		D3E630B3691FEC683A3814597A4B78BA /* Pods-PoporIDBankCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporIDBankCard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DBC22CFB833EAC9DCBC49155A8B00AF0 /* Pods-PoporIDBankCard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporIDBankCard_Example-resources.sh"; sourceTree = "<group>"; };
-		E012419E309CE1512F3474BC4121C60A /* OverlayerBankView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayerBankView.h; path = PoporIDBankCard/Classes/Views/OverlayerBankView.h; sourceTree = "<group>"; };
-		E598AEC56A665BC1DCEF141893BF474F /* UIImage+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extend.h"; path = "PoporIDBankCard/Classes/Tool/UIImage+Extend.h"; sourceTree = "<group>"; };
 		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		E7F7C4CD2CDC18E323A501107BAFA12E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC5E9715AC78C8F5BFFEA2D928AE85A8 /* XLBankScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBankScanViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLBankScanViewController.h; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		ED0122D21C8FABD639583C7DCF61B0DF /* OverlayerIDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OverlayerIDView.m; path = PoporIDBankCard/Classes/Views/OverlayerIDView.m; sourceTree = "<group>"; };
+		EEAF0082DDFD584A254F6346575FD8E0 /* OverlayerIDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OverlayerIDView.h; path = PoporIDBankCard/Classes/Views/OverlayerIDView.h; sourceTree = "<group>"; };
 		F4353D0A313EE70E22772593A1CD9B74 /* Pods-PoporIDBankCard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporIDBankCard_Tests-resources.sh"; sourceTree = "<group>"; };
-		F648FFC129E3431C70BA1A3AACD1A694 /* XLScanManagerControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLScanManagerControl.m; path = PoporIDBankCard/Classes/Tool/XLScanManagerControl.m; sourceTree = "<group>"; };
+		F4C53507D5C8AA609B41BE6740E51C3F /* XLScanManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanManager.h; path = PoporIDBankCard/Classes/Tool/XLScanManager.h; sourceTree = "<group>"; };
+		F538F472BEBDDAFA9E5238C6A2FCD7A6 /* OverlayerBankView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OverlayerBankView.m; path = PoporIDBankCard/Classes/Views/OverlayerBankView.m; sourceTree = "<group>"; };
+		F5622F66BADF4FC2875E614B2974F4D9 /* BankCardSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankCardSearch.h; path = PoporIDBankCard/Classes/Tool/BankCardSearch.h; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		FA59B6356B2CDA2A9C579325684E0D2C /* XLScanBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLScanBaseManager.h; path = PoporIDBankCard/Classes/Tool/XLScanBaseManager.h; sourceTree = "<group>"; };
-		FADAA46508804B569BEC5AAA8B127A16 /* PoporIDBankCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporIDBankCard.xcconfig; sourceTree = "<group>"; };
 		FB0F0750BF3A176E0A8EF0376A245690 /* Pods-PoporIDBankCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporIDBankCard_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FCDCC88294869F3F763B3B3DA83BF929 /* Pods-PoporIDBankCard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporIDBankCard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FF11F5ADDEF852099C0C225208B12F24 /* XLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBaseViewController.h; path = PoporIDBankCard/Classes/ScanVC/XLBaseViewController.h; sourceTree = "<group>"; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -251,6 +255,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D2AF623367A8F1AC30168105A0C95B /* ScanVC */ = {
+			isa = PBXGroup;
+			children = (
+				B4237B7435963482E104F69E7CD5353D /* XLBankScanViewController.h */,
+				AC02E47775C5D765C5EDBD88B525B90B /* XLBankScanViewController.m */,
+				FF11F5ADDEF852099C0C225208B12F24 /* XLBaseViewController.h */,
+				68A9AF3C8801673C2A77F6D4403C5990 /* XLBaseViewController.m */,
+				287E4B0A2A5D4F74DF3F78BB1A6FDCAD /* XLIDScanViewController.h */,
+				CD078AA38B70F1C871B508358BAEF91A /* XLIDScanViewController.m */,
+				18E054AE91D4288E9313D0B846DF4BB7 /* XLScanBaseViewController.h */,
+				A2AB417815AF4E48E93DB35EE3CA79C7 /* XLScanBaseViewController.m */,
+			);
+			name = ScanVC;
+			sourceTree = "<group>";
+		};
 		14A05E9F12E595FB2090EB9D9B44927A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,32 +279,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2A6598D022A104FFDE1F3EF8FB5CB2CA /* libexidcard */ = {
+		3301E0F1A718AA0CE061D18648E5E251 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A156408D4557C3025F159F515E7005B2 /* commondef.h */,
-				CB4828EE02212B9DAED059FFB3D37393 /* excards.h */,
-				CAD7B17623853FDB7BF397323E124818 /* libexidcardios.a */,
+				2E2C37670F5B8B306B212382E633A917 /* lib.bundle */,
 			);
-			name = libexidcard;
-			sourceTree = "<group>";
-		};
-		364CD6EF94656AD0259654D5C1A5B940 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E012419E309CE1512F3474BC4121C60A /* OverlayerBankView.h */,
-				83E5F3DC0370882E48C86860F9696496 /* OverlayerBankView.m */,
-				489304C44F651F9F522B3FC2E45DFA7A /* OverlayerIDView.h */,
-				0A355A2CD9BB7D5B2D1A4FE194166EF7 /* OverlayerIDView.m */,
-				1CDD5B609F50CEDA57EDAE1749D632D7 /* OverlayerViewDelegate.h */,
-			);
-			name = Views;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		3DB002FB92C94CA56732A76ED5FC29EB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45249D15D217A013A0E6F27F96F39F17 /* PoporIDBankCard */,
+				B881677E666A9220D7D3AC3AF70785AE /* PoporIDBankCard */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -307,32 +312,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		45249D15D217A013A0E6F27F96F39F17 /* PoporIDBankCard */ = {
+		5D4DBE115605E08DA5C236F316C8CD24 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				5231A3EADC252DD69AAAA2858544170E /* bank_io */,
-				BA4DA49A73E4B71B659B183A96036182 /* Frameworks */,
-				2A6598D022A104FFDE1F3EF8FB5CB2CA /* libexidcard */,
-				A48DECD001D3B7A7EF8669F775CF5E61 /* Pod */,
-				B37171738D3B2830C16E994979EE7CC7 /* Resources */,
-				C5F5B85D688DBBC377A4DE9E0EA697BD /* ScanVC */,
-				999782D77E66997C1711B3D3B2DD7FEB /* Support Files */,
-				FE64F5DC900167E87A48206782121C17 /* Tool */,
-				364CD6EF94656AD0259654D5C1A5B940 /* Views */,
+				F5622F66BADF4FC2875E614B2974F4D9 /* BankCardSearch.h */,
+				15590349BED824C64872EC911706C036 /* BankCardSearch.m */,
+				36020866E74F30D43BB5807915297933 /* RectManager.h */,
+				1521EB72CD6E38E4E6784ABBF0455A1A /* RectManager.m */,
+				02D21B32979198E9A5EEE19674DA5B7A /* UIImage+Extend.h */,
+				C2BF69F54E9A61ECD545C63D47B3A7D5 /* UIImage+Extend.m */,
+				1FC61729AEC6A4697207869F503839EF /* XLScanBaseManager.h */,
+				8AF38C916609BE0795FD8C611E31FE81 /* XLScanBaseManager.m */,
+				F4C53507D5C8AA609B41BE6740E51C3F /* XLScanManager.h */,
+				BC0E77A57DD0D02D7464E38A3A535473 /* XLScanManager.m */,
+				0C01012305710744F8358CD14195380F /* XLScanManagerControl.h */,
+				4583EE5637804D7DCA0B56787C296262 /* XLScanManagerControl.m */,
+				42C1BB2289479628A7F881C9AFA4CC0B /* XLScanManagerInitialize.h */,
+				6DF9DB3BD1959C7E946171955D4F029E /* XLScanManagerInitialize.m */,
+				206731DCAADB5F5CB264DAA159B4BDA8 /* XLScanResultModel.h */,
+				0BF06288A2C85BF6688627490479574D /* XLScanResultModel.m */,
 			);
-			name = PoporIDBankCard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5231A3EADC252DD69AAAA2858544170E /* bank_io */ = {
-			isa = PBXGroup;
-			children = (
-				5A2B541ACA800D9C00753483A02498FB /* BankCard.h */,
-				BDA0ADF3CCF02AEDB10D5C5F59C2985D /* exbankcard.h */,
-				1C1D6C29BA70A64F07CBED61D14F5359 /* exbankcardcore.h */,
-				5026F1905738D04319969743E0A08E04 /* libbankcard.a */,
-			);
-			name = bank_io;
+			name = Tool;
 			sourceTree = "<group>";
 		};
 		68835F2FE7AF12DA192476F44E3D955C /* Pods-PoporIDBankCard_Example */ = {
@@ -353,6 +353,17 @@
 			path = "Target Support Files/Pods-PoporIDBankCard_Example";
 			sourceTree = "<group>";
 		};
+		7834DED8C48A91C45BAF4C12252CE7E4 /* bank_io */ = {
+			isa = PBXGroup;
+			children = (
+				1E73137DB12337329B3D5A902DC6A001 /* BankCard.h */,
+				C04A3DD8C5EAF93DED4713D3A06EFA46 /* exbankcard.h */,
+				83C3472049FF4D14220C9A4FD9E4E76B /* exbankcardcore.h */,
+				87984F2A796E2720078D53324A0F1675 /* libbankcard.a */,
+			);
+			name = bank_io;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -365,17 +376,21 @@
 			);
 			sourceTree = "<group>";
 		};
-		999782D77E66997C1711B3D3B2DD7FEB /* Support Files */ = {
+		825AE94AD4771A61128F976FED450A5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7DCBD2B590835FFD7B35545147B32B97 /* PoporIDBankCard.modulemap */,
-				FADAA46508804B569BEC5AAA8B127A16 /* PoporIDBankCard.xcconfig */,
-				64BF76FB4DDA8388B8F10EA13581930F /* PoporIDBankCard-dummy.m */,
-				8C3F4A4C64606EA5A069FC40D48289DA /* PoporIDBankCard-prefix.pch */,
-				975140194A479BACC71CEA13451F973C /* PoporIDBankCard-umbrella.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PoporIDBankCard";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9305C27342BF1DAB0E7A37B3F9EC5F63 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				07B46A44404B92490782CDDD16BF39FB /* LICENSE */,
+				4FEC3C501C55F10A6CBAFDE8A8D78041 /* PoporIDBankCard.podspec */,
+				04FFEC316E6C88DCB51322BA41C7A65D /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
@@ -412,44 +427,34 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		A48DECD001D3B7A7EF8669F775CF5E61 /* Pod */ = {
+		A80B3EE192D540677CBC7EC98C588B3B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				13FAA11E62C33941B0337BE5830F9280 /* LICENSE */,
-				4D464CB6946AACCC3AEFDDE88AE513E0 /* PoporIDBankCard.podspec */,
-				8452D9144CFD13A8FFD7A37CA6F91BEC /* README.md */,
+				B20DE0E8EEC028B5A81C08A96D3D1E8A /* PoporIDBankCard.modulemap */,
+				60C778E048866F172AE95160F48215A3 /* PoporIDBankCard.xcconfig */,
+				2986989C202B3237210B70A24B91CFD2 /* PoporIDBankCard-dummy.m */,
+				A848BA76C91BC511850FC2F8F21EE9B6 /* PoporIDBankCard-prefix.pch */,
+				BFB06A1C233059406B6670C235F631B6 /* PoporIDBankCard-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PoporIDBankCard";
 			sourceTree = "<group>";
 		};
-		B37171738D3B2830C16E994979EE7CC7 /* Resources */ = {
+		B881677E666A9220D7D3AC3AF70785AE /* PoporIDBankCard */ = {
 			isa = PBXGroup;
 			children = (
-				07E4AFC6EE55186FA259720FAA2FD046 /* lib.bundle */,
+				7834DED8C48A91C45BAF4C12252CE7E4 /* bank_io */,
+				825AE94AD4771A61128F976FED450A5E /* Frameworks */,
+				D26AEDCA0751C691B1C6C7CB90900BF9 /* libexidcard */,
+				9305C27342BF1DAB0E7A37B3F9EC5F63 /* Pod */,
+				3301E0F1A718AA0CE061D18648E5E251 /* Resources */,
+				00D2AF623367A8F1AC30168105A0C95B /* ScanVC */,
+				A80B3EE192D540677CBC7EC98C588B3B /* Support Files */,
+				5D4DBE115605E08DA5C236F316C8CD24 /* Tool */,
+				D9C25864D128C159C7C991473F0D95AE /* Views */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		BA4DA49A73E4B71B659B183A96036182 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C5F5B85D688DBBC377A4DE9E0EA697BD /* ScanVC */ = {
-			isa = PBXGroup;
-			children = (
-				EC5E9715AC78C8F5BFFEA2D928AE85A8 /* XLBankScanViewController.h */,
-				C52253B08512DCAE809ED7A1715C8D88 /* XLBankScanViewController.m */,
-				AE4C118DE30FC23FA08D9A1165E4ED90 /* XLBaseViewController.h */,
-				CEBF9E93A3227C666D24B18C571E5257 /* XLBaseViewController.m */,
-				A318E0B07E7858C81228FE0752617A4F /* XLIDScanViewController.h */,
-				8EF1686940BC4EFD8C98966006A98E2A /* XLIDScanViewController.m */,
-				C46809B9380016DC7750362E99001794 /* XLScanBaseViewController.h */,
-				B0612B8B78573FCFE4004AEBC63629BB /* XLScanBaseViewController.m */,
-			);
-			name = ScanVC;
+			name = PoporIDBankCard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
@@ -464,6 +469,30 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		D26AEDCA0751C691B1C6C7CB90900BF9 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				8E959ACE0E07C1E6A52F915A14FD9648 /* commondef.h */,
+				02B69C418869CD6CD543B0561CA4C614 /* excards.h */,
+				3D8D00193816D9D0EC15F06F081D01D2 /* libexidcardios.a */,
+			);
+			name = libexidcard;
+			sourceTree = "<group>";
+		};
+		D9C25864D128C159C7C991473F0D95AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DE7CE9EFA7F62EED5239D9CEC1C7CB1 /* OverlayerBankView.h */,
+				F538F472BEBDDAFA9E5238C6A2FCD7A6 /* OverlayerBankView.m */,
+				EEAF0082DDFD584A254F6346575FD8E0 /* OverlayerIDView.h */,
+				ED0122D21C8FABD639583C7DCF61B0DF /* OverlayerIDView.m */,
+				4CB8BC4D335EEB7EB9CFC8751D075652 /* OverlayerViewDelegate.h */,
+				A46B5A4DE10992CD3D333D29CCFADF79 /* OverlayerViewTool.h */,
+				714164F0CEAE2124B0D1CE44280CB243 /* OverlayerViewTool.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
@@ -503,32 +532,38 @@
 			path = "Target Support Files/Pods-PoporIDBankCard_Tests";
 			sourceTree = "<group>";
 		};
-		FE64F5DC900167E87A48206782121C17 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				263AA97559B0ADC47A37EB9AEEF35F45 /* BankCardSearch.h */,
-				2A986759213E248CF1D71C24FD741F06 /* BankCardSearch.m */,
-				ACF315D58B21FED557DF0FECDE00D68E /* RectManager.h */,
-				3B2D09A35BB39FC8D2DFBFB433FE2A89 /* RectManager.m */,
-				E598AEC56A665BC1DCEF141893BF474F /* UIImage+Extend.h */,
-				0A3B7CDD27F4C34E9A6674164BF286F4 /* UIImage+Extend.m */,
-				FA59B6356B2CDA2A9C579325684E0D2C /* XLScanBaseManager.h */,
-				C14A504955DB62AEC2FB9684911D00E3 /* XLScanBaseManager.m */,
-				60DD4D67041772F23A00C252437AA9D0 /* XLScanManager.h */,
-				64A9E75364D24C69219C81581A833B2C /* XLScanManager.m */,
-				0D5F13BCB47638B8EDBA6CB6E648DAC7 /* XLScanManagerControl.h */,
-				F648FFC129E3431C70BA1A3AACD1A694 /* XLScanManagerControl.m */,
-				3C05E33CEE22E9DE71696578321BCEA8 /* XLScanManagerInitialize.h */,
-				5F202BA5FEF3811E1D3D7B1BF5A6B56D /* XLScanManagerInitialize.m */,
-				500F15BA17641C4B3D72B0196FD1932B /* XLScanResultModel.h */,
-				D2F35688130653D7A3727EC1B7E895D4 /* XLScanResultModel.m */,
-			);
-			name = Tool;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0B27FC435BC2A048D3E996C5796F203A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E87B8496381E6E40DDB1A3078781CB /* BankCard.h in Headers */,
+				04198F1537ED6AC45DE8D8C2362D139E /* BankCardSearch.h in Headers */,
+				29030EA034F1C78D846F87972EC468AD /* commondef.h in Headers */,
+				1751636E4BE7A5E1FCEE08698BD60CE2 /* exbankcard.h in Headers */,
+				55E1DAD1A77E4A888C90A6E7758ACD79 /* exbankcardcore.h in Headers */,
+				6CFD72326FCE8D6D6899DDD5733CF5D3 /* excards.h in Headers */,
+				61CB74FC5ACCA254972A0A3F4EEC9921 /* OverlayerBankView.h in Headers */,
+				6A6D593F72B761697F5447F17F5373E4 /* OverlayerIDView.h in Headers */,
+				77B01CD441252B1E23DA46FB28486CCB /* OverlayerViewDelegate.h in Headers */,
+				8A34317A4A594DD15BD2312702D6F238 /* OverlayerViewTool.h in Headers */,
+				6A0AD3D11725298E4DCF368DE60B82E9 /* PoporIDBankCard-umbrella.h in Headers */,
+				7E92DC5ECA9DB664B99EE006473EFEFF /* RectManager.h in Headers */,
+				059F8300E6F0AA30E06D6FAFF1F78E78 /* UIImage+Extend.h in Headers */,
+				31609BAF4CA79D36A7F8D40E088F96BA /* XLBankScanViewController.h in Headers */,
+				7A76D9CDF592DED45CC4EF1454F1DBA7 /* XLBaseViewController.h in Headers */,
+				2347802850351893E84053A7BBBB98ED /* XLIDScanViewController.h in Headers */,
+				B33AA04021587DE8322DB771DB192BC6 /* XLScanBaseManager.h in Headers */,
+				B9B3AA1785FD70F532D5954B6BFA26F3 /* XLScanBaseViewController.h in Headers */,
+				1729AD173486DDE88D75DAC9C01EE5F7 /* XLScanManager.h in Headers */,
+				2346E033F76E107D76C945A0FC74E44A /* XLScanManagerControl.h in Headers */,
+				D069FA1880DDF9FB384106ED29CD1B35 /* XLScanManagerInitialize.h in Headers */,
+				3A5BEAC80A23A650221C2C8D6734A012 /* XLScanResultModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82E87C37C01624860271C92FC665F519 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -542,34 +577,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28761D09F60DDFFEFB610D747078FA5 /* Pods-PoporIDBankCard_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA555DFC1217BD14DA76A1464BBB7110 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6EEDD60806B015D065AC5D07575865 /* BankCard.h in Headers */,
-				81B35E7049EE90DB12801FC845F1EEA8 /* BankCardSearch.h in Headers */,
-				286DF5EBE1C48D3DCBDB7381E7AD9290 /* commondef.h in Headers */,
-				7DC623B3C968A7BBA7A1735678B9463D /* exbankcard.h in Headers */,
-				6506CF075B4BDFA90E215508988FE878 /* exbankcardcore.h in Headers */,
-				8A7503F1DE2ABAF03FA8716D711604D8 /* excards.h in Headers */,
-				306FF68404563D85BCEC4999B35650E0 /* OverlayerBankView.h in Headers */,
-				8E2395E1658343775116934C9E9486A4 /* OverlayerIDView.h in Headers */,
-				59AD842356717EEA8CF59F1327ADE428 /* OverlayerViewDelegate.h in Headers */,
-				B7824DCE1BE3EA7B842EA2C29E1A9428 /* PoporIDBankCard-umbrella.h in Headers */,
-				BEE396C5E9C9661D8DE63EAB420FA348 /* RectManager.h in Headers */,
-				F8467644910E4030F8212F7BD08F2575 /* UIImage+Extend.h in Headers */,
-				B281FF4C4155FFB788D88465BB5F2662 /* XLBankScanViewController.h in Headers */,
-				FC5776BF7A027285C697F221E07DE0AA /* XLBaseViewController.h in Headers */,
-				7FDC803A226DCB62DB1DD81FFD6DA611 /* XLIDScanViewController.h in Headers */,
-				F332FF13EFC3C43560897F86EF69B987 /* XLScanBaseManager.h in Headers */,
-				A27F5C5F4AA9885429FE617C58E1ACB9 /* XLScanBaseViewController.h in Headers */,
-				5C4A82A100FC3613F27C52C28D798B7A /* XLScanManager.h in Headers */,
-				079BBE62EF3AC1282571CDAC1FA7145C /* XLScanManagerControl.h in Headers */,
-				24F46FEDD497AC8C85A4304C07870C3D /* XLScanManagerInitialize.h in Headers */,
-				6FB12B67F6A8FE2A53C22E8F61A25F0A /* XLScanResultModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,10 +647,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DB5079101F3564B3E4A22AB11D8E73A /* Build configuration list for PBXNativeTarget "PoporIDBankCard" */;
 			buildPhases = (
-				F1DC321FE2FB41678D780D6A3C4BDDAB /* Sources */,
+				607BC197FB87B8B39770F919B319D0AD /* Sources */,
 				571F772946B1D06489ECEAAD8D22FB96 /* Frameworks */,
 				229429BDAD4243D7B5A6B40C4D5CD6DD /* Resources */,
-				DA555DFC1217BD14DA76A1464BBB7110 /* Headers */,
+				0B27FC435BC2A048D3E996C5796F203A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -720,35 +727,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		607BC197FB87B8B39770F919B319D0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC1BABA91CB3FEC1524E3F6A510AC1E /* BankCardSearch.m in Sources */,
+				BC8C6DBF632B0199D831535FCA448033 /* libbankcard.a in Sources */,
+				BE9D4176DFD7E40B432917DBB4D4D26A /* libexidcardios.a in Sources */,
+				856C2DE29CAF9945E78DCE65A6A01B69 /* OverlayerBankView.m in Sources */,
+				109468467638CEF70F9A7146823C21D8 /* OverlayerIDView.m in Sources */,
+				17A298F89B7D51E7ACD5EEB32FFC2C18 /* OverlayerViewTool.m in Sources */,
+				787D1D98E3DD358105B22E48A862504F /* PoporIDBankCard-dummy.m in Sources */,
+				3BB821588E95FFEA0CACED3895029AB9 /* RectManager.m in Sources */,
+				853B51A6B285CB9F3D7D975162D5FEBE /* UIImage+Extend.m in Sources */,
+				3F64B785AF7353287DD1C14016ACE959 /* XLBankScanViewController.m in Sources */,
+				BBEC7DAA156078C2F9FCFFABC5FC45C7 /* XLBaseViewController.m in Sources */,
+				6B64410D4CD901E368B03BB1B574127B /* XLIDScanViewController.m in Sources */,
+				BF0BA9A5CACA641B3ADBEFE759093287 /* XLScanBaseManager.m in Sources */,
+				2BEBD5567ECBC581A0501928AC1A4775 /* XLScanBaseViewController.m in Sources */,
+				0F0604C38933E1B40A463C8ED62CA2A5 /* XLScanManager.m in Sources */,
+				C431DCDCCF9EE5A580794C726F925900 /* XLScanManagerControl.m in Sources */,
+				09387654E8FA86669FF08E925940904C /* XLScanManagerInitialize.m in Sources */,
+				05AD4683BECAE920A409024D21C43E67 /* XLScanResultModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90E0EC42A6B0DA8D20344A212D0CD1C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68DBA82BF5A9F4B1442CB2D753F7553A /* Pods-PoporIDBankCard_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1DC321FE2FB41678D780D6A3C4BDDAB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67C8C181DDC5622E2B45949FD1D9B8D6 /* BankCardSearch.m in Sources */,
-				209DAAD96985FE92D068482B75A9571E /* libbankcard.a in Sources */,
-				AD866C7F19AD46815D9DFEF3543EA9B4 /* libexidcardios.a in Sources */,
-				F492E35E5010ADD6CA2028103CB2D1A7 /* OverlayerBankView.m in Sources */,
-				D8651E07A623EA769291E9DEC9325752 /* OverlayerIDView.m in Sources */,
-				8181B9E57DC9E09F048FE9D36CBEE47B /* PoporIDBankCard-dummy.m in Sources */,
-				EC878D3D2422BF1423CEE679E52B4690 /* RectManager.m in Sources */,
-				B32C245C9454CED17CC1FEF7A3EA7780 /* UIImage+Extend.m in Sources */,
-				723C65E411A5C05E16DB4B6B1C693B19 /* XLBankScanViewController.m in Sources */,
-				70344C1183D2B9EE1A617AC72BB2C708 /* XLBaseViewController.m in Sources */,
-				F7E8BE5BA4719C03D4EF181E492AD806 /* XLIDScanViewController.m in Sources */,
-				0FB22DF1798062A4BD44768FA94FE133 /* XLScanBaseManager.m in Sources */,
-				C35A8D3D13248738209FA171BF05BFB7 /* XLScanBaseViewController.m in Sources */,
-				D7BF1FA7C1C2DC9B9007D827D8667F83 /* XLScanManager.m in Sources */,
-				6D6A160654F2536506D2BA563BE7DF75 /* XLScanManagerControl.m in Sources */,
-				167EA77D587A11D8CB9FEB250ED842CC /* XLScanManagerInitialize.m in Sources */,
-				E8E80981069F085BCA012835256F8092 /* XLScanResultModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,7 +837,7 @@
 		};
 		1084CBC04E36709D69E5BA26C8808DC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FADAA46508804B569BEC5AAA8B127A16 /* PoporIDBankCard.xcconfig */;
+			baseConfigurationReference = 60C778E048866F172AE95160F48215A3 /* PoporIDBankCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -923,7 +931,7 @@
 		};
 		6B7239C851D04921220AA08FF347E3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FADAA46508804B569BEC5AAA8B127A16 /* PoporIDBankCard.xcconfig */;
+			baseConfigurationReference = 60C778E048866F172AE95160F48215A3 /* PoporIDBankCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

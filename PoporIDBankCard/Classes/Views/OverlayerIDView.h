@@ -12,7 +12,4 @@
 
 @interface OverlayerIDView : UIView <OverlayerViewDelegate>
 
-+ (CGRect)getOverlayFrame:(CGRect)rect;
-
-
 @end

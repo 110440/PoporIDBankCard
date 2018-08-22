@@ -11,8 +11,6 @@
 
 @interface XLIDScanViewController ()
 
-@property (nonatomic, strong) UIView<OverlayerViewDelegate> *layerView;
-
 @end
 
 @implementation XLIDScanViewController
@@ -39,20 +37,14 @@
     if (!self.title) {
         self.title = @"身份证扫描";
     }
-    
-    if (self.customeOverLayer) {
-        __weak typeof(self) weakSelf = self;
-        self.customeOverLayer = ^(UIView<OverlayerViewDelegate> *layerView) {
-            [weakSelf.view insertSubview:layerView atIndex:0];
-            weakSelf.layerView = layerView;
-        };
-    }else{
-        CGRect rect = [OverlayerIDView getOverlayFrame:[UIScreen mainScreen].bounds];
+    if (!self.layerView) {
+        CGRect rect = [OverlayerViewTool getOverlayFrame:[UIScreen mainScreen].bounds];
         OverlayerIDView * layerView = [[OverlayerIDView alloc] initWithFrame:rect];
-        [self.view insertSubview:layerView atIndex:0];
+        [self.view insertSubview:self.layerView atIndex:0];
         
         self.layerView = layerView;
     }
+    [self.view insertSubview:self.layerView atIndex:0];
     
     self.cameraManager.sessionPreset = AVCaptureSessionPresetHigh;
     

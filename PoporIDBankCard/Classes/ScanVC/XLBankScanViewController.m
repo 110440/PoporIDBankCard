@@ -11,8 +11,6 @@
 
 @interface XLBankScanViewController ()
 
-@property (nonatomic, strong) UIView<OverlayerViewDelegate> *layerView;
-
 @end
 
 @implementation XLBankScanViewController
@@ -36,19 +34,14 @@
         self.title = @"银行卡扫描";
     }
     
-    if (self.customeOverLayer) {
-        __weak typeof(self) weakSelf = self;
-        self.customeOverLayer = ^(UIView<OverlayerViewDelegate> *layerView) {
-            [weakSelf.view insertSubview:layerView atIndex:0];
-            weakSelf.layerView = layerView;
-        };
-    }else{
-        CGRect rect = [OverlayerBankView getOverlayFrame:[UIScreen mainScreen].bounds];
+    if (!self.layerView) {
+        CGRect rect = [OverlayerViewTool getOverlayFrame:[UIScreen mainScreen].bounds];
         OverlayerBankView * layerView = [[OverlayerBankView alloc] initWithFrame:rect];
-        [self.view insertSubview:layerView atIndex:0];
+        [self.view insertSubview:self.layerView atIndex:0];
         
         self.layerView = layerView;
     }
+    [self.view insertSubview:self.layerView atIndex:0];
     
     self.cameraManager.sessionPreset = AVCaptureSessionPreset1280x720;
     

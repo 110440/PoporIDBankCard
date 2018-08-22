@@ -1,21 +1,21 @@
 //
-//  OverlayerIDView.m
-//  BankCard
+//  OverlayerIDJchView.m
+//  PoporIDBankCard_Example
 //
-//  Created by XAYQ-FanXL on 16/7/11.
-//  Copyright © 2016年 AN. All rights reserved.
+//  Created by apple on 2018/8/22.
+//  Copyright © 2018年 wangkq. All rights reserved.
 //
 
-#import "OverlayerIDView.h"
+#import "OverlayerIDJchView.h"
 
-@interface OverlayerIDView()
+@interface OverlayerIDJchView()
 
 @property (nonatomic, assign) int lineLenght;
 @property (nonatomic, strong) NSTimer *timer;
 
 @end
 
-@implementation OverlayerIDView
+@implementation OverlayerIDJchView
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -27,13 +27,12 @@
         self.backgroundColor = [UIColor clearColor];
         _lineLenght = height / 10;
         
-        
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, width, height)];
         label.backgroundColor = [UIColor clearColor];
-        label.textAlignment = NSTextAlignmentCenter;
-        label.textColor = [UIColor lightGrayColor];
-        label.font = [UIFont boldSystemFontOfSize:20];
-        label.text = @"请将扫描线对准身份证并对齐左右边缘。";
+        label.textAlignment   = NSTextAlignmentCenter;
+        label.textColor       = [UIColor lightGrayColor];
+        label.font            = [UIFont boldSystemFontOfSize:16];
+        label.text            = @"请将扫描线对准身份证并对齐左右边缘。";
         [self addSubview:label];
         CGAffineTransform transform = CGAffineTransformMakeRotation((90.0f * M_PI) / 180.0f);
         label.transform = transform;
@@ -64,10 +63,13 @@
 }
 
 //画边框和线
-- (void)drawRect:(CGRect)rect
-{
+- (void)drawRect:(CGRect)rect {
+    float frameLineWidth = 5.0;
+    float scanLineWidth  = 2.0; // 由于残影，看起来和5.0一样宽。
+    
+    
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetLineWidth(context, 8.0);
+    CGContextSetLineWidth(context, frameLineWidth);
     CGContextSetRGBStrokeColor(context, .3, 0.8, .3, .8);
     
     CGContextBeginPath(context);
@@ -93,7 +95,7 @@
     static float moveX = 0;
     static float distance = 2;
     CGContextBeginPath(context);
-    CGContextSetLineWidth(context, 2);
+    CGContextSetLineWidth(context, scanLineWidth);
     CGPoint p1, p2;
     
     moveX += distance;
@@ -102,11 +104,12 @@
     } else if (moveX < rect.origin.x){
         distance = 2;
     }
-    p1 = CGPointMake(rect.origin.x + moveX, rect.origin.y);
-    p2 = CGPointMake(rect.origin.x + moveX, rect.origin.y + rect.size.height);
+    p1 = CGPointMake(rect.origin.x + moveX, rect.origin.y + frameLineWidth);
+    p2 = CGPointMake(rect.origin.x + moveX, rect.origin.y + rect.size.height - frameLineWidth);
     CGContextMoveToPoint(context,p1.x, p1.y);
     CGContextAddLineToPoint(context, p2.x, p2.y);
     CGContextStrokePath(context);
+    
 }
 
 @end

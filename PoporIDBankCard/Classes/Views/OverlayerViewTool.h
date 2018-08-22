@@ -1,5 +1,5 @@
 //
-//  OverlayerBankView.h
+//  OverlayerViewTool.h
 //  BankCard
 //
 //  Created by XAYQ-FanXL on 16/7/8.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "OverlayerViewDelegate.h"
+@interface OverlayerViewTool : UIView
 
-@interface OverlayerBankView : UIView <OverlayerViewDelegate>
++ (CGRect)getOverlayFrame:(CGRect)rect;
 
 @end
