@@ -1,21 +1,21 @@
 //
-//  IDOverLayerView.m
+//  OverlayerIDView.m
 //  BankCard
 //
 //  Created by XAYQ-FanXL on 16/7/11.
 //  Copyright © 2016年 AN. All rights reserved.
 //
 
-#import "IDOverLayerView.h"
+#import "OverlayerIDView.h"
 
-@interface IDOverLayerView()
+@interface OverlayerIDView()
 
 @property (nonatomic, assign) int lineLenght;
 @property (nonatomic, strong) NSTimer *timer;
 
 @end
 
-@implementation IDOverLayerView
+@implementation OverlayerIDView
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

@@ -7,22 +7,22 @@
 //
 
 #import "XLIDScanViewController.h"
-#import "IDOverLayerView.h"
+#import "OverlayerIDView.h"
 
 @interface XLIDScanViewController ()
 
-@property (nonatomic, strong) IDOverLayerView *overlayView;
+@property (nonatomic, strong) OverlayerIDView *OverlayerBankView;
 
 @end
 
 @implementation XLIDScanViewController
 
--(IDOverLayerView *)overlayView {
-    if(!_overlayView) {
-        CGRect rect = [IDOverLayerView getOverlayFrame:[UIScreen mainScreen].bounds];
-        _overlayView = [[IDOverLayerView alloc] initWithFrame:rect];
+-(OverlayerIDView *)OverlayerBankView {
+    if(!_OverlayerBankView) {
+        CGRect rect = [OverlayerIDView getOverlayFrame:[UIScreen mainScreen].bounds];
+        _OverlayerBankView = [[OverlayerIDView alloc] initWithFrame:rect];
     }
-    return _overlayView;
+    return _OverlayerBankView;
 }
 
 - (void)viewDidLoad {
@@ -30,7 +30,7 @@
     
     self.title = @"身份证扫描";
     
-    [self.view insertSubview:self.overlayView atIndex:0];
+    [self.view insertSubview:self.OverlayerBankView atIndex:0];
     
     self.cameraManager.sessionPreset = AVCaptureSessionPresetHigh;
     
@@ -49,15 +49,23 @@
         NSLog(@"打开相机失败");
         [self.navigationController popViewControllerAnimated:YES];
     }
-    [self.cameraManager.idCardScanSuccess subscribeNext:^(id x) {
-        [self showResult:x];
-    }];
-    [self.cameraManager.scanError subscribeNext:^(id x) {
+    //    [self.cameraManager.idCardScanSuccess subscribeNext:^(id x) {
+    //        [self showResult:x];
+    //    }];
+    //    [self.cameraManager.scanError subscribeNext:^(id x) {
+    //        
+    //    }];
+    
+    __weak typeof(self) weakSelf = self;
+    self.cameraManager.idCardScanSuccessBlock = ^(XLScanResultModel *idInfo) {
+        [weakSelf showResult:idInfo];
+    };
+    self.cameraManager.scanErrorBlock = ^(NSError *error) {
         
-    }];
+    };
 }
 
-- (void)showResult:(id)result {
+- (void)showResult:(XLScanResultModel *)result {
     XLScanResultModel *model = (XLScanResultModel *)result;
     NSString *message = [NSString stringWithFormat:@"%@", [model toString]];
     UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"扫描成功" message:message delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];

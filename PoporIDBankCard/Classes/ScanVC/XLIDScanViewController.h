@@ -10,4 +10,6 @@
 
 @interface XLIDScanViewController : XLScanBaseViewController
 
+@property (nonatomic, copy  ) void (^someblock)(NSString *name);
+
 @end

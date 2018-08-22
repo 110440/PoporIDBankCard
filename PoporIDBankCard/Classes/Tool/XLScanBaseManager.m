@@ -34,26 +34,26 @@
     return _videoDataOutput;
 }
 
-- (RACSubject *)receiveSubject {
-    if (!_receiveSubject) {
-        _receiveSubject = [RACSubject subject];
-    }
-    return _receiveSubject;
-}
+//- (RACSubject *)receiveSubject {
+//    if (!_receiveSubject) {
+//        _receiveSubject = [RACSubject subject];
+//    }
+//    return _receiveSubject;
+//}
 
-- (RACSubject *)bankScanSuccess {
-    if (!_bankScanSuccess) {
-        _bankScanSuccess = [RACSubject subject];
-    }
-    return _bankScanSuccess;
-}
-
-- (RACSubject *)idCardScanSuccess {
-    if (!_idCardScanSuccess) {
-        _idCardScanSuccess = [RACSubject subject];
-    }
-    return _idCardScanSuccess;
-}
+//- (RACSubject *)bankScanSuccess {
+//    if (!_bankScanSuccess) {
+//        _bankScanSuccess = [RACSubject subject];
+//    }
+//    return _bankScanSuccess;
+//}
+//
+//- (RACSubject *)idCardScanSuccess {
+//    if (!_idCardScanSuccess) {
+//        _idCardScanSuccess = [RACSubject subject];
+//    }
+//    return _idCardScanSuccess;
+//}
 
 // 能否切换前置后置
 - (BOOL)canSwitchCameras {

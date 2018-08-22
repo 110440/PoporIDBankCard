@@ -104,7 +104,8 @@
             
             dispatch_async(dispatch_get_main_queue(), ^{
                 AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-                [self.bankScanSuccess sendNext:model];
+                self.bankScanSuccessBlock(model);
+                //[self.bankScanSuccess sendNext:model];
             });
         }
     }
@@ -204,7 +205,8 @@
         idInfo.idImage = subImg;
         dispatch_async(dispatch_get_main_queue(), ^{
             AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-            [self.idCardScanSuccess sendNext:idInfo];
+            self.idCardScanSuccessBlock(idInfo);
+            //[self.idCardScanSuccess sendNext:idInfo];
         });
     }
     CVPixelBufferUnlockBaseAddress(imageBuffer, 0);
@@ -238,7 +240,8 @@
         [self.captureSession commitConfiguration];
     }
     else {
-        [self.scanError sendNext:error];
+        self.scanErrorBlock(error);
+        //[self.scanError sendNext:error];
         return NO;
     }
     return YES;
@@ -255,7 +258,8 @@
             [device unlockForConfiguration];
         }
         else {
-            [self.scanError sendNext:error];
+            self.scanErrorBlock(error);
+            //[self.scanError sendNext:error];
         }
     }
 }
@@ -271,7 +275,8 @@
             [device unlockForConfiguration];
         }
         else {
-            [self.scanError sendNext:error];
+            self.scanErrorBlock(error);
+            //[self.scanError sendNext:error];
         }
     }
 }
@@ -288,7 +293,8 @@
             [device unlockForConfiguration];
         }
         else {
-            [self.scanError sendNext:error];
+            self.scanErrorBlock(error);
+            //[self.scanError sendNext:error];
         }
     }
 }
@@ -317,7 +323,8 @@ static const NSString *THCameraAdjustingExposureContext;
             [device unlockForConfiguration];
         }
         else {
-            [self.scanError sendNext:error];
+            self.scanErrorBlock(error);
+            //[self.scanError sendNext:error];
         }
     }
 }
@@ -340,7 +347,8 @@ static const NSString *THCameraAdjustingExposureContext;
                     device.exposureMode = AVCaptureExposureModeLocked;
                     [device unlockForConfiguration];
                 } else {
-                    [self.scanError sendNext:error];
+                    self.scanErrorBlock(error);
+                    //[self.scanError sendNext:error];
                 }
             });
         }
@@ -384,7 +392,8 @@ static const NSString *THCameraAdjustingExposureContext;
         
         [device unlockForConfiguration];
     } else {
-        [self.scanError sendNext:error];
+        self.scanErrorBlock(error);
+        //[self.scanError sendNext:error];
     }
 }
 

@@ -23,11 +23,6 @@
     "PoporIDBankCard/Classes/libexidcard/*.a"
   ],
   "resources": "PoporIDBankCard/Classes/lib.bundle",
-  "dependencies": {
-    "ReactiveCocoa": [
-      "~> 2.3.1"
-    ]
-  },
   "subspecs": [
     {
       "name": "bank_io",

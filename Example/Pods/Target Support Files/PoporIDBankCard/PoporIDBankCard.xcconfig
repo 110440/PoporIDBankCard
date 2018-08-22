@@ -1,5 +1,4 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/PoporIDBankCard
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveCocoa"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../PoporIDBankCard/Classes/bank_io" "${PODS_ROOT}/../../PoporIDBankCard/Classes/libexidcard"
 OTHER_LDFLAGS = -l"bankcard" -l"exidcardios"

@@ -84,7 +84,8 @@ static bool initFlag = NO;
     CVPixelBufferRef imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
     if ([captureOutput isEqual:self.videoDataOutput]) {
         if(self.isInProcessing == NO) {
-            [self.receiveSubject sendNext:(__bridge id)(imageBuffer)];
+            self.receiveBufferBlock(imageBuffer);
+            //[self.receiveSubject sendNext:(__bridge id)(imageBuffer)];
         }
     }
 }

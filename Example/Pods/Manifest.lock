@@ -6,28 +6,15 @@ PODS:
     - PoporIDBankCard/ScanVC (= 0.0.1)
     - PoporIDBankCard/Tool (= 0.0.1)
     - PoporIDBankCard/Views (= 0.0.1)
-    - ReactiveCocoa (~> 2.3.1)
-  - PoporIDBankCard/bank_io (0.0.1):
-    - ReactiveCocoa (~> 2.3.1)
-  - PoporIDBankCard/libexidcard (0.0.1):
-    - ReactiveCocoa (~> 2.3.1)
+  - PoporIDBankCard/bank_io (0.0.1)
+  - PoporIDBankCard/libexidcard (0.0.1)
   - PoporIDBankCard/ScanVC (0.0.1):
     - PoporIDBankCard/Tool
-    - ReactiveCocoa (~> 2.3.1)
   - PoporIDBankCard/Tool (0.0.1):
     - PoporIDBankCard/bank_io
     - PoporIDBankCard/libexidcard
     - PoporIDBankCard/Views
-    - ReactiveCocoa (~> 2.3.1)
-  - PoporIDBankCard/Views (0.0.1):
-    - ReactiveCocoa (~> 2.3.1)
-  - ReactiveCocoa (2.3.1):
-    - ReactiveCocoa/UI (= 2.3.1)
-  - ReactiveCocoa/Core (2.3.1):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.3.1)
-  - ReactiveCocoa/UI (2.3.1):
-    - ReactiveCocoa/Core
+  - PoporIDBankCard/Views (0.0.1)
 
 DEPENDENCIES:
   - Masonry
@@ -36,7 +23,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Masonry
-    - ReactiveCocoa
 
 EXTERNAL SOURCES:
   PoporIDBankCard:
@@ -44,8 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  PoporIDBankCard: 5018b4bac94416c572d246b11c2a646b6193e4b5
-  ReactiveCocoa: 3fe9b233ca6db810e86681b5749488564c1179a1
+  PoporIDBankCard: 8e67d61b3bc378df50315dcac61106b0e97bbbae
 
 PODFILE CHECKSUM: 6cd50bf093b69de5ce5d9edc8eaa832eaf1d4c0e
 

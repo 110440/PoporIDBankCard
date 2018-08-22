@@ -1,14 +1,14 @@
 //
-//  IDOverLayerView.h
+//  OverlayerBankView.h
 //  BankCard
 //
-//  Created by XAYQ-FanXL on 16/7/11.
+//  Created by XAYQ-FanXL on 16/7/8.
 //  Copyright © 2016年 AN. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface IDOverLayerView : UIView
+@interface OverlayerBankView : UIView
 
 + (CGRect)getOverlayFrame:(CGRect)rect;
 

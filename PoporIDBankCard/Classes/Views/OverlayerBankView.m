@@ -1,14 +1,14 @@
 //
-//  OverlayView.m
+//  OverlayerBankView.m
 //  BankCard
 //
 //  Created by XAYQ-FanXL on 16/7/8.
 //  Copyright © 2016年 AN. All rights reserved.
 //
 
-#import "OverlayView.h"
+#import "OverlayerBankView.h"
 
-@interface OverlayView()
+@interface OverlayerBankView()
 
 @property (nonatomic, assign) BOOL showLine;
 @property (nonatomic, assign) int lineLenght;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation OverlayView
+@implementation OverlayerBankView
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -63,7 +63,7 @@
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(context, 8.0);
-    CGContextSetRGBStrokeColor(context, .3, 0.8, .3, .8);
+    CGContextSetRGBStrokeColor(context, .3, 0.8, .3, .28);
     
     CGContextBeginPath(context);
     

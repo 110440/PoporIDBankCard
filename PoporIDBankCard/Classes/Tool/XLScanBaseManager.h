@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #import <UIKit/UIKit.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
+//#import <ReactiveCocoa/ReactiveCocoa.h>
 #import "RectManager.h"
 #import "BankCardSearch.h"
 #import "UIImage+Extend.h"
@@ -23,16 +23,25 @@ typedef enum : NSUInteger {
     IDScanType,
 } kScanType;
 
+//@protocol XLScanBaseDelegate <NSObject>
+//@end
+
 @interface XLScanBaseManager : NSObject <AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate,AVCaptureMetadataOutputObjectsDelegate>
 
 @property (nonatomic, assign) BOOL                      verify;
 
 @property (nonatomic, assign) kScanType scanType;
 
-@property (nonatomic, strong) RACSubject *receiveSubject;
-@property (nonatomic, strong) RACSubject *bankScanSuccess;
-@property (nonatomic, strong) RACSubject *idCardScanSuccess;
-@property (nonatomic, strong) RACSubject *scanError;
+//@property (nonatomic, strong) RACSubject *receiveSubject;
+//@property (nonatomic, strong) RACSubject *bankScanSuccess;
+//@property (nonatomic, strong) RACSubject *idCardScanSuccess;
+//@property (nonatomic, strong) RACSubject *scanError;
+
+@property (nonatomic, copy  ) void (^receiveBufferBlock)(CVPixelBufferRef imageBuffer);
+@property (nonatomic, copy  ) void (^bankScanSuccessBlock)  (XLScanResultModel *model);
+@property (nonatomic, copy  ) void (^idCardScanSuccessBlock)(XLScanResultModel *idInfo);
+@property (nonatomic, copy  ) void (^scanErrorBlock)(NSError *error);
+
 
 @property (nonatomic, strong) AVCaptureSession *captureSession;
 

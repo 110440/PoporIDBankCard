@@ -38,8 +38,6 @@ Pod::Spec.new do |s|
     
     # 身份证
     s.subspec 'libexidcard' do |ss|
-        #ss.compiler_flags = '-DOS_OBJECT_USE_OBJC=0', '-Wno-format'
-
         ss.source_files = 'PoporIDBankCard/Classes/libexidcard/*.{h,a}'
     end
     
@@ -50,7 +48,6 @@ Pod::Spec.new do |s|
     
     # 扫描工具
     s.subspec 'Tool' do |ss|
-        #ss.ios.dependency 'PoporFoundation/PrefixCore'
         ss.dependency 'PoporIDBankCard/libexidcard'
         ss.dependency 'PoporIDBankCard/bank_io'
         ss.dependency 'PoporIDBankCard/Views'
@@ -65,6 +62,6 @@ Pod::Spec.new do |s|
     end
     
     # 依赖
-    s.dependency 'ReactiveCocoa', '~> 2.3.1'
+    # s.dependency 'ReactiveCocoa', '~> 2.3.1'
     
 end

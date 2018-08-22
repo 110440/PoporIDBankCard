@@ -7,23 +7,23 @@
 //
 
 #import "XLBankScanViewController.h"
-#import "OverlayView.h"
+#import "OverlayerBankView.h"
 
 @interface XLBankScanViewController ()
 
-@property (nonatomic, strong) OverlayView *overlayView;
+@property (nonatomic, strong) OverlayerBankView *OverlayerBankView;
 
 @end
 
 @implementation XLBankScanViewController
 
 
-- (OverlayView *)overlayView {
-    if(!_overlayView) {
-        CGRect rect = [OverlayView getOverlayFrame:[UIScreen mainScreen].bounds];
-        _overlayView = [[OverlayView alloc] initWithFrame:rect];
+- (OverlayerBankView *)OverlayerBankView {
+    if(!_OverlayerBankView) {
+        CGRect rect = [OverlayerBankView getOverlayFrame:[UIScreen mainScreen].bounds];
+        _OverlayerBankView = [[OverlayerBankView alloc] initWithFrame:rect];
     }
-    return _overlayView;
+    return _OverlayerBankView;
 }
 
 - (void)viewDidLoad {
@@ -31,7 +31,7 @@
     
     self.title = @"银行卡扫描";
     
-    [self.view insertSubview:self.overlayView atIndex:0];
+    [self.view insertSubview:self.OverlayerBankView atIndex:0];
     
     self.cameraManager.sessionPreset = AVCaptureSessionPreset1280x720;
     
@@ -52,12 +52,20 @@
         [self.navigationController popViewControllerAnimated:YES];
     }
     
-    [self.cameraManager.bankScanSuccess subscribeNext:^(id x) {
-        [self showResult:x];
-    }];
-    [self.cameraManager.scanError subscribeNext:^(id x) {
+    //    [self.cameraManager.bankScanSuccess subscribeNext:^(id x) {
+    //        [self showResult:x];
+    //    }];
+    //    [self.cameraManager.scanError subscribeNext:^(id x) {
+    //        
+    //    }];
+    
+    __weak typeof(self) weakSelf = self;
+    self.cameraManager.bankScanSuccessBlock = ^(XLScanResultModel *model) {
+        [weakSelf showResult:model];
+    };
+    self.cameraManager.scanErrorBlock = ^(NSError *error) {
         
-    }];
+    };
 }
 
 - (void)showResult:(id)result {

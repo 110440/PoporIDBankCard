@@ -56,19 +56,28 @@
     }
     [self.captureSession commitConfiguration];
     
-    [self.receiveSubject subscribeNext:^(id x) {
-        CVImageBufferRef imageBuffer = (__bridge CVImageBufferRef)(x);
-        [self doRec:imageBuffer];
-    }];
-    [self.bankScanSuccess subscribeNext:^(id x) {
-        
-    }];
-    [self.idCardScanSuccess subscribeNext:^(id x) {
-        
-    }];
-    [self.scanError subscribeNext:^(id x) {
-        
-    }];
+    //    [self.receiveSubject subscribeNext:^(id x) {
+    //        CVImageBufferRef imageBuffer = (__bridge CVImageBufferRef)(x);
+    //        [self doRec:imageBuffer];
+    //    }];
+    //    [self.bankScanSuccess subscribeNext:^(id x) {
+    //
+    //    }];
+    //    [self.idCardScanSuccess subscribeNext:^(id x) {
+    //
+    //    }];
+    //    [self.scanError subscribeNext:^(id x) {
+    //
+    //    }];
+    
+    __weak typeof(self) weakSelf = self;
+    self.receiveBufferBlock = ^(CVPixelBufferRef imageBuffer) {
+        [weakSelf doRec:imageBuffer];
+    };
+    self.idCardScanSuccessBlock = ^(XLScanResultModel *idInfo) {};
+    self.bankScanSuccessBlock = ^(XLScanResultModel *model) {};
+    self.scanErrorBlock = ^(NSError *error) {};
+    
     return YES;
 }
 
