@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OverlayerBankView : UIView
+#import "OverlayerViewDelegate.h"
+
+@interface OverlayerBankView : UIView <OverlayerViewDelegate>
 
 + (CGRect)getOverlayFrame:(CGRect)rect;
 

@@ -7,7 +7,11 @@
 //
 
 #import "XLScanBaseViewController.h"
+#import "OverlayerViewDelegate.h"
 
 @interface XLBankScanViewController : XLScanBaseViewController
+
+@property (nonatomic, copy  ) void(^customeOverLayer)(UIView<OverlayerViewDelegate> * layerView);
+@property (nonatomic, copy  ) void(^customeViewDidLoad)(XLBankScanViewController * vc);
 
 @end

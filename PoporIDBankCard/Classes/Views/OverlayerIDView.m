@@ -26,8 +26,7 @@
         
         self.backgroundColor = [UIColor clearColor];
         _lineLenght = height / 10;
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(timerFire:) userInfo:nil repeats:YES];
-        [self.timer fire];
+        
         
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, width, height)];
         label.backgroundColor = [UIColor clearColor];
@@ -46,13 +45,22 @@
     return self;
 }
 
+- (void)startScan {
+    [self stopScan];
+    
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(timerFire:) userInfo:nil repeats:YES];
+    [self.timer fire];
+}
+
+- (void)stopScan {
+    if (self.timer) {
+        [self.timer invalidate];
+        self.timer = nil;
+    }
+}
 
 -(void)timerFire:(id)notice {
     [self setNeedsDisplay];
-}
-
--(void)dealloc {
-    [self.timer invalidate];
 }
 
 //画边框和线
@@ -81,7 +89,7 @@
     CGContextAddLineToPoint(context, pt.x, pt.y-_lineLenght);
     CGContextStrokePath(context);
     
-
+    
     static float moveX = 0;
     static float distance = 2;
     CGContextBeginPath(context);
@@ -99,7 +107,7 @@
     CGContextMoveToPoint(context,p1.x, p1.y);
     CGContextAddLineToPoint(context, p2.x, p2.y);
     CGContextStrokePath(context);
-
+    
 }
 
 + (CGRect)getOverlayFrame:(CGRect)rect {

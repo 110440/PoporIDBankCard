@@ -27,8 +27,6 @@
         
         self.backgroundColor = [UIColor clearColor];
         _lineLenght = height / 10;
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:.25 target:self selector:@selector(timerFire:) userInfo:nil repeats:YES];
-        [self.timer fire];
         _showLine = NO;
         
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, width, height)];
@@ -48,14 +46,22 @@
     return self;
 }
 
+- (void)startScan {
+    [self stopScan];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:.25 target:self selector:@selector(timerFire:) userInfo:nil repeats:YES];
+    [self.timer fire];
+}
+
+- (void)stopScan {
+    if (self.timer) {
+        [self.timer invalidate];
+        self.timer = nil;
+    }
+}
 
 -(void)timerFire:(id)notice {
     _showLine = !_showLine;
     [self setNeedsDisplay];
-}
-
--(void)dealloc {
-    [self.timer invalidate];
 }
 
 //画边框和线

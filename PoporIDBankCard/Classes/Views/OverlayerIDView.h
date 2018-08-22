@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OverlayerIDView : UIView
+#import "OverlayerViewDelegate.h"
+
+@interface OverlayerIDView : UIView <OverlayerViewDelegate>
 
 + (CGRect)getOverlayFrame:(CGRect)rect;
+
 
 @end

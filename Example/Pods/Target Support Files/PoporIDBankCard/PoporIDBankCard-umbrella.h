@@ -24,6 +24,7 @@
 #import "XLScanResultModel.h"
 #import "OverlayerBankView.h"
 #import "OverlayerIDView.h"
+#import "OverlayerViewDelegate.h"
 #import "BankCard.h"
 #import "exbankcard.h"
 #import "exbankcardcore.h"

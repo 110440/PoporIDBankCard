@@ -11,27 +11,44 @@
 
 @interface XLBankScanViewController ()
 
-@property (nonatomic, strong) OverlayerBankView *OverlayerBankView;
+@property (nonatomic, strong) UIView<OverlayerViewDelegate> *layerView;
 
 @end
 
 @implementation XLBankScanViewController
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self.layerView startScan];
+}
 
-- (OverlayerBankView *)OverlayerBankView {
-    if(!_OverlayerBankView) {
-        CGRect rect = [OverlayerBankView getOverlayFrame:[UIScreen mainScreen].bounds];
-        _OverlayerBankView = [[OverlayerBankView alloc] initWithFrame:rect];
-    }
-    return _OverlayerBankView;
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    
+    [self.layerView stopScan];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"银行卡扫描";
+    if (!self.title) {
+        self.title = @"银行卡扫描";
+    }
     
-    [self.view insertSubview:self.OverlayerBankView atIndex:0];
+    if (self.customeOverLayer) {
+        __weak typeof(self) weakSelf = self;
+        self.customeOverLayer = ^(UIView<OverlayerViewDelegate> *layerView) {
+            [weakSelf.view insertSubview:layerView atIndex:0];
+            weakSelf.layerView = layerView;
+        };
+    }else{
+        CGRect rect = [OverlayerBankView getOverlayFrame:[UIScreen mainScreen].bounds];
+        OverlayerBankView * layerView = [[OverlayerBankView alloc] initWithFrame:rect];
+        [self.view insertSubview:layerView atIndex:0];
+        
+        self.layerView = layerView;
+    }
     
     self.cameraManager.sessionPreset = AVCaptureSessionPreset1280x720;
     
@@ -46,18 +63,10 @@
         [view.layer addSublayer:preLayer];
         
         [self.cameraManager startSession];
-    }
-    else {
+    } else {
         NSLog(@"打开相机失败");
         [self.navigationController popViewControllerAnimated:YES];
     }
-    
-    //    [self.cameraManager.bankScanSuccess subscribeNext:^(id x) {
-    //        [self showResult:x];
-    //    }];
-    //    [self.cameraManager.scanError subscribeNext:^(id x) {
-    //        
-    //    }];
     
     __weak typeof(self) weakSelf = self;
     self.cameraManager.bankScanSuccessBlock = ^(XLScanResultModel *model) {
@@ -66,6 +75,10 @@
     self.cameraManager.scanErrorBlock = ^(NSError *error) {
         
     };
+    
+    if (self.customeViewDidLoad) {
+        self.customeViewDidLoad(self);
+    }
 }
 
 - (void)showResult:(id)result {
@@ -77,6 +90,5 @@
         [alertV dismissWithClickedButtonIndex:0 animated:YES];
     });
 }
-
 
 @end
