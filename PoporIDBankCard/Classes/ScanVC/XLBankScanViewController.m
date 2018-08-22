@@ -62,9 +62,10 @@
     }
     
     __weak typeof(self) weakSelf = self;
-    self.cameraManager.bankScanSuccessBlock = ^(XLScanResultModel *model) {
-        [weakSelf showResult:model];
+    self.cameraManager.bankScanSuccessBlock = ^(XLScanResultModel *model, UIImage *image) {
+        [weakSelf showResult:model image:image];
     };
+    
     self.cameraManager.scanErrorBlock = ^(NSError *error) {
         
     };
@@ -74,8 +75,8 @@
     }
 }
 
-- (void)showResult:(id)result {
-    XLScanResultModel *model = (XLScanResultModel *)result;
+- (void)showResult:(XLScanResultModel *)model image:(UIImage *)image {
+
     NSString *message = [NSString stringWithFormat:@"%@\n%@", model.bankName, model.bankNumber];
     UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"扫描成功" message:message delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];
     [alertV show];

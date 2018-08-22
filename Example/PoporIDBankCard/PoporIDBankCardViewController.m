@@ -121,6 +121,7 @@
     vc.customeViewDidLoad = ^(XLIDScanViewController *vc) {
         vc.title = @"自定义title";
     };
+    vc.showScanResultDetailVC = YES;
     
     [self.navigationController pushViewController:vc animated:YES];
 }

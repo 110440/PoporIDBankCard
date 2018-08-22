@@ -38,8 +38,8 @@ typedef enum : NSUInteger {
 //@property (nonatomic, strong) RACSubject *scanError;
 
 @property (nonatomic, copy  ) void (^receiveBufferBlock)(CVPixelBufferRef imageBuffer);
-@property (nonatomic, copy  ) void (^bankScanSuccessBlock)  (XLScanResultModel *model);
-@property (nonatomic, copy  ) void (^idCardScanSuccessBlock)(XLScanResultModel *idInfo);
+@property (nonatomic, copy  ) void (^bankScanSuccessBlock)  (XLScanResultModel *model, UIImage * image);
+@property (nonatomic, copy  ) void (^idCardScanSuccessBlock)(XLScanResultModel *model, UIImage * image);
 @property (nonatomic, copy  ) void (^scanErrorBlock)(NSError *error);
 
 

@@ -74,8 +74,12 @@
     self.receiveBufferBlock = ^(CVPixelBufferRef imageBuffer) {
         [weakSelf doRec:imageBuffer];
     };
-    self.idCardScanSuccessBlock = ^(XLScanResultModel *idInfo) {};
-    self.bankScanSuccessBlock = ^(XLScanResultModel *model) {};
+    self.idCardScanSuccessBlock = ^(XLScanResultModel *model, UIImage *image) {
+        
+    };
+    self.bankScanSuccessBlock = ^(XLScanResultModel *model, UIImage *image) {
+        
+    };
     self.scanErrorBlock = ^(NSError *error) {};
     
     return YES;

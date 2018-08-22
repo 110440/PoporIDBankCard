@@ -103,8 +103,8 @@
             model.bankImage = subImg;
             
             dispatch_async(dispatch_get_main_queue(), ^{
-                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-                self.bankScanSuccessBlock(model);
+                //AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+                self.bankScanSuccessBlock(model, image);
                 //[self.bankScanSuccess sendNext:model];
             });
         }
@@ -200,12 +200,12 @@
         CGSize size = CGSizeMake(width, height);
         CGRect effectRect = [RectManager getEffectImageRect:size];
         CGRect rect = [RectManager getGuideFrame:effectRect];
-        UIImage *image = [UIImage getImageStream:imageBuffer];
+        UIImage *image  = [UIImage getImageStream:imageBuffer];
         UIImage *subImg = [UIImage getSubImage:rect inImage:image];
         idInfo.idImage = subImg;
         dispatch_async(dispatch_get_main_queue(), ^{
-            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-            self.idCardScanSuccessBlock(idInfo);
+            //AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+            self.idCardScanSuccessBlock(idInfo, image);
             //[self.idCardScanSuccess sendNext:idInfo];
         });
     }

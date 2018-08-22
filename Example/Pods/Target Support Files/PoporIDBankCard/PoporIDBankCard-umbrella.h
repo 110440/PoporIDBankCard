@@ -14,6 +14,7 @@
 #import "XLBaseViewController.h"
 #import "XLIDScanViewController.h"
 #import "XLScanBaseViewController.h"
+#import "XLScanBaseViewController的副本.h"
 #import "BankCardSearch.h"
 #import "RectManager.h"
 #import "UIImage+Extend.h"

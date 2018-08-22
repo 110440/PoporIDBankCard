@@ -8,6 +8,7 @@
 
 #import "XLIDScanViewController.h"
 #import "OverlayerIDView.h"
+#import "XLScanResultVC.h"
 
 @interface XLIDScanViewController ()
 
@@ -64,9 +65,10 @@
     }
     
     __weak typeof(self) weakSelf = self;
-    self.cameraManager.idCardScanSuccessBlock = ^(XLScanResultModel *idInfo) {
-        [weakSelf showResult:idInfo];
+    self.cameraManager.idCardScanSuccessBlock = ^(XLScanResultModel *model, UIImage *image) {
+        [weakSelf showResult:model image:image];
     };
+    
     self.cameraManager.scanErrorBlock = ^(NSError *error) {
         
     };
@@ -76,15 +78,39 @@
     }
 }
 
-- (void)showResult:(XLScanResultModel *)result {
-    XLScanResultModel *model = (XLScanResultModel *)result;
-    NSString *message = [NSString stringWithFormat:@"%@", [model toString]];
-    UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"扫描成功" message:message delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];
-    [alertV show];
+- (void)showResult:(XLScanResultModel *)model image:(UIImage *)image {
+    if (self.isShowScanResultDetailVC) {
+        if (!self.isPushing) {
+            self.pushing = YES;
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                self.pushing = NO;
+            });
+            
+            if (self.showScanResultDetailVCBlock) {
+                self.showScanResultDetailVCBlock(model, image);
+            }else{
+                XLScanResultVC * vc = [XLScanResultVC new];
+                vc.model = model;
+                vc.image = image;
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+        }
+    }else{
+        if (self.scanResultBlock) {
+            self.scanResultBlock(model, image);
+        }else{
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+    }
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [alertV dismissWithClickedButtonIndex:0 animated:YES];
-    });
+    //    XLScanResultModel *model = (XLScanResultModel *)result;
+    //    NSString *message = [NSString stringWithFormat:@"%@", [model toString]];
+    //    UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"扫描成功" message:message delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];
+    //    [alertV show];
+    //
+    //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    //        [alertV dismissWithClickedButtonIndex:0 animated:YES];
+    //    });
 }
 
 @end
