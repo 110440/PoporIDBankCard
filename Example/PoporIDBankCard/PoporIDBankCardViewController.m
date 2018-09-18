@@ -109,7 +109,18 @@
 }
 
 - (void)pushBankCardOCR {
-    [self.navigationController pushViewController:[XLBankScanViewController new] animated:YES];
+    CGRect rect = [OverlayerViewTool getOverlayFrame:[UIScreen mainScreen].bounds];
+    OverlayerIDJchView * layerView = [[OverlayerIDJchView alloc] initWithFrame:rect];
+    
+    XLBankScanViewController * vc = [XLBankScanViewController new];
+
+    vc.layerView = layerView;
+    vc.customeViewDidLoad = ^(XLBankScanViewController *vc) {
+        vc.title = @"自定义title";
+    };
+    vc.showScanResultDetailVC = YES;
+    
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)pushIDCardOCR {

@@ -8,6 +8,7 @@
 
 #import "XLBankScanViewController.h"
 #import "OverlayerBankView.h"
+#import "XLScanResultVC.h"
 
 @interface XLBankScanViewController ()
 
@@ -76,13 +77,36 @@
 }
 
 - (void)showResult:(XLScanResultModel *)model image:(UIImage *)image {
-
-    NSString *message = [NSString stringWithFormat:@"%@\n%@", model.bankName, model.bankNumber];
-    UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"扫描成功" message:message delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];
-    [alertV show];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [alertV dismissWithClickedButtonIndex:0 animated:YES];
-    });
+    if (self.isShowScanResultDetailVC) {
+        if (!self.isPushing) {
+            self.pushing = YES;
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                self.pushing = NO;
+            });
+            
+            if (self.showScanResultDetailVCBlock) {
+                self.showScanResultDetailVCBlock(model, image);
+            }else{
+                XLScanResultVC * vc = [XLScanResultVC new];
+                vc.model = model;
+                vc.image = image;
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+        }
+    }else{
+        if (self.scanResultBlock) {
+            self.scanResultBlock(model, image);
+        }else{
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+    }
+    
+    //    NSString *message = [NSString stringWithFormat:@"%@\n%@", model.bankName, model.bankNumber];
+    //    UIAlertView *alertV = [[UIAlertView alloc] initWithTitle:@"扫描成功" message:message delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];
+    //    [alertV show];
+    //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    //        [alertV dismissWithClickedButtonIndex:0 animated:YES];
+    //    });
 }
 
 @end

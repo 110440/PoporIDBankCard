@@ -77,6 +77,10 @@
     oneL.preferredMaxLayoutWidth = oneL.frame.size.width;
     [oneL setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
     oneL.numberOfLines = 0;
+    //[NSString stringWithFormat:@"身份证号:%@\n姓名:%@\n性别:%@\n民族:%@\n地址:%@\n签发机关:%@\n有效期:%@",
+     //_code, _name, _gender, _nation, _address, _issue, _valid];
+    
+    
     
     oneL.text = @"afa\nsdfa\n adfa\n\asdfa\fasd\nafa\nasdfa\n";
     [oneL sizeToFit];
@@ -108,8 +112,7 @@
 }
 
 - (void)btAction {
-    
-    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end
